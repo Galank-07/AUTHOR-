@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import azhura1
-from azhura1.lib.curve.ttypes import *
+import AUTHOR-BOT
+from AUTHOR-BOT.lib.curve.ttypes import *
 from datetime import datetime
 from bs4 import BeautifulSoup
 #import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia
@@ -36,31 +36,31 @@ else:
     import urllib.parse
 
 
-cl = azhura1.LINE()
+cl = AUTHOR-BOT.LINE()
 #cl.login(qr=True)
 cl.login(token="")#Akun Utama
 cl.loginResult()
 
-ki = azhura1.LINE() 
+ki = AUTHOR-BOT.LINE() 
 #ki.login(qr=True)
 ki.login(token="")#BOT1
 ki.loginResult() 
 
-kk = azhura1.LINE() 
+kk = AUTHOR-BOT1.LINE() 
 kk.login(token="")#BOT4
 kk.loginResult()
 
-kc = azhura1.LINE()
+kc = AUTHOR-BOT.LINE()
 #kc.login(qr=True)
 kc.login(token="")#BOT5
 kc.loginResult() 
 
-ks = azhura1.LINE() 
+ks = AUTHOR-BOT.LINE() 
 #ks.login(qr=True)
 ks.login(token="")#BOT6
 ks.loginResult()
 
-#satpam = azhura1.LINE() 
+#satpam = AUTHOR-BOT.LINE() 
 #satpam.login(token="")#BOT6
 #satpam.login(qr=True)
 #satpam.loginResult() 
