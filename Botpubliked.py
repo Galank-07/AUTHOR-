@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import azhura1
-from azhura1.lib.curve.ttypes import *
+import AUTHOR-BOT
+from AUTHOR-BOT.lib.curve.ttypes import *
 from datetime import datetime
 import time, random, sys, ast, re, os, io, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3, wikipedia, tempfile
 from bs4 import BeautifulSoup
@@ -11,22 +11,22 @@ from io import StringIO
 from threading import Thread
 #from gtts import gTTS
 
-cl = azhura1.LINE()
+cl = AUTHOR-BOT.LINE()
 #cl.login(qr=True)
 cl.login(token='EorEDaDQgLxvf9Ts9wde.wvhydD8HlswGsvWpinOaVG.M0eBPjhJXsCYcoK9NTzJa9tSJ8kGO2uaxfRofSqKGmI=')#ranita
 cl.loginResult()#
 
-#kk = KRIS.LINE()
+#kk = AUTHOR-BOT.LINE()
 #kr2.login(qr=True)
 #kk.login(token="EoKA3sLXdoUPGTr5n5Ma.WQ7xJwYTy17gLrjSzVBpMG.X/nJ1gaYa5BK2vbIGZS2qKcd3oP8weg4ls1fV9SdLeU=")#2
 #kk.loginResult()
 
-#ki = KRIS.LINE()
+#ki = AUTHOR-BOT.LINE()
 #kr3.login(qr=True)
 #ki.login(token="EoxV2fuKPbpwRTF9fGp3.eYIoClpI2sl2hRSJw7q6SW.hyV2cexBOYDzrmocee/SWhg5dnk7MHDUfOdhujdFXlQ=")#3
 #ki.loginResult()
 
-#kc = KRIS.LINE()
+#kc = AUTHOR-BOT.LINE()
 #kr4.login(qr=True)
 #kc.login(token="Eox7xQdgsG5NtE1v4N18.LetmZ3b3S8xsvXte6ExxAa.Dn+0y4xEH89dGhNC4CCQL/ZgVps9NoKqcgQ5EdLIB3Y=")#4
 #kc.loginResult()
