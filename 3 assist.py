@@ -1,26 +1,26 @@
 # -*- coding: utf-8 -*-
 
-import azhura1
-from azhura1.lib.curve.ttypes import *
+import AUTHOR-BOT
+from AUTHOR-BOT.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 import re,string,os,shutil,urllib2,urllib3,subprocess
 from urllib import urlopen
 import requests,tempfile
 
-cl = azhura1.LINE()
+cl = AUTHOR-BOT.LINE()
 cl.login(token=True)
 cl.loginResult()
 
-ki = azhura1.LINE()
+ki = AUTHOR-BOT.LINE()
 ki.login(token=True)
 ki.loginResult()
 
-kk = LINETCR.LINE()
+kk = AUTHOR-BOT.LINE()
 kk.login(token=True)
 kk.loginResult()
 
-kc = azhura1.LINE()
+kc = AUTHOR-BOT.LINE()
 kc.login(token=True)
 kc.loginResult()
 
