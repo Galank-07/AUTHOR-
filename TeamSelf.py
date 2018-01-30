@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import LINETCR
-from LINETCR.lib.curve.ttypes import *
+import azhura1
+from azhura1.lib.curve.ttypes import *
 from datetime import datetime
 from bs4 import BeautifulSoup
 #import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia
@@ -22,131 +22,125 @@ import requests,tempfile
 from threading import Thread
 import requests,json,urllib
 from random import randint
-from googletrans import Translator
+#from googletrans import Translator
 import time,random,sys,json,codecs,threading,glob,re
 
-#cl = LINETCR.LINE()
+cl = azhura1.LINE()
 #cl.login(qr=True)
-#cl.login(token="En4KG8n3Axy1dVdjTgBe.F6loN/ws9FaPqFRwqoggJG.jqx0KH2ZLBv5JNpxSPnPE/ACr/7lvOjqYZLvrRB5aEY=")
-#cl.loginResult()
+cl.login(token="EoYOFeowLDxeqOMxvUa0.gAyZyIlV6uRm4BbD05Wjqa.eLH42HVgdBtdZYoI+gsbFZhOIZmTx1wkuJr13KNzD08=")
+cl.loginResult()
 
 
-#ki = LINETCR.LINE()
+ki = azhura1.LINE()
 #ki.login(qr=True)
-#ki.login(token="Enmz3AeffNs6Jm9bjdO3.BYv5MSepCurmE04bZMOzaW.C+hWn+qQhF6gP36//9Tcx78HyogXy5DEZ/vK+TS33i0=")
-#ki.loginResult()
+ki.login(token="EozC3uCGIDexRBl5qWq8.HuUm1h/UuO3MPfskq3iZYa.Do2Ens4S4fgmoXyvX4Spse9ObF0dAQVLxKx/96rJ/nk=")
+ki.loginResult()
 
-#kk = LINETCR.LINE()
+kk = azhura1.LINE()
 #kk.login(qr=True)
-#kk.login(token="EnD6uojittnb5qqLeEt3.9qPM7NC2vWiRtQTZ/x4SyW.YlhswTQVUjF2mE1Pxg+0goaUHbC6KsjhL7PJUkQ9jqc=")
-#kk.loginResult()
+kk.login(token="EorEDaDQgLxvf9Ts9wde.wvhydD8HlswGsvWpinOaVG.M0eBPjhJXsCYcoK9NTzJa9tSJ8kGO2uaxfRofSqKGmI=")
+kk.loginResult()
 
-#kc = LINETCR.LINE()
+kc = azhura1.LINE()
 #kc.login(qr=True)
-#kc.login(token="EnbwtB4NdqZee7Z4dqb8.usk2DxruRb2/eg2IYrqXsa.GXNGIGGPMRMtNQMn/Yej3RCpDp3xiTPcg27NMYjlFRM=")
-#kc.loginResult()
+kc.login(token="EorEDaDQgLxvf9Ts9wde.wvhydD8HlswGsvWpinOaVG.M0eBPjhJXsCYcoK9NTzJa9tSJ8kGO2uaxfRofSqKGmI=")
+kc.loginResult()
 
-#kd = LINETCR.LINE()
+kd = azhura1.LINE()
 #kd.login(qr=True)
-#kd.login(token="Enmz3AeffNs6Jm9bjdO3.BYv5MSepCurmE04bZMOzaW.C+hWn+qQhF6gP36//9Tcx78HyogXy5DEZ/vK+TS33i0=")
-#kd.loginResult()
+kd.login(token="Eox7xQdgsG5NtE1v4N18.LetmZ3b3S8xsvXte6ExxAa.Dn+0y4xEH89dGhNC4CCQL/ZgVps9NoKqcgQ5EdLIB3Y=")
+kd.loginResult()
 
-#ke = LINETCR.LINE()
+ke = azhura1.LINE()
 #ke.login(qr=True)
-#ke.login(token="EnOtD6mnAa3VbT7ckdJc.aYbkAqXV5gf9Eu4MbqlVBa.SKr19sZLlKHExBdDvCO+Xi1MUYzs53wryO28bRdijn4=")
-#ke.loginResult()
+ke.login(token="EoKA3sLXdoUPGTr5n5Ma.WQ7xJwYTy17gLrjSzVBpMG.X/nJ1gaYa5BK2vbIGZS2qKcd3oP8weg4ls1fV9SdLeU=")
+ke.loginResult()
 
-#kf = LINETCR.LINE()
+#kf = azhura1.LINE()
 #kf.login(qr=True)
 #kf.login(token="EnglcDa00DaCXyAhkub8.MQvnSQmxLZyecm+cYLEska.B6wvaPOUvoO6TeJ/HSLoduT08oL/Lp+Ts9/qyNtXnv0=")
 #kf.loginResult()
 
-#kg = LINETCR.LINE()
+#kg = azhura1.LINE()
 #kg.login(qr=True)
 #kg.login(token="EnheqLhJWfoutaO6Il24.PwzfHga0YXE729Rxwc5qXa.IJUzESsyxMMtwXP2VLxYHYt2gDcjzLA3+UWzI7nDDmE=")
 #kg.loginResult()
 
-#kh = LINETCR.LINE()
+#kh = azhura1.LINE()
 #kh.login(qr=True)
 #kh.login(token="EnTqV2MY9zSyjnly3PR0.X7ONBO4L4YtA49fO3i6lua.30yYOYb5UU3tY3HibpO/VCTyxwWCxXmC5hZWEYxgsHg=")
 #kh.loginResult()
 
-#kj = LINETCR.LINE()
+#kj = azhura1.LINE()
 #kj.login(qr=True)
 #kj.login(token="EnNNnOcUUuDnBDq04Trf.oVwyNFPWGPJZC00RELiFVW.vBO5ZPqdRgnOlV7pZukedMqNalSdBS463cKRWLPsDnI=")
 #kj.loginResult()
 
-#kl = LINETCR.LINE()
+#kl = azhura1.LINE()
 #kl.login(qr=True)
 #kl.login(token="EnwpfuLGXqIZrkL7m7Aa.4873flXX7QJRw4jo2j7roG.jRjCAigm/xA35AtuxFXs70tLf2F53B9juFI/UOciCKo=")
 #kl.loginResult()
 
-#km = LINETCR.LINE()
+#km = azhura1.LINE()
 #km.login(qr=True)
 #km.login(token="EnoyYxUZB5Xv7Bl9Ys57.KN6gqRyZQ0iuRiU5jNIj1W.SxC9+Q+ahlwaT+Wz124+tfYzek6HekkdDDqbipYbLrw=")
 #km.loginResult()
 
-#kn = LINETCR.LINE()
+#kn = azhura1.LINE()
 #kn.login(qr=True)
 #kn.login(token="EnoktyaoHcLmCOmoVVq6.xkaL7HAdfdzB4bRIIC04jG.JnqJCQGBclHgL1/eqGsHb9zzylxKDlolWsYUqED9OlU=")
 #kn.loginResult()
 
-#ko = LINETCR.LINE()
+#ko = azhura1.LINE()
 #ko.login(qr=True)
 #ko.login(token="EnwrWLZ64U29Sqha0vre.9lU+Lm8IEAdBW1wrKZGG7G.4Frg+d66MCO+zH3Me73RzaA7WdBFP94nzn8m28O6luI=")
 #ko.loginResult()
 
-#cl = LINETCR.LINE()
+#cl = azhura1.LINE()
 #kp.login(qr=True)
 #cl.login(token="EnwOOwOK4e4Uyu5uyXBa.am5VEhHU3Oh3X2olVwx66G.mQ5Hs2DVNitNFLNKm5INJzlDELTBEm1GhfrcVc2ibsk=")
 #cl.loginResult()
 
-#kq = LINETCR.LINE()
+#kq = azhura1.LINE()
 #kq.login(qr=True)
 #kq.login(token="EniBgK2GUXPoANVBfKpb.tyEjT4SUhBFf7gJV34m+gW.X7qZpyneaItMRP8s+alxBMkzQCtGu/j19Xok/k9/9fA=")
 #kq.loginResult()
 
-cl = LINETCR.LINE()
+#cl = azhura1.LINE()
 #kr.login(qr=True)
-cl.login(token="EngqjAX9djgqsY8BVCOc.cTXHQLZwcjas2Whcxxlhda./6K1IVcI3KrpoWRMMhrBsjbsUPQeQit9hrCTyA0C/Hc=")
-cl.loginResult()
+#cl.login(token="EngqjAX9djgqsY8BVCOc.cTXHQLZwcjas2Whcxxlhda./6K1IVcI3KrpoWRMMhrBsjbsUPQeQit9hrCTyA0C/Hc=")
+#cl.loginResult()
 
-#ks = LINETCR.LINE()
+#ks = azhura1.LINE()
 #ks.login(qr=True)
 #ks.login(token="EnWTfMjpKM0WOkCUDHD4.srjUosW4RgcA0sSjVMH6Ta.Nd374H7hPFi71iCeupORD5lXrCG+Y2j+7xzG8CZHddQ=")
 #ks.loginResult()
 
-#kt = LINETCR.LINE()
+#kt = azhura1.LINE()
 #kt.login(qr=True)
 #kt.login(token="EnoemlXBtIWaRpxaCEc7.OS/hbTH5Iz2F5McUPTGhfW.b02+CcT2Ell/OZkgzJrKIwuFSWh1vPiM9bDw+YRVpIY=")
 #kt.loginResult()
 
-print "U.k kalem Bot"
+print "LOGIN SUKSES BY ║ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ║"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
 
 helpMessage ="""
 
-=====꧁U.K_KILLER꧂=====
-
-
-〖U,K_SELF COMAND IN GROUP〗
-〖U,K_COMAND GROUP]〗
-〖U,K_COMAND BOT〗
-〖U.K-COMMAND PROTECT〗
-________________________________________
-̋̾̂͘[ 🇲🇨〖🕉unni͡° ͜ʖ ͡°oppa🕉〗🇲🇨 ] ��✒•┅─────
-________________________________________
+════════════════
+ ║ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ║
+════════════════
+〖SELF COMAND IN GROUP〗
+〖COMAND GROUP]〗
+〖COMAND BOT〗
+〖COMMAND PROTECT〗
 """
 
 inGroupMessage ="""
-
-=====꧁U.K_KILLER꧂=====
-_______________________________________
-〖U,K_SELF COMAND IN GROUP〗
-_______________________________________
-
+════════════════
+║SELF COMMAND IN GROUP║
+════════════════
 �❂͜͡🇲🇨➣ Me
 �❂͜͡🇲🇨➣ Me @
 �❂͜͡🇲🇨➣ Id
@@ -169,18 +163,14 @@ _______________________________________
 �❂͜͡🇲🇨➣ Cbroadcast text
 �❂͜͡🇲🇨➣ Gbroadcast text
 �❂͜͡🇲🇨➣ Reject
-________________________________________
-̋̾̂[ 🇲🇨〖🕉unni͡° ͜ʖ ͡°oppa🕉〗🇲🇨 ] ��✒•┅─────
-________________________________________
+
+    =[OWNER:Ĝα₤αηĸ]=
 """
-
-
 groupMessage ="""
 
-=====꧁U.K_KILLER꧂=====
-________________________________________
-〖U,K_COMAND GROUP]〗
-________________________________________
+════════════════
+   ║COMMAND GROUP║
+════════════════
 �❂͜͡🕵️➣ Creator
 �❂͜͡🕵️➣ Gn: text
 �❂͜͡🕵️➣ Invite: mid
@@ -243,18 +233,14 @@ ________________________________________
 �❂͜͡🕵️➣ Tr-Am = amharic
 �❂͜͡🕵️➣ Tr-Ar = Arabia
 �❂͜͡🕵️➣ Tr-Hy = armenian
-_______________________________________
-[ 🇲🇨〖🕉unni͡° ͜ʖ ͡°oppa🕉〗🇲🇨 ] ��✒•┅─────
-_______________________________________
-"""
 
+     =[OWNER:Ĝα₤αηĸ]=
+"""
 botMessage ="""
 
-
-=====꧁U.K_KILLER꧂=====
-______________________________________
-〖U,K_COMAND BOT〗
-______________________________________
+════════════════
+    ║COMMAND BOT║
+════════════════
 �❂͜͡🇲🇨➣🕵️ Ybot
 �❂͜͡🇲🇨➣🕵️ Ycancel
 �❂͜͡🇲🇨➣🕵️ Y1-Y18 Contact Bot
@@ -272,34 +258,30 @@ ______________________________________
 �❂͜͡🇲🇨➣🕵️ Y1-Y5 join
 �❂͜͡🇲🇨➣🕵️ Y1-Y5 bye
 �❂͜͡🇲🇨➣🕵️ Y1-Y2 link on/off
-_______________________________________
-̋̾̂͘[ 🇲🇨〖🕉unni͡° ͜ʖ ͡°oppa🕉〗🇲🇨 ] ��✒•┅─────
-_______________________________________
+
+    =[OWNER:Ĝα₤αηĸ]=
 """
 
 
 protectMessage ="""
+════════════════
+  ║COMMAND PROTECT║
+════════════════
+AutoKick on/off
+Namelock On/off
+Mode on 
 
-=====꧁U.K_KILLER꧂=====
-______________________________________
-〖U.K-COMMAND PROTRET〗
-______________________________________
-꧁U.K_KILLER꧂ AutoKick on/off
-꧁U.K_KILLER꧂ Namelock On/off
-꧁U.K_KILLER꧂ Mode on
-______________________________________
-̨̻̪͓̦̋̾̂̽̎͜͜[ 🇲🇨〖🕉unni͡° ͜ʖ ͡°oppa🕉〗🇲🇨 ] ��✒•┅───── 
-______________________________________
+ =[OWNER:Ĝα₤αηĸ]=
 """
 
 
 KAC=[cl]
 mid = cl.getProfile().mid
-#Amid = ki.getProfile().mid
-#Bmid = kk.getProfile().mid
-#Cmid = kc.getProfile().mid
-#Dmid = kd.getProfile().mid
-#Emid = ke.getProfile().mid
+Amid = ki.getProfile().mid
+Bmid = kk.getProfile().mid
+Cmid = kc.getProfile().mid
+Dmid = kd.getProfile().mid
+Emid = ke.getProfile().mid
 #Fmid = kf.getProfile().mid
 #Gmid = kg.getProfile().mid
 #Hmid = kh.getProfile().mid
@@ -320,12 +302,12 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 targets = []
-Bots = ["u0adc61aa5cd6089012db01c25d72c70c",mid]
-self = ["u0adc61aa5cd6089012db01c25d72c70c",mid]
-admin = "u0adc61aa5cd6089012db01c25d72c70c"
-owner = "u0adc61aa5cd6089012db01c25d72c70c"
-admsa = "u0adc61aa5cd6089012db01c25d72c70c"
-adminMID = "u0adc61aa5cd6089012db01c25d72c70c"
+Bots = [mid]
+self = [mid]
+admin = "u19a6336222efe94acce1b05dd39c0940"
+owner = "u19a6336222efe94acce1b05dd39c0940"
+admsa = "u19a6336222efe94acce1b05dd39c0940"
+adminMID = "u19a6336222efe94acce1b05dd39c0940"
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -333,10 +315,10 @@ wait = {
     'leaveRoom':False,
     'timeline':True,
     'autoAdd':False,
-    'message':"Thanks for add Me MY 💋🕉unni͡° ͜ʖ ͡°oppa🕉✒",
+    'message':"Thanks for add [My Creatir Bot:http://line.me/ti/p/1bytI8rFC9",
     'copy':False,
     "lang":"JP",
-    "comment":"AutoLike by 💋🕉unni͡° ͜ʖ ͡°oppa🕉✒",
+    "comment":"AutoLike by║ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ║http://line.me/ti/p/1bytI8rFC9",
     "commentOn":True,
     "commentBlack":{},
     "wblack":False,
@@ -3109,9 +3091,9 @@ def bot(op):
 
             elif msg.text in ["Creator"]:
 				msg.contentType = 13
-				msg.contentMetadata = {'mid': mid}
+				msg.contentMetadata = {'mid': "u19a6336222efe94acce1b05dd39c0940"}
 				cl.sendMessage(msg)
-				cl.sendText(msg.to,"My Creator 👉U.k-MorYena")
+				cl.sendText(msg.to,"My Creator ║ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ║")
 
             elif "Id" == msg.text:
                 key = msg.to
@@ -3687,10 +3669,8 @@ def bot(op):
                     else:
                         cl.sendText(msg.to,"要了关断。")
 
-            elif msg.text in ["settings"]:
-                md = "✯=[🕵️🇲🇨🕉unni͡° ͜ʖ ͡°oppa🕉🇲🇨🕵️]=✯\n\n"
-                                                    
-
+            elif msg.text in 'status':
+                md = "║ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ║\n\n"                                                    
                 if wait["likeOn"] == True: md+="��❂͜͡🕵️➣Auto like : → ✔️\n"
                 else:md+="��❂͜͡🕵️➣Auto like : → ❌\n"
                 if wait["copy"] == True: md+="��❂͜͡🕵️➣Mimic : → ✔\n"
@@ -3737,8 +3717,6 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': admsa}
                 cl.sendMessage(msg)
-
-
             elif msg.text in ["Auto like:on"]:
                 if wait["likeOn"] == True:
                     if wait["lang"] == "JP":
@@ -5189,7 +5167,7 @@ def bot(op):
                 start = time.time()
                 cl.sendText(msg.to, "Access time Waiting...")
                 elapsed_time = time.time() - start
-                cl.sendText(msg.to, "%s<==U-K ]]Server lelet" % (elapsed_time))
+                cl.sendText(msg.to, "%s<==║ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ║ ]]Server lelet" % (elapsed_time))
 
 
 # ----------------- BAN MEMBER BY TAG 2TAG ATAU 10TAG MEMBER
@@ -5487,5 +5465,3 @@ while True:
         if (Op.type != OpType.END_OF_OPERATION):
             cl.Poll.rev = max(cl.Poll.rev, Op.revision)
             bot(Op)
-
- Desktop version
