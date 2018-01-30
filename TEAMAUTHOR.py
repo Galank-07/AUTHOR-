@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import azhura1
-from azhura1.lib.curve.ttypes import *
+import AUTHOR-BOT
+from AUTHOR-BOT.lib.curve.ttypes import *
 from datetime import datetime
 
 import time, random, sys, ast, re, os, io, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3, wikipedia, tempfile
@@ -19,7 +19,7 @@ from gtts import gTTS
 #from gtts import gTTS
 #JANGAN LUPA =>  sudo pip install bs4 => sudo pip install BeautifulSoup => sudo pip install urllib
 
-kr = azhura1.LINE()
+kr = AUTHOR-BOT.LINE()
 #kr.login(qr=True)
 kr.login(token="EpQALNY5vpxF8ETI7m10.gAyZyIlV6uRm4BbD05Wjqa.zYW2FE46oOtOgHXNE3ArcxTpBUTDvzVRpA5W0whSIYY=")#r
 kr.loginResult()
