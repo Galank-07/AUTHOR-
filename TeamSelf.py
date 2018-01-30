@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import azhura1
-from azhura1.lib.curve.ttypes import *
+import AUTHOR-BOT
+from AUTHOR-BOT.lib.curve.ttypes import *
 from datetime import datetime
 from bs4 import BeautifulSoup
 #import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia
@@ -31,92 +31,92 @@ cl.login(token="EoYOFeowLDxeqOMxvUa0.gAyZyIlV6uRm4BbD05Wjqa.eLH42HVgdBtdZYoI+gsb
 cl.loginResult()
 
 
-ki = azhura1.LINE()
+ki = AUTHOR-BOT.LINE()
 #ki.login(qr=True)
 ki.login(token="EozC3uCGIDexRBl5qWq8.HuUm1h/UuO3MPfskq3iZYa.Do2Ens4S4fgmoXyvX4Spse9ObF0dAQVLxKx/96rJ/nk=")
 ki.loginResult()
 
-kk = azhura1.LINE()
+kk = AUTHOR-BOT.LINE()
 #kk.login(qr=True)
 kk.login(token="EorEDaDQgLxvf9Ts9wde.wvhydD8HlswGsvWpinOaVG.M0eBPjhJXsCYcoK9NTzJa9tSJ8kGO2uaxfRofSqKGmI=")
 kk.loginResult()
 
-kc = azhura1.LINE()
+kc = AUTHOR-BOT.LINE()
 #kc.login(qr=True)
 kc.login(token="EorEDaDQgLxvf9Ts9wde.wvhydD8HlswGsvWpinOaVG.M0eBPjhJXsCYcoK9NTzJa9tSJ8kGO2uaxfRofSqKGmI=")
 kc.loginResult()
 
-kd = azhura1.LINE()
+kd = AUTHOR-BOT.LINE()
 #kd.login(qr=True)
 kd.login(token="Eox7xQdgsG5NtE1v4N18.LetmZ3b3S8xsvXte6ExxAa.Dn+0y4xEH89dGhNC4CCQL/ZgVps9NoKqcgQ5EdLIB3Y=")
 kd.loginResult()
 
-ke = azhura1.LINE()
+ke = AUTHOR-BOT.LINE()
 #ke.login(qr=True)
 ke.login(token="EoKA3sLXdoUPGTr5n5Ma.WQ7xJwYTy17gLrjSzVBpMG.X/nJ1gaYa5BK2vbIGZS2qKcd3oP8weg4ls1fV9SdLeU=")
 ke.loginResult()
 
-#kf = azhura1.LINE()
+#kf = AUTHOR-BOT.LINE()
 #kf.login(qr=True)
 #kf.login(token="EnglcDa00DaCXyAhkub8.MQvnSQmxLZyecm+cYLEska.B6wvaPOUvoO6TeJ/HSLoduT08oL/Lp+Ts9/qyNtXnv0=")
 #kf.loginResult()
 
-#kg = azhura1.LINE()
+#kg = AUTHOR-BOT.LINE()
 #kg.login(qr=True)
 #kg.login(token="EnheqLhJWfoutaO6Il24.PwzfHga0YXE729Rxwc5qXa.IJUzESsyxMMtwXP2VLxYHYt2gDcjzLA3+UWzI7nDDmE=")
 #kg.loginResult()
 
-#kh = azhura1.LINE()
+#kh = AUTHOR-BOT.LINE()
 #kh.login(qr=True)
 #kh.login(token="EnTqV2MY9zSyjnly3PR0.X7ONBO4L4YtA49fO3i6lua.30yYOYb5UU3tY3HibpO/VCTyxwWCxXmC5hZWEYxgsHg=")
 #kh.loginResult()
 
-#kj = azhura1.LINE()
+#kj = AUTHOR-BOT.LINE()
 #kj.login(qr=True)
 #kj.login(token="EnNNnOcUUuDnBDq04Trf.oVwyNFPWGPJZC00RELiFVW.vBO5ZPqdRgnOlV7pZukedMqNalSdBS463cKRWLPsDnI=")
 #kj.loginResult()
 
-#kl = azhura1.LINE()
+#kl = AUTHOR-BOT.LINE()
 #kl.login(qr=True)
 #kl.login(token="EnwpfuLGXqIZrkL7m7Aa.4873flXX7QJRw4jo2j7roG.jRjCAigm/xA35AtuxFXs70tLf2F53B9juFI/UOciCKo=")
 #kl.loginResult()
 
-#km = azhura1.LINE()
+#km = AUTHOR-BOT.LINE()
 #km.login(qr=True)
 #km.login(token="EnoyYxUZB5Xv7Bl9Ys57.KN6gqRyZQ0iuRiU5jNIj1W.SxC9+Q+ahlwaT+Wz124+tfYzek6HekkdDDqbipYbLrw=")
 #km.loginResult()
 
-#kn = azhura1.LINE()
+#kn = AUTHOR-BOT.LINE()
 #kn.login(qr=True)
 #kn.login(token="EnoktyaoHcLmCOmoVVq6.xkaL7HAdfdzB4bRIIC04jG.JnqJCQGBclHgL1/eqGsHb9zzylxKDlolWsYUqED9OlU=")
 #kn.loginResult()
 
-#ko = azhura1.LINE()
+#ko = AUTHOR-BOT.LINE()
 #ko.login(qr=True)
 #ko.login(token="EnwrWLZ64U29Sqha0vre.9lU+Lm8IEAdBW1wrKZGG7G.4Frg+d66MCO+zH3Me73RzaA7WdBFP94nzn8m28O6luI=")
 #ko.loginResult()
 
-#cl = azhura1.LINE()
+#cl = AUTHOR-BOT.LINE()
 #kp.login(qr=True)
 #cl.login(token="EnwOOwOK4e4Uyu5uyXBa.am5VEhHU3Oh3X2olVwx66G.mQ5Hs2DVNitNFLNKm5INJzlDELTBEm1GhfrcVc2ibsk=")
 #cl.loginResult()
 
-#kq = azhura1.LINE()
+#kq = AUTHOR-BOT.LINE()
 #kq.login(qr=True)
 #kq.login(token="EniBgK2GUXPoANVBfKpb.tyEjT4SUhBFf7gJV34m+gW.X7qZpyneaItMRP8s+alxBMkzQCtGu/j19Xok/k9/9fA=")
 #kq.loginResult()
 
-#cl = azhura1.LINE()
+#cl = AUTHOR-BOT.LINE()
 #kr.login(qr=True)
 #cl.login(token="EngqjAX9djgqsY8BVCOc.cTXHQLZwcjas2Whcxxlhda./6K1IVcI3KrpoWRMMhrBsjbsUPQeQit9hrCTyA0C/Hc=")
 #cl.loginResult()
 
-#ks = azhura1.LINE()
+#ks = AUTHOR-BOT.LINE()
 #ks.login(qr=True)
 #ks.login(token="EnWTfMjpKM0WOkCUDHD4.srjUosW4RgcA0sSjVMH6Ta.Nd374H7hPFi71iCeupORD5lXrCG+Y2j+7xzG8CZHddQ=")
 #ks.loginResult()
 
-#kt = azhura1.LINE()
+#kt = AUTHOR-BOThura1.LINE()
 #kt.login(qr=True)
 #kt.login(token="EnoemlXBtIWaRpxaCEc7.OS/hbTH5Iz2F5McUPTGhfW.b02+CcT2Ell/OZkgzJrKIwuFSWh1vPiM9bDw+YRVpIY=")
 #kt.loginResult()
