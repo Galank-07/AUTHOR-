@@ -653,7 +653,7 @@ def bot(op):
                   cl.sendText(msg.to,"The stafflist is empty")
               else:
                   cl.sendText(msg.to,"Tunggu...")
-                  mc = "||Admin One Piece Bot||\n=====================\n"
+                  mc = "||✮Ŧ€Äm ÄυŦĦōя bōŦ✮||\n╬═════════════════╬\n"
                   for mi_d in admin:
                       mc += "••>" +cl.getContact(mi_d).displayName + "\n"
                   cl.sendText(msg.to,mc)
@@ -1006,7 +1006,7 @@ def bot(op):
                 kk.sendText(msg.to,Bmid)
                 kc.sendText(msg.to,Cmid)
                 ks.sendText(msg.to,Dmid)
-            elif "Koplaxs" == msg.text:
+            elif "Team" == msg.text:
               if msg.from_ in admin:
                 cl.sendText(msg.to,Smid)
             elif "Luffy" == msg.text:
