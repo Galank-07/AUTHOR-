@@ -8,28 +8,28 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
 cl = LINETCR.LINE()
-cl.login(token="EmLO74bVtkpmo1RO0Ln9.lx6iYJ1ZQ3OTRUu4MoLSQq.U4ciUWB81tnXCWlUSNSzv3aQbAi43FIgP/uiXZVNUHk=")
+cl.login(token="EqfF4qj1bFef2CDsOYQ3.XSuK6IiPrpgzH2ySALp2qW.FUTuY6YgLmsHd1s+GxrQORTw5LnwgecrexRk6Tx0Zqg=")
 
 ki = LINETCR.LINE()
-ki.login(token="EmpYFvEcoVYxm0yKgG3c.kPCIxd3dx0LAHGGMosEvBa.+cl/ASX02L2uR1rO8hILexKyxAPgjhBcSHz941O8JJ4=")
+ki.login(token="EqGsS3OltHZzfNpByxb6.5IPkUPKSEMU6A5/ZDHBjXG.NuEuWLvnVvImL5HG8moYXYMMHgR5oySqmnJqIul5E84=")
 
 kk = LINETCR.LINE()
-kk.login(token="EmFfB9MKm6K5cWzaHTud.ljW+dg/qfx/S+nua8chOdq.qb6cEnwV35DvutN/DBZFiz+oGHA8o3yTxPkGcdgOYyM=")
+kk.login(token="Eql2dc10e9Xi4f1Rf2x1.nOupgXlVxmye1W5yKNF/8q.of3r6VsbLwHgKoSuPqEnCirgxOfgqRa5op6mx0oyYIM=")
 
 kc = LINETCR.LINE()
-kc.login(token="Em91waQIcvXWyMrE8SMc.jB1lTE0oNuMV5aYqlcvM7a.7P/be3MufcdYxm9DNnjlwb3iznUwTax6a/EdRmIq8Gk=")
+kc.login(token="EqcKWN2i3LTuy337O9C8.HuUm1h/UuO3MPfskq3iZYa.kqZ+obx+crZPU8WalQ1KKD3TsZJSDyri57lv1fXygAs=")
 
 ks = LINETCR.LINE()
-ks.login(token="Em1Ng2bjqIt0PQKF53u8.Jjb37kXN5qtOgywVUVxMka.NrBUqXpvv59RecV2I0vui55DbWj8LCfHv4vkLv4gYL0=")
+ks.login(token="EqJScrDtvNOZVS0L1js3.eYIoClpI2sl2hRSJw7q6SW.Cdh9ZEk+ya1yfvYHK8k1T+gDNZEGl/BPb9/QSaPH4dQ=")
 
 ka = LINETCR.LINE()
-ka.login(token="Emp4IVoycNC685EdM4wc.fFYtPbBtjOY2lz8KEQLnRa.GFI/r5dXZipbIL5kp8ZPrsx4gWyPfp15OQU9TBYuwmc=")
+ka.login(token="EqmdKtLGLoouvayLdmB8.LetmZ3b3S8xsvXte6ExxAa.AJTU9Bz4nh67WgZesU9xox5rX98lJge1WyrfpyTxsLY=")
 
 kb = LINETCR.LINE()
-kb.login(token="EmceLXcU2XAaHjEtq9Od.wp6x+oL8aC5iziDl02XO+q.t6NpTrMTfRrvRfko8jegPEP96ZfF+fVlfb6CM2K7QrY=")
+kb.login(token="Eq86CyWc6Nv0Djywhk4a.WQ7xJwYTy17gLrjSzVBpMG.w1/bwsbBPw/IzAJjRO1r8rMQR5vkq/9pzQ/oaOk5q+A=")
 
 ko = LINETCR.LINE()
-ko.login(token="EmyNQFxguwr63NJxKA76.f3MapxCMh/uLyzU9cv/8DG.60jIpvVeVNVIE8uSFbA3244cG181JOp6cEXiGwWTxJA=")
+ko.login(token="EqGRvwYgGqXCeTL12mI8.yShUITzJjuINW9CsoWQVca.Kn7773nfZ7H+uua7pIkC85YEPPrqCXlGqR6tfBjU/C8=")
 
 print "=====StreetPunkBot====="
 reload(sys)
@@ -84,7 +84,8 @@ helpMessage ="""
 ╠✮ Bllist-[cek user blacklist]
 ╠✮ Salken/Destroy-[kalo ini ehm...]
 ╬═════════════════╬
-Setgroup ="""╬═════════════════╬
+Setgroup ="""
+╬═════════════════╬
 ✮Setting Group
 ╬═════════════════╬
 ✮Protect Qr -- [Qr on/off]
@@ -104,7 +105,7 @@ Fmid = kb.getProfile().mid
 Gmid = ko.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid]
-admin=["u19a6336222efe94acce1b05dd39c0940"]
+admin=["u19a6336222efe94acce1b05dd39c0940","u5105795af7f6739571da2199e11036e5"]
 wait = {
     'contact':True,
     'autoJoin':True,
