@@ -15,7 +15,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 ale = LINETCR.LINE()
 #ale.login(qr=True)
-ale.login(token='EqcKWN2i3LTuy337O9C8.HuUm1h/UuO3MPfskq3iZYa.kqZ+obx+crZPU8WalQ1KKD3TsZJSDyri57lv1fXygAs=')
+ale.login(token='Eqk29C5bSnJ6kN5oope8.LetmZ3b3S8xsvXte6ExxAa.dlXskNfvNCj3PwhDqH/HGzOBGhoEwIVdsz3YcnMNhCY=')
 ale.loginResult()
 print "Ale-Login Success\n"
 
@@ -853,8 +853,8 @@ def bot(op):
 			#ale.acceptGroupInvitationByTicket#(op.#param1,Ti#)
 			#G.preventJoinByTicket #= #True
 			#ale.updateGroup#(G#)
-			ale.sendText(op.param1,"☆Ketik ☞Help☜ Untuk Bantuan☆\n☆Harap Gunakan Dengan Bijak ^_^ ☆")
-			ale.sendText(op.param1,"☆Jika terjadi sesuatu hubungi own☆\n☆https://line.me/ti/p/%40bqs0815l")
+			ale.sendText(op.param1,"─͜͡✫Ketik͜͡✫ ✮Help✮ Untuk Bantuan✮\n✮Harap Gunakan Dengan Bijak✮")
+			ale.sendText(op.param1,"─͜͡✫Jika terjadi sesuatu hubungi owner Bot✮\n☆https://line.me/ti/p/~azhura07_")
 	    else:
                 if wait["AutoCancel"][op.param1] == True:
 		    if op.param3 in admin:
@@ -1184,7 +1184,7 @@ def bot(op):
           if wait["Sambutan"] == True:
             if op.param2 in admin:
                 return
-            ale.sendText(op.param1,"Good Bye " + ale.getContact(op.param2).displayName +  "\nSee You Next Time . . . (p′︵‵。) 🤗")
+            ale.sendText(op.param1,"Good Bye " + ale.getContact(op.param2).displayName +  "\nSee You Next Time . . .o(╥﹏╥)o")
             random.choice(KAC).inviteIntoGroup(op.param1,[op.param2])
             print "MEMBER HAS LEFT THE GROUP"
 
@@ -1467,9 +1467,9 @@ def bot(op):
 		
             elif msg.text in ["Admin","admin"]:
                 msg.contentType = 13
-                admin1 = "u19a6336222efe94acce1b05dd39c0940"
+                admin1 = "uecc0e521c7c6f1a7c9e09bc2bb019523"
                 admin2 = "u01b2ff163ce9f74b28c469f6046db80f"
-                admin3 = "u0dc04038d28145eba9676c94f130684f"
+                admin3 = "u5f53c8be64a7264219e35aaeb4fc6ca2"
                 msg.contentMetadata = {'mid': alevan}
                 random.choice(KAC).sendMessage(msg)
                 msg.contentMetadata = {'mid': admin1}
