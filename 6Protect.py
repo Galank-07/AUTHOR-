@@ -43,27 +43,27 @@ cl.loginResult()
 
 ki = LINETCR.LINE() 
 #ki.login(qr=True)
-ki.login(token="")#BOT1
+ki.login(token="EqZS0M3dMbjSEsJN2kfe.wvhydD8HlswGsvWpinOaVG.DFHZItyrV7X885tlDkZtFQSRfqTiOmXRpUjg0/hzKuM=")#BOT1
 ki.loginResult() 
 
 kk = LINETCR.LINE() 
-kk.login(token="")#BOT4
+kk.login(token="EqDGyThiFayWsE6EhUt1.nOupgXlVxmye1W5yKNF/8q.3J6ujA9ZDLS5SxWWZtBBJv/+m5c1XuNtkLkRAzguBVY=")#BOT4
 kk.loginResult()
 
 kc = LINETCR.LINE()
 #kc.login(qr=True)
-kc.login(token="")#BOT5
+kc.login(token="EqKClGpHQOFAWjdZyND3.eYIoClpI2sl2hRSJw7q6SW.wtiLGs6YX1rvPINKhxN84vHTHS6+jGYZt5lQYnpjtfo=")#BOT5
 kc.loginResult() 
 
 ks = LINETCR.LINE() 
 #ks.login(qr=True)
-ks.login(token="")#BOT6
+ks.login(token="Eqa6VZ99eFiVTWRDI6Oa.WQ7xJwYTy17gLrjSzVBpMG.WUjM6iCOTSmLEE1kMFGct3yXjhevvYnZVJYgDysW490=")#BOT6
 ks.loginResult()
 
-satpam = LINETCR.LINE() 
-satpam.login(token="")#BOT6
+#satpam = LINETCR.LINE() 
+#satpam.login(token="")#BOT6
 #satpam.login(qr=True)
-satpam.loginResult() 
+#satpam.loginResult() 
 
 print "login success bos"
 reload(sys)
