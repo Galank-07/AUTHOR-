@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import AUTHOR-BOT
-from AUTHOR-BOT.lib.curve.ttypes import *
+import LINETCR
+from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 from bs4 import BeautifulSoup
 #import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia
@@ -23,7 +23,7 @@ import requests,tempfile
 from threading import Thread
 import requests,json,urllib
 from random import randint
-from googletrans import Translator
+#from googletrans import Translator
 import time,random,sys,json,codecs,threading,glob,re
 
 import six
@@ -36,34 +36,34 @@ else:
     import urllib.parse
 
 
-cl = AUTHOR-BOT.LINE()
+cl = LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token="")#Akun Utama
+cl.login(token="EqA0m2PFQROjKiWo9yX8.HuUm1h/UuO3MPfskq3iZYa.5x6Rxc6/EUFjkvq49u57eDDUkEFA02yXou+XdMVXBoE=")#Akun Utama
 cl.loginResult()
 
-ki = AUTHOR-BOT.LINE() 
+ki = LINETCR.LINE() 
 #ki.login(qr=True)
 ki.login(token="")#BOT1
 ki.loginResult() 
 
-kk = AUTHOR-BOT1.LINE() 
+kk = LINETCR.LINE() 
 kk.login(token="")#BOT4
 kk.loginResult()
 
-kc = AUTHOR-BOT.LINE()
+kc = LINETCR.LINE()
 #kc.login(qr=True)
 kc.login(token="")#BOT5
 kc.loginResult() 
 
-ks = AUTHOR-BOT.LINE() 
+ks = LINETCR.LINE() 
 #ks.login(qr=True)
 ks.login(token="")#BOT6
 ks.loginResult()
 
-#satpam = AUTHOR-BOT.LINE() 
-#satpam.login(token="")#BOT6
+satpam = LINETCR.LINE() 
+satpam.login(token="")#BOT6
 #satpam.login(qr=True)
-#satpam.loginResult() 
+satpam.loginResult() 
 
 print "login success bos"
 reload(sys)
@@ -288,11 +288,11 @@ wait = {
     'autoAdd':True,
     'message':"""тerima Kasih Sudah Menambahkan Aku Jadi Teman
 ≫ Aku Ga Jawab PM Karna aq Cuma Bot Protect ≪
->>╠➩〘ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ〙<<
+>>✮Ŧ€Äm ÄυŦĦōя bōŦ✮<<
 
-creator: "http://line.me/ti/p/1bytI8rFC9"",
+creator: "http://line.me/ti/p/~azhura07_"",
     "lang":"JP",
-    "comment":"╠➩Auto Like By\nƬΣΔΜ ΔƱƬΘΓ ƁΘƬ（＾ω＾）\n╠➩Auto Like By 〘Ĝα₤αηĸ〙»»» http://line.me/ti/p/1bytI8rFC9 «««",
+    "comment":"─͜͡✫➩Auto Like By\n✮Ŧ€Äm ÄυŦĦōя bōŦ✮\n─͜͡✫Auto Like By ❂͜͡Ĝα₤αηĸ➣»»» http://line.me/ti/p/~azhura07_ «««",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -777,13 +777,13 @@ def bot(op):
                 pass
               else:
                 try:
-                  cl.sendText(op.param1,cl.getContact(op.param2).displayName + "Jangan Buka Kode QR Woyyyyy...!!!")
+                  cl.sendText(op.param1,cl.getContact(op.param2).displayName + "Jangan Buka Kode QR Kampre...!!!")
                   cl.kickoutFromGroup(op.param1,[op.param2])
                   X = cl.getGroup(op.param1)
                   X.preventJoinByTicket = True
                   cl.updateGroup(X)
                 except:
-                  random.choice(KAC).sendText(op.param1,random.choice(KAC).getContact(op.param2).displayName + "Jangan Buka Kode QR Woyyyyy...!!!")
+                  random.choice(KAC).sendText(op.param1,random.choice(KAC).getContact(op.param2).displayName + "Jangan Buka Kode QR Njing...!!!")
                   random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
                   Z = random.choice(KAC).getGroup(op.param1)
                   Z.preventJoinByTicket = True
@@ -1555,7 +1555,7 @@ def bot(op):
                   cl.sendText(msg.to,"The stafflist is empty")
               else:
                   cl.sendText(msg.to,"Tunggu...")
-                  mc = "||Admin ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ||\n=====================\n"
+                  mc = "||Admin ✮Ŧ€Äm ÄυŦĦōя bōŦ✮||\n=====================\n"
                   for mi_d in admin:
                       mc += "••>" +cl.getContact(mi_d).displayName + "\n"
                   cl.sendText(msg.to,mc)
@@ -2861,7 +2861,7 @@ def bot(op):
                 else: md+="❂͜͡➣Protect Cancel [Off]\n"
                 if wait["protectionOn"] == True: md+="❂͜͡➣Protection : hight\n"+ datetime.today().strftime('%H:%M:%S')
                 else:md+="❂͜͡➣Protection : low\n"+ datetime.today().strftime('%H:%M:%S')
-                "\n*============*\n╠➩〘ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ〙\n*============*"
+                "\n*============*\n✮Ŧ€Äm ÄυŦĦōя bōŦ✮\n*============*"
                 cl.sendText(msg.to,md)
             elif "Time" in msg.text:
               if msg.from_ in admin:
@@ -3776,7 +3776,7 @@ def bot(op):
                                 #print rom
                                 chiya += rom[1] + "\n"
 
-                        cl.sendText(msg.to, "||Di Read Oleh||%s\n||By : ╠➩〘Ĝα₤αηĸ〙 ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ||\n\n>Pelaku CCTV<\n%s-=CCTV=-\n•Bintitan\n•Panuan\n•Kurapan\n•Kudisan\n\nAmiin Ya Allah\n[%s]" % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
+                        cl.sendText(msg.to, "||Di Read Oleh||%s\n||By : ✮Ŧ€Äm ÄυŦĦōя bōŦ✮||\n\n>Pelaku CCTV<\n%s-=CCTV=-\n•Bintitan\n•Panuan\n•Kurapan\n•Kudisan\n\nAmiin Ya Allah\n[%s]" % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
                     else:
                         cl.sendText(msg.to, "Ketik Cctv dulu Koplak\nBaru Ketik Toong\nDASAR PIKUN ♪")
                         
@@ -3805,7 +3805,7 @@ def bot(op):
                             for rom in wait2["ROM"][msg.to].items():
                                 print "[Command] Check"
                                 chiya += rom[1] + "\n"
-                        cl.sendText(msg.to, "╠➩ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ\nRead : %s\n\n✖ Sider :\n%s\nPoint creation date n time:\n[%s]"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
+                        cl.sendText(msg.to, "✮Ŧ€Äm ÄυŦĦōя bōŦ✮\nRead : %s\n\n✖ Sider :\n%s\nPoint creation date n time:\n[%s]"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
                         try:
                             del wait2['readPoint'][msg.to]
                             del wait2['readMember'][msg.to]
@@ -4810,12 +4810,12 @@ def bot(op):
        #-------------Fungsi Respon Start---------------------#
             elif msg.text in ["Absen","Respon"]:
               if msg.from_ in admin:
-                kk.sendText(msg.to,"★")
-                ki.sendText(msg.to,"★★")
-                cl.sendText(msg.to,"★★★")
-                kc.sendText(msg.to,"★★★★")
-                ks.sendText(msg.to,"★★★★★")
-                random.choice(KAC).sendText(msg.to,"Semua Hadir Boss\nSiap Protect Group\nAman Gak Aman Yang Penting Anu\n╠➩〘ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ〙")
+                kk.sendText(msg.to,"✮")
+                ki.sendText(msg.to,"✮✮")
+                cl.sendText(msg.to,"✮✮✮")
+                kc.sendText(msg.to,"✮✮✮✮")
+                ks.sendText(msg.to,"✮✮✮✮✮")
+                random.choice(KAC).sendText(msg.to,"Semua Hadir Boss\nSiap Protect Group\nAman Gak Aman Yang Penting Crot\n\nsᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ\n✮Ŧ€Äm ÄυŦĦōя bōŦ✮")
       #-------------Fungsi Respon Finish---------------------#
 #            elif msg.text.lower() == 'Respons':
 #              if msg.from_ in admin:    
@@ -5172,7 +5172,7 @@ def bot(op):
             elif msg.text in ["Speed"]:
               if msg.from_ in admin:
                 start = time.time()
-                cl.sendText(msg.to, "╠➩Sabar Boss...")
+                cl.sendText(msg.to, "✮Sabar Kamper✮...")
                 elapsed_time = time.time() - start
                 ki.sendText(msg.to, "%sDetik" % (elapsed_time))
                 kk.sendText(msg.to, "%sDetik" % (elapsed_time))
@@ -5181,7 +5181,7 @@ def bot(op):
             elif msg.text in ["Sp"]:
               if msg.from_ in admin and owner:
                 start = time.time()
-                cl.sendText(msg.to, "╠➩Menghitung Kecepatan...")
+                cl.sendText(msg.to, "✮Menghitung Kecepatan✮...")
                 elapsed_time = time.time() - start
                 cl.sendText(msg.to, "%sDetik" % (elapsed_time))
       #-------------Fungsi Speedbot Finish---------------------#
@@ -5205,7 +5205,7 @@ def bot(op):
               cl.sendText(msg.to,"======================")
               cl.sendMessage(msg)
               cl.sendText(msg.to,"======================")
-              cl.sendText(msg.to,"Itu Creator Kami Yang ganteng Kalem 😜\nSmule : @NBS_VAMPIRE\nNama : ╠➩Ĝα₤αηĸ\nƬΣΔΜ ΔƱƬΘΓ ƁΘƬ : Cancer")  
+              cl.sendText(msg.to,"Itu Creator Kami Yang ganteng \nSmule : @NBS_VAMPIRE\nNama : ❂͜͡Ĝα₤αηĸ➣\n✮Ŧ€Äm ÄυŦĦōя bōŦ✮")  
       #-------------Fungsi Chat ----------------
             elif msg.text in ["Woy","woy","Woi","woi"]:
                  quote = ['Istri yang baik itu Istri yang Mengizinkan Suaminya untuk Poligami 😂😂😂.','Kunci Untuk Bikin Suami Bahagia itu cuma satu..\nIzinkan Suamimu Untuk Selingkuh Coyyy ','Ah Koplak Lu','Muka Lu Kaya Jembut','Ada Orang kah disini?','Ada Janda Yang Bisa Di Ajak Mojok Gak, Euy','Ada Perawan Nganggur ga Coy?']
