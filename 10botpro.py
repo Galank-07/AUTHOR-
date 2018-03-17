@@ -11,51 +11,51 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 satpam = LINETCR.LINE() # Koplaxs # Login Pake Akun Utama Kalian(Gunanya Supaya Akun Utama Ke Kick bisa Terima Undangan dari Bot Otomatis)
-satpam.login(qr=True)
+satpam.login(token='')
 satpam.loginResult()
 
 cl = LINETCR.LINE() #Luffy
-cl.login(qr=True)
+cl.login(token='')
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
-ki.login(qr=True)
+ki.login(token='')
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
-kk.login(qr=True)
+kk.login(token='')
 kk.loginResult()
 
 kc = LINETCR.LINE() #Ussop
-kc.login(qr=True)
+kc.login(token='')
 kc.loginResult()
 
 ks = LINETCR.LINE() #Chooper
-ks.login(qr=True)
+ks.login(token='')
 ks.loginResult()
 
 ka = LINETCR.LINE() #Franky
-ka.login(qr=True)
+ka.login(token='')
 ka.loginResult()
 
 kb = LINETCR.LINE() #Brook
-kb.login(qr=True)
+kb.login(token='')
 kb.loginResult()
 
 ko = LINETCR.LINE() #Nami
-ko.login(qr=True)
+ko.login(token='')
 ko.loginResult()
 
 ke = LINETCR.LINE() #Robin
-ke.login(qr=True)
+ke.login(token='')
 ke.loginResult()
 
 ku = LINETCR.LINE() # Jinbei
-ku.login(qr=True)
+ku.login(token='')
 ku.loginResult()
 
 k1 = LINETCR.LINE() #Backup (Gunanya Kalo Akun Utama Ke Kick, Dy masuk ke Group dan Ngekick yang Kick Akun Utama Dan Akun Utama Di undang sama dia,lalu dy leave lagi :D)
-k1.login(qr=True)
+k1.login(token='')
 k1.loginResult()
 
 print "Login Success Boss\nsᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ\n✮Ŧ€Äm ÄυŦĦōя bōŦ✮"
@@ -66,7 +66,10 @@ helpMessage ="""
 ╬══════════════╬
 ║─͜͡✫sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ─͜͡✫
 ║✮Ŧ€Äm ÄυŦĦōя bōŦ✮
-║OWNER ✮❂͜͡Ĝα₤αηĸ➣✮
+║OWNER BOT:
+║✮❂͜͡Ĝα₤αηĸ➣✮
+║OWNER BOJO:
+║ ꧁͜͡✯͜͡nHaa✯͜͜͡͡࿐
 ╬══════════════╬
 terkadang selintas
 kubayangkan wajahmu itu
@@ -78,6 +81,11 @@ begitu indah kurasakan padamu.
 
 ✮CIE..CIE..BAPER✮
 ✮DASAR JOMBLO TUKANG BAPER✮
+
+✮CONTACT OWNER✮
+    👇⬇️⬇️⬇️👇
+line.me/ti/p/~azhura07_   
+line.me/ti/p/~Iechand25  
 """
 
 Setgroup ="""
