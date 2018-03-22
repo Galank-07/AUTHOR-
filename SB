@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 
-import LINEBALI
+import LINETCR
 from bs4 import BeautifulSoup
 from gtts import gTTS
-from LINEBALI.lib.curve.ttypes import *
+from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 from time import sleep
 import time, datetime, random, sys, json, codecs, threading, glob, re, string, os, requests, html5lib, subprocess, urllib, urllib2, goslate, urllib3, wikipedia, ast
 
-cl = LINEBALI.LINE()
+cl = LINETCR.LINE()
 #cl.login(qr=True)
 cl.login(token='EpeSEpHj5qNUrg8ZJnK1.iEVZ1upU1NacqgZlK1tcqq.OOhRLzWCQQVOitKw0pjK04AQNSUTwmr0t66EAZHzP4c=')
 cl.loginResult()
@@ -132,6 +132,7 @@ translateMessage =""" 「 TRANSLATE 」
 """
 
 mid = cl.getProfile().mid
+owner="ub392bd3813ee99601126326d5034ea84"
 Creator="u19a6336222efe94acce1b05dd39c0940"
 admin=["u19a6336222efe94acce1b05dd39c0940","u21ebf3d543eed67002406ccb9354c241"]
 
@@ -1582,7 +1583,47 @@ def bot(op):
                 restart_program()
                 print "@Restart"
 #--------------------------------------------------------
-            
+#==========================[✍T∑∆M❖➣❝SyN_B❂₮❞]===========================
+            elif "Bot megs " in msg.text:
+                if msg.from_ in owner:
+                    gName = msg.text.replace("Kr megs ","")
+                    ap = kr1.getGroups([msg.to])
+                    semua = [contact.mid for contact in ap[0].members]
+                    nya = ap[0].members
+                    for a in nya:
+                        Mi_d = str(a.mid)
+                        cl.createGroup(gName, semua)
+                        cl.createGroup(gName, semua)
+                        cl.createGroup(gName, semua)
+                        cl.createGroup(gName, semua)
+                        cl.createGroup(gName, semua)
+                        cl.createGroup(gName, semua)
+                        cl.createGroup(gName, semua)
+#==========================[✍T∑∆M❖➣❝SyN_B❂₮❞]===========================
+            elif "#megs " in msg.text:
+                if msg.from_ in owner:
+                    gName = msg.text.replace("#megs ","")
+                    ap = kr1.getGroups([msg.to])
+                    semua = findAndAddContactsByMid(Mi_d)
+                    nya = ap[0].members
+                    for a in nya:
+                        Mi_d = str(a.mid)
+                        klis=[kr1]
+                        team=random.choice(klis)
+                        cl.findAndAddContactsByMid(Mi_d)
+                        cl.createGroup(gName, semua)
+                        cl.createGroup(gName, semua)
+                        cl.createGroup(gName, semua)
+                        cl.createGroup(gName, semua)
+                        cl.createGroup(gName, semua)
+                        cl.createGroup(gName, semua)
+                        team.findAndAddContactsByMid(Mi_d)
+                        team.createGroup(gName, semua)
+                        team.createGroup(gName, semua)
+                        team.createGroup(gName, semua)
+                        team.createGroup(gName, semua)
+                        team.createGroup(gName, semua)
+                        team.createGroup(gName, semua)
         if op.type == 59:
             print op
 
