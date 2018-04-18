@@ -2084,9 +2084,9 @@ def bot(op):
             elif msg.text in ["Creator"]:
               if msg.from_ in admin:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'ub76a0153a283da9a1443dfb043181335'}
+                msg.contentMetadata = {'mid': 'u19a6336222efe94acce1b05dd39c0940'}
                 cl.sendMessage(msg)
-                cl.sendText(msg.to,"Itu Creator Saya ")
+                cl.sendText(msg.to,"Itu Creator Kamu\nCakepkan,Nikung Aja Boss\nJomblo kok dia\n\nAdd/follow aja Line & Ig dia\nLink Add ada di bawah\n    ⬇️⬇️⬇️\nLine: line.me/ti/p/~azhura07_\nIg: https://www.instagram.com/galank23_/\n\nKepo,in aja,asal Jangan baper ae😂")
             elif "Admin on @" in msg.text:
                 if msg.from_ in owner:
                     print "[Command]Staff add executing"
