@@ -12,42 +12,42 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 cl = LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token='EqHMXGKwZaE0SjPc89b9.3UrGMEjECFh9gbFk6EFekq.i2mczkhidmiLj1OXIE/fY6+LyhQbQH1IAf6bU06okhA=')
+cl.login(token='Esl6NVCjrzJprkdcuTSc.EiU0U3H/ifOcEyRhHc8L+a.+P8Jz3MasLICM7LuIRdy+M+AYMJEKzaTqhfT0McTTaM=')
 cl.loginResult()
 
 print "Cl-Login Success\n"
 
 ki = LINETCR.LINE()
 #ki.login(qr=True)
-ki.login(token='EqYniDNyTOTltpsqEYge.F6loN/ws9FaPqFRwqoggJG.kHL4yUbqffSFcj1kziGLA9dMzjSGok+fRcI+Q8U/R2g=')
+ki.login(token='EszFuC6egR565QqbpCy5.BLq7O8+KawO+e660v+4Ffq.73dvZPs3D0G2OkAaOs4u4OrR1Cg3Csxe1MX41ckCQKc=')
 ki.loginResult()
 
 print "Ki-Login Success\n"
 
 kk = LINETCR.LINE()
 #kk.login(qr=True)
-kk.login(token='Eq3CPLeK4nua4ATkxiVe.9lU+Lm8IEAdBW1wrKZGG7G.WRlgDJmzy1Juqn+smAo7aRwvKLykPGa5l09Fhe8h2wY=')
+kk.login(token='Es3H1meGvDo3feFzt6E7.OV5wO6KNT/Aej4WCRimKTW.tNF+4wY1GQiECGfhGN4SPOGeG6NfTN09ZKc5PcEs0Kw=')
 kk.loginResult()
 
 print "Kk-Login Success\n"
 
 kc = LINETCR.LINE()
 #kc.login(qr=True)
-kc.login(token='EqvBA4vtFNGEVbqqbKn3.9qPM7NC2vWiRtQTZ/x4SyW.BRddFZkF7FCluuTrhIc2G/tEQth5HZA+UZSomlPckko=')
+kc.login(token='EsUtodEp0fCsQjlvWnkc.IDk4goeKO5Cf02ymF6+K3a.GU4IeT30uMXMFdq/nJp4EMXrJQceG+fJZqtz/CsPyqY=')
 kc.loginResult()
 
 print "Kc-Login Success\n"
 
 kr = LINETCR.LINE()
 #kr.login(qr=True)
-kr.login(token='Eq9tCuHFoCYIT7iNWJJa.4873flXX7QJRw4jo2j7roG.grlZyz2pNd/DsTTPCVnTbZVDbAHUz1vTYXgZs9Aq2ik=')
+kr.login(token='EsncILpTrhESopVQbUwe.gCHBZ4Wg+A3q+6nb6neSdG.nGc9KQbnIZ/diEswAOIpPtU2Qb0NJ+L3EOMtg8qePrs=')
 kr.loginResult()
 
 print "Kr-Login Success\n"
 
 km = LINETCR.LINE()
 #km.login(qr=True)
-km.login(token='.+gW.+tx6shXBRwDf7FXTXnfPeG+6tr44+AEk=')
+km.login(token='Es1gxtDz3ObG2l2gvIS3.opVfLAHd5WGf+bpOBpP3eW.so0campCXxfoI7U5feK8aAR36AdxU4vmBLynHYq5J2U=')
 km.loginResult()
 print "Km-Login Success\n\n=====[Sukses Team ✮Ŧ€Äm ÄυŦĦōя bōŦ✮ Login]====="
 
