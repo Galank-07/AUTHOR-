@@ -6,11 +6,11 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token='')
+cl.login(token='EsP5WFalLxrbR1TmjcGe.zVVlDuPHYYt3sRhRYkVoNG.LTpgFm8xzHgzCf+jBj8m5DsgBtrLgt/cV6jhuYtOmzA=')
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token='')
+ki.login(token='EsntPJJXRjaUsexNvrP7.WDeMtwKV2AWxX6fICV/kTW.InId9uUBTop2qjuQIzVVsuxGlgr6ErumdNhyUZylLao=')
 ki.loginResult()
 
 #ki2 = LINETCR.LINE()
@@ -79,8 +79,8 @@ mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
 #ki2mid = ki2.getProfile().mid
 Bots=[mid,kimid]#,ki2mid]
-owner =["ued156c86ffa56024c0acba16f7889e6d"]
-admin = ["ued156c86ffa56024c0acba16f7889e6d"]
+owner =["u66fbcb754a61cb24f74ab1ebc8abce9e"]
+admin = ["u66fbcb754a61cb24f74ab1ebc8abce9e"]
 wait = {
     'contact':False,
     'autoJoin':True,
