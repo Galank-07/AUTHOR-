@@ -56,7 +56,7 @@ helpMessage ="""╔═════════════
 ║╠[30]Like
 ║╠[31]Like me
 ║╠[32]Creator
-║╠[33]Creator 1
+║╠[33]Creator1
 ║╠[34]Masuk
 ║╠[35]Pamit
 ║╠[36]Salken
@@ -2155,7 +2155,7 @@ def likePost():
                     cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
                     ki.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
                     ki2.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-                    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto like by ✯✰тєαм ѕℓα¢ĸвσт✰✯\nStatus Boss udah Kami Like\nOwner Kami :\n✍͡➴͜Ĝα₤αηĸ͜͡✫\n✍͡➴͜\n\nline.me/ti/p/~azhura07_\nline.me/ti/p/~Ardiy")
+                    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto like by ✯✰тєαм ѕℓα¢ĸвσт✰✯\nStatus Boss udah Kami Like\nOwner Kami :\n✍͡➴͜Ĝα₤αηĸ͜͡✫\n✍͡➴͜\n\nline.me/ti/p/~azhura07_\nline.me/ti/p/~Ardiy102")
                     ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId']," ✯✰тєαм ѕℓα¢ĸвσт✰✯")
                     print "Like"
                 except:
