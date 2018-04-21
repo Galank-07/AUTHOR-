@@ -58,7 +58,7 @@ ki11.login(token="EsdmNb1Au2vj2pDa8p88.yShUITzJjuINW9CsoWQVca.L3+OBWq1FevUiAq5rl
 ki11.loginResult()
 
 ki12 = LINETCR.LINE()
-ki12.login(token=")
+ki12.login(token="EsFiTiWDVddGrH7zFktd.Dkl2Q0fRgrXp4R0cbpdBpq.zYjYJOsbhJ/7TZ9tLPZTW2MuhEOztD5ctRkxWvHas7E=")
 ki12.loginResult()
 
 print "login success"
@@ -140,7 +140,7 @@ helpMessage="""(✮Ŧ€Äm ÄυŦĦōя bōŦ✮)
 ║🔛║ ✰ {Setauto}
 ╚══╩════════╝
   """
-helpMedia="""(✮Ŧ€Äm ÄυŦĦōя bōŦ✮)
+helpMedia="""(✯✰тєαм ѕℓα¢ĸвσт✰✯)
 ╔═ line.me/ti/p/~azhura07_
 ║╦═══MEDIA═══
 ║1║ ✰ Youtube *text*
@@ -218,7 +218,7 @@ helpMedia="""(✮Ŧ€Äm ÄυŦĦōя bōŦ✮)
 ║🔛║ ✰ {Setauto}
 ╚══╩══════╝
 """
-helpFun = """(✮Ŧ€Äm ÄυŦĦōя bōŦ✮)
+helpFun = """(✯✰тєαм ѕℓα¢ĸвσт✰✯)
 ╔═line.me/ti/p/~azhura07_
 ║╦═══MEDIA═══
 ║1║ ✰ sider:*txt*
@@ -266,7 +266,7 @@ helpself="""
 ║23║ ✰ Allbio "status"
 ║24║ ✰ Sendcontact "text"
 ║25║ ✰ Botbyeall  
-║✮Ŧ€Äm ÄυŦĦōя bōŦ✮
+║✯✰тєαм ѕℓα¢ĸвσт✰✯
 ╚═══════════╝
   """
 helpset="""╔(SETTINGS FOR BOT)╗
@@ -305,12 +305,12 @@ helpset="""╔(SETTINGS FOR BOT)╗
 ║🔧║ ✰ {Settings}
 ║🔛║ ✰ {Setauto}
 ╚══╩══════╝
-║ ✮Ŧ€Äm ÄυŦĦōя bōŦ✮
+║ ✯✰тєαм ѕℓα¢ĸвσт✰✯
 ╚═ line.me/ti/p/~azhura07_ ╝
 """
 translateMessage ="""
 ╔══════════
-║(╣✮Ŧ€Äm ÄυŦĦōя bōŦ✮╣)
+║(╣✯✰тєαм ѕℓα¢ĸвσт✰✯╣)
 ║╔═════════
 ║══════════
 ║✰║ Afrika/
