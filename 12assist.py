@@ -14,7 +14,7 @@ acil.login(token="EsewVjyx69Gr3htmwQh0.gAyZyIlV6uRm4BbD05Wjqa.HaZmR3H1EbFdarRqWC
 acil.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="")
+ki.login(token="EsomH9vHobR5jnwnv1Qe.wvhydD8HlswGsvWpinOaVG.CaLk2LkDZNAzuFzPHlD6e3Ab2DAheSzWLIo+kGzFnw0=EsomH9vHobR5jnwnv1Qe.wvhydD8HlswGsvWpinOaVG.CaLk2LkDZNAzuFzPHlD6e3Ab2DAheSzWLIo+kGzFnw0=")
 ki.loginResult()
 
 ki2= LINETCR.LINE()
