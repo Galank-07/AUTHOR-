@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 from random import randint
 
 cl = LINETCR.LINE()
-cl.login(token="")
+cl.login(token="Esz6h94yIxjSFRsMlDbe.ftlbF89zcBLoeX9VVVZNZG.72WxOQTC61EcPq2zH0Pc1uUj2fjSnB3DS0VaI1LE3Xg=")
 cl.loginResult()
 
 #ki = LINETCR.LINE()
