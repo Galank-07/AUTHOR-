@@ -103,25 +103,25 @@ kp.loginResult()
 
 kq = LINETCR.LINE()
 #kq.login(qr=True)
-kq.login(token="")
+kq.login(token="EsFODbiYjCNA9yDjpMyd.lhcKlyrNzEK1xqNJSwZ7Jq.BOymfehBIpkpc/n/WS23jBpJflgYxqvC8G+9Os1Noug=")
 kq.loginResult()
 
 kr = LINETCR.LINE()
 #kr.login(qr=True)
-kr.login(token="")
+kr.login(token="EsSxJfKdY1S2GKWxFah4.qI2PZDEevvrDVi/jO+Tfza.ZJqnZCHw/KkGkb+K3pY0rsbyTpS6YRrC2xWRmyPswJM=")
 kr.loginResult()
 
 ks = LINETCR.LINE()
 #ks.login(qr=True)
-ks.login(token="")
+ks.login(token="Es9TBsTDJZQawHqcITr7.pt5ku5OvCXgXicoZ42L15W.t7+uZzOcgvQFMVL9pNB7CBs+XIOk3rOQkDGn7QEG6zA=")
 ks.loginResult()
 
 kt = LINETCR.LINE()
 #kt.login(qr=True)
-kt.login(token="")
+kt.login(token="Esv1rcD3jpXwO0uYV96b.97lTGVmvXjWrorbWSIp6wW.sQIQQH4zzXkx4QRTcburUSq2TBxHfv4imWRkRk3BXcA=")
 kt.loginResult()
 
-print "U.k kalem Bot"
+print "✍͡➴͜Ĝα₤αηĸ͜͡✫\n✯✰тєαм ѕℓα¢ĸвσт✰✯"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
