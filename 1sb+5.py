@@ -10,27 +10,27 @@ from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
 acil = LINETCR.LINE()
-acil.login(token="")
+acil.login(token="Es0qfZH9ErrQ1d0Plehc.EiU0U3H/ifOcEyRhHc8L+a.tkuc6Dkf7AfDuYIWsyhouaqA+Qf4O1Zql5mCepqhkX8=")
 acil.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="")
+ki.login(token="EssYBBiNSnrtHwyPP3N3.opVfLAHd5WGf+bpOBpP3eW.daNP6kftJJg2aFnT2l3OFG4+mT507em+6+hEK2Lt5MU=")
 ki.loginResult()
 
 ki2= LINETCR.LINE()
-ki2.login(token="")
+ki2.login(token="EssFllShxazONgEpM89e.gCHBZ4Wg+A3q+6nb6neSdG.X51a3lEqGY02A+VTXplY9TRcI4HjjKbg2g2SXQ0/qoE=")
 ki2.loginResult()
 
 ki3 = LINETCR.LINE()
-ki3.login(token="")
+ki3.login(token="EsVBPhrrxssf2oQy63qc.IDk4goeKO5Cf02ymF6+K3a.BEiUPGaLOLEhFVNn7AbtkI/8Xwi4IAVqMM3KxVhqq6o=")
 ki3.loginResult()
 
 ki4 = LINETCR.LINE()
-ki4.login(token="")
+ki4.login(token="Es832tXGnrWER7i6Wyc7.OV5wO6KNT/Aej4WCRimKTW.iwS25+4ygeKgaLvugDdPyfU+KAUqOe4sMOGq33j5JH8=")
 ki4.loginResult()
 
 ki5 = LINETCR.LINE()
-ki5.login(token="")
+ki5.login(token="EszKkuZI9HnY1YTeMnN5.BLq7O8+KawO+e660v+4Ffq.MftE5PFErPCXOT9LsnuxFwEpfyxk69ljZuzi3dn3dX4=")
 ki5.loginResult()
 
 #ki6 = LINETCR.LINE()
@@ -372,7 +372,7 @@ ki5mid = ki5.getProfile().mid
 #ki9mid = ki9.getProfile().mid
 #ki10mid = ki10.getProfile().mid
 Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid]#,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid]
-admsa = "u19a6336222efe94acce1b05dd39c0940"
+admsa = "uc70d401be3f16f6eb101c1154ca1855d"
 wait = {
     'contact':False,
     'autoJoin':True,
