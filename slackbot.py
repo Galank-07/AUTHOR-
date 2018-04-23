@@ -22,229 +22,218 @@ sys.setdefaultencoding('utf-8')
 
 
 selfMessage ="""
-╔═════════════════════════
-║        ─͜͡✫COMMAND S E L F ─͜͡✫
-╠═════════════════════════
-╠Hi
-╠Me
-╠Mymid
-╠Mid @
-╠SearchID: (ID LINE)
-╠Checkdate (DD/MM/YY)
-╠Kalender
-╠Steal contact
-╠Pp @
-╠Cover @
-╠Auto like
-╠Scbc Text
-╠Cbc Text
-╠Gbc Text
-╠Getbio @
-╠Getinfo @
-╠Getname @
-╠Getprofile @
-╠Getcontact @
-╠Getvid @
-╠Friendlist
-╠Micadd @
-╠Micdel @
-╠Miclist
-╠═════════════════════════
-║ ✯✰тєαм ѕℓα¢ĸвσт✰✯
-╚═════════════════════════
-"""
-
+╔═════════════
+║╔═════¤═════╗
+║ COMMAND SELF
+║╚═════¤═════╝
+║╔═══════════
+║╠➣Hi
+║╠➣Me
+║╠➣Mymid
+║╠➣Mid @
+║╠➣SearchID: [ID LINE]
+║╠➣Checkdate [DD/MM/YY]
+║╠➣Kalender
+║╠➣Steal contact
+║╠➣Pp @
+║╠➣Cover @
+║╠➣Auto like
+║╠➣Scbc Text
+║╠➣Cbc Text
+║╠➣Gbc Text
+║╠➣Getbio @
+║╠➣Getinfo @
+║╠➣Getname @
+║╠➣Getprofile @
+║╠➣Getcontact @
+║╠➣Getvid @
+║╠➣Friendlist
+║╠➣Micadd @
+║╠➣Micdel @
+║╠➣Miclist
+╚═════════════"""
 botMessage ="""
-╔═════════════════════════
-║         ─͜͡✫COMMAND B O T─͜͡✫
-╠═════════════════════════
-╠Absen
-╠Respon〙
-╠Spamtag @
-╠Runtime
-╠Mycopy @
-╠Copycontact
-╠Mybackup〙
-╠Mybio (Text)
-╠Myname (Text)
-╠@bye
-╠Bot on/off
-╠═════════════════════════
-║ ✯✰тєαм ѕℓα¢ĸвσт✰✯
-╚═════════════════════════
-"""
-
+╔═════════════
+║╔═════¤═════╗
+║ COMMAND BOT
+║╚═════¤═════╝
+║╔═══════════
+║╠➣Absen
+║╠➣Respon
+║╠➣Spamtag @
+║╠➣Runtime
+║╠➣Mycopy @
+║╠➣Copycontact
+║╠➣Mybackup
+║╠➣Mybio (Text)
+║╠➣Myname (Text)
+║╠➣@bye
+║╠➣Bot on/off
+╚═════════════"""
 mediaMessage ="""
-╔═════════════════════════
-║           ─͜͡✫COMMAND M E D I A ─͜͡✫
-╠═════════════════════════
-╠Gift
-╠Gift1 @ s/d Gift10 @
-╠Giftbycontact
-╠Gif gore
-╠Google: (Text)
-╠Playstore NamaApp
-╠Fancytext: Text
-╠/musik Judul-Penyanyi
-╠/lirik Judul-Penyanyi
-╠/musrik Judul-Penyanyi
-╠/ig UrsnameInstagram
-╠Checkig UrsnameInstagram
-╠/apakah Text (Kerang Ajaib)
-╠/kapan Text (Kerang Ajaib)
-╠/hari Text (Kerang Ajaib)
-╠/berapa Text (Kerang Ajaib)
-╠/berapakah Text
-╠Youtubelink: Judul Video
-╠Youtubevideo: Judul Video
-╠Youtubesearch: Judul Video
-╠Image NamaGambar
-╠Say-id Text
-╠Say-en Text
-╠Say-jp Text
-╠Image NamaGambar
-╠Tr-id Text (Translate En Ke ID
-╠Tr-en Text (Translate ID Ke En
-╠Tr-th Text (Translate ID Ke Th
-╠Id@en Text (Translate ID Ke En
-╠Id@th Text (Translate ID Ke TH
-╠En@id Text (Translate En Ke ID
-╠═════════════════════════
-║ ✯✰тєαм ѕℓα¢ĸвσт✰✯
-╚═════════════════════════
-"""
-
+╔═════════════
+║╔═════¤═════╗
+║ COMMAND MEDIA
+║╚═════¤═════╝
+║╔═══════════
+║╠➣Gift
+║╠➣Gift1 @ s/d Gift10 @
+║╠➣Giftbycontact
+║╠➣Gif gore
+║╠➣Google: (Text)
+║╠➣Playstore NamaApp
+║╠➣Fancytext: Text
+║╠➣/musik Judul-Penyanyi
+║╠➣/lirik Judul-Penyanyi
+║╠➣/musrik Judul-Penyanyi
+║╠➣/ig UrsnameInstagram
+║╠➣Checkig UrsnameInstagram
+║╠➣/apakah Text (Kerang Ajaib)
+║╠➣/kapan Text (Kerang Ajaib)
+║╠➣/hari Text (Kerang Ajaib)
+║╠➣/berapa Text (Kerang Ajaib)
+║╠➣/berapakah Text
+║╠➣Youtubelink: Judul Video
+║╠➣Youtubevideo: Judul Video
+║╠➣Youtubesearch: Judul Video
+║╠➣Image NamaGambar
+║╠➣Say-id Text
+║╠➣Say-en Text
+║╠➣Say-jp Text
+║╠➣Image NamaGambar
+║╠➣Tr-id Text (Translate En Ke ID
+║╠➣Tr-en Text (Translate ID Ke En
+║╠➣Tr-th Text (Translate ID Ke Th
+║╠➣Id@en Text (Translate ID Ke En
+║╠➣Id@th Text (Translate ID Ke TH
+║╠➣En@id Text (Translate En Ke ID
+╚═════════════"""
 groupMessage ="""
-╔═════════════════════════
-║          COMMAND  G R O U P
-╠═════════════════════════
-╠Welcome
-╠Say welcome
-╠Invite creator
-╠Setview
-╠Viewseen
-╠Gn: (NamaGroup)
-╠Tag all
-╠Recover
-╠Cancel
-╠Cancelall
-╠Gcreator
-╠Ginfo
-╠Gurl
-╠List group
-╠Pict group: (NamaGroup)
-╠Spam: (Text)
-╠Add all
-╠Kick: (Mid)
-╠Invite: (Mid)
-╠Invite
-╠Memlist
-╠Getgroup image
-╠Urlgroup Image
-╠═════════════════════════
-║ ✯✰тєαм ѕℓα¢ĸвσт✰✯
-╚═════════════════════════
-"""
+╔═════════════
+║╔═════¤═════╗
+║ COMMAND GROUP
+║╚═════¤═════╝
+║╔═══════════
+║╠➣Welcome
+║╠➣Say welcome
+║╠➣Invite creator
+║╠➣Setview
+║╠➣Viewseen
+║╠➣Gn: (NamaGroup)
+║╠➣Tagall
+║╠➣Recover
+║╠➣Cancel
+║╠➣Cancelall
+║╠➣Gcreator
+║╠➣Ginfo
+║╠➣Gurl
+║╠➣List group
+║╠➣Pict group: (NamaGroup)
+║╠➣Spam: (Text)
+║╠➣Add all
+║╠➣Kick: (Mid)
+║╠➣Invite: (Mid)
+║╠➣Invite
+║╠➣Memlist
+║╠➣Getgroup image
+║╠➣Urlgroup Image
+╚═════════════"""
 tjia="u19a6336222efe94acce1b05dd39c0940"
 
 setMessage ="""
-╔═════════════════════════
-║              COMMAND S E T 
-╠═════════════════════════
-╠Sambutan on/off
-╠Mimic on/off
-╠Url on/off
-╠Alwaysread on/off
-╠Sider on/off
-╠Contact on/off
-╠Sticker on
-╠Simisimi on/off
-╠═════════════════════════
-║ ✯✰тєαм ѕℓα¢ĸвσт✰✯
-╚═════════════════════════
-"""
-
+╔═════════════
+║╔═════¤═════╗
+║  COMMAND SET
+║╚═════¤═════╝
+║╔═══════════
+║╠➣Sambutan on/off
+║╠➣Mimic on/off
+║╠➣Url on/off
+║╠➣Alwaysread on/off
+║╠➣Sider on/off
+║╠➣Contact on/off
+║╠➣Sticker on
+║╠➣Simisimi on/off
+╚═════════════"""
 creatorMessage ="""
-╔═════════════════════════
-║         COMMAND C R E A T O R
-╠═════════════════════════
-╠Crash
-╠Kickall
-╠Bc: (Text)
-╠Join group: (NamaGroup
-╠Leave group: (NamaGroup
-╠Leave all group
-╠Tag on/off
-╠Bot restart
+╔═════════════
+║╔═════¤═════╗
+║COMMAND CREATOR
+║╚═════¤═════╝
+║╔═══════════
+║╠➣Crash
+║╠➣Kickall
+║╠➣Bc: (Text)
+║╠➣Join group: (NamaGroup
+║╠➣Leave group: (NamaGroup
+║╠➣Leave all group
+║╠➣Tag on/off
+║╠➣Bot restart
 ╠Turn off
-╠═════════════════════════
-║ ✯✰тєαм ѕℓα¢ĸвσт✰✯
-╚═════════════════════════
-"""
-
+╚═════════════"""
 adminMessage ="""
-╔═════════════════════════
-║            COMMAND  A D M I N 
-╠═════════════════════════
-╠Allprotect on/off
-╠Ban
-╠Unban
-╠Ban @
-╠Unban @
-╠Ban list
-╠Clear ban
-╠Kill
-╠Kick @
-╠Set member: (Jumblah)
-╠Ban group: (NamaGroup
-╠Del ban: (NamaGroup
-╠List ban
-╠Kill ban
-╠Glist
-╠Glistmid
-╠Details group: (Gid)
-╠Cancel invite: (Gid)
-╠Invitemeto: (Gid)
-╠Acc invite
-╠Removechat
-╠Qr on/off
-╠Autokick on/off
-╠Autocancel on/off
-╠Invitepro on/off
-╠Join on/off〙
-╠Joincancel on/off
-╠Respon1 on/off
-╠Respon2 on/off
-╠Respon3 on/off
-╠Responkick on/off
-╠═════════════════════════
-║ ✯✰тєαм ѕℓα¢ĸвσт✰✯
-╚═════════════════════════
-"""
-
+╔═════════════
+║╔═════¤═════╗
+║ COMMAND ADMIN
+║╚═════¤═════╝
+║╔═══════════
+║╠➣Allprotect on/off
+║╠➣Ban
+║╠➣Unban
+║╠➣Ban @
+║╠➣Unban @
+║╠➣Ban list
+║╠➣Clear ban
+║╠➣Kill
+║╠➣Kick @
+║╠➣Set member: (Jumblah)
+║╠➣Ban group: (NamaGroup
+║╠➣Del ban: (NamaGroup
+║╠➣List ban
+║╠➣Kill ban
+║╠➣Glist
+║╠➣Glistmid
+║╠➣Details group: (Gid)
+║╠➣Cancel invite: (Gid)
+║╠➣Invitemeto: (Gid)
+║╠➣Acc invite
+║╠➣Removechat
+║╠➣Qr on/off
+║╠➣Autokick on/off
+║╠➣Autocancel on/off
+║╠➣Invitepro on/off
+║╠➣Join on/off〙
+║╠➣Joincancel on/off
+║╠➣Respon1 on/off
+║╠➣Respon2 on/off
+║╠➣Respon3 on/off
+║╠➣Responkick on/off
+╚═════════════"""
 helpMessage ="""
-╔═════════════════════════
-║             ─͜͡✫ COMMAND  H E L P ─͜͡✫
-╠═════════════════════════
-╠͜͡✫Help self✮
-╠͜͡✫Help bot✮
-╠͜͡✫Help group✮
-╠͜͡✫Help set✮
-╠͜͡✫Help media✮
-╠͜͡✫Help admin✮
-╠͜͡✫Help creator✮
-╠͜͡✫Owner✮
-╠͜͡✫Pap owner✮
-╠͜͡✫Speed✮
-╠͜͡✫Speed test✮
-╠͜͡✫Status✮
+╔═════════════
+║╔═════¤═════╗
+║ COMMAND HELP
+║╚═════¤═════╝
+║╔═══════════
+║╠➣Help self
+║╠➣Help bot
+║╠➣Help group
+║╠➣Help set
+║╠➣Help media
+║╠➣Help admin
+║╠➣Help creator
+║╠➣Owner
+║╠➣Pap owner
+║╠➣Speed
+║╠➣Speed test
+║╠➣✫Status
 ╠══════════════
-╠SPECIAL THANKS TO:
-╠sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ:
-╠✯✰тєαм ѕℓα¢ĸвσт✰✯
-╠✍͡➴͜Ĝα₤αηĸ͜͡✫
-╠✍͡➴͜Ardiy͜͡✫
-╠══════════════
+║╠➣SPECIAL THANKS TO:
+║╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ:
+║╠➣тєαм ѕℓα¢ĸвσт
+║╠➣✍͡➴͜Ĝα₤αηĸ͜͡✫
+║╠➣✍͡➴͜Ardiy͜͡✫
+╚═════════════
 line.me/ti/p/~azhura07_
 line.me/ti/p/~Ardiy102
 """
@@ -253,8 +242,8 @@ line.me/ti/p/~Ardiy102
 KAC=[nadya]
 mid = nadya.getProfile().mid
 Bots=[mid]
-Creator=["u19a6336222efe94acce1b05dd39c0940","u329645b7a24610ca4d95c592a6c6ef3e"]
-admin=["u19a6336222efe94acce1b05dd39c0940","u329645b7a24610ca4d95c592a6c6ef3e"]
+Creator=["u19a6336222efe94acce1b05dd39c0940"]
+admin=["u19a6336222efe94acce1b05dd39c0940"]
 
 contact = nadya.getProfile()
 backup1 = nadya.getProfile()
@@ -287,7 +276,7 @@ wait = {
     'sticker':False,  
     'timeline':True,
     "Timeline":True,
-    "comment":"Bot Auto Like ©By : ✯Ĝα₤αηĸ✯\nContact Me : ✯http://line.me/ti/p/1bytI8rFC9✯",    
+    "comment":"Bot Auto Like ©By :✍͡➴͜Ĝα₤αηĸ͜͡✫\nContact Me :http://line.me/ti/p/~azhura07_",    
     "commentOn":True,
     "commentBlack":{},
     "message":"Thx For Add Me (^_^)\nInvite Me To Your Group ヘ(^_^)ヘ",    
@@ -620,7 +609,7 @@ def bot(op):
                         nadya.leaveGroup(op.param1)                        
 		    else:
                         nadya.acceptGroupInvitation(op.param1)
-			nadya.sendText(op.param1,"☆Ketik ☞Help☜ Untuk Bantuan☆\n☆Harap Gunakan Dengan Bijak ^_^ ☆")
+			nadya.sendText(op.param1,"Sorry numpang lewar\nAda perawan lagi nganggur gak?")
                         		    
  
 	    if mid in op.param3:
@@ -630,7 +619,7 @@ def bot(op):
                         nadya.rejectGroupInvitation(op.param1)
 		    else:
                         nadya.acceptGroupInvitation(op.param1)
-			nadya.sendText(op.param1,"☆Ketik ☞Help☜ Untuk Bantuan☆\n☆Harap Gunakan Dengan Bijak ^_^ ☆")
+			nadya.sendText(op.param1,"Sorry numpang lewat\nAda janda yang lagi kesepian gak?")
 	    else:
                 if wait["AutoCancel"] == True:
 		    if op.param3 in Bots:
@@ -809,7 +798,7 @@ def bot(op):
           if wait["Sambutan"] == True:
             if op.param2 in Creator:
                 return
-            nadya.sendText(op.param1,"Good Bye " + nadya.getContact(op.param2).displayName +  "\nSee You Next Time . . . \nSemoga dapat amal yang banyak")
+            nadya.sendText(op.param1,"Good Bye " + nadya.getContact(op.param2).displayName +  "\nSee You Next Time . . . \nSemoga Dapat jodoh di luar sana")
             d = Message(to=op.param1, from_=None, text=None, contentType=7)
             d.contentMetadata={
                                     "STKID": "13269542",
@@ -871,7 +860,7 @@ def bot(op):
                  if wait["detectMention2"] == True:          
                     contact = nadya.getContact(msg.from_)
                     cName = contact.displayName
-                    balas = ["Sekali lagi nge tag gw sumpahin jomblo seumur hidup","Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Woii " + cName + " Lu Sange ya,Tag Gwa trus"]
+                    balas = ["Lu Sange apa Fans?Tag Gwa trus..Hadeuh Kerjaan jones","Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Woii " + cName + " Lu Sange ya,Tag Gwa trus"]
                     ret_ = random.choice(balas)
                     name = re.findall(r'@(\w+)', msg.text)
                     mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -892,8 +881,8 @@ def bot(op):
                  if wait["detectMention3"] == True:          
                     contact = nadya.getContact(msg.from_)
                     cName = contact.displayName
-                    balas = ["Woii " + cName + ", Dasar Jones Ngetag Mulu Kerjaan nya"]
-                    balas1 = "Ini Orang Pengen di Tikung kek nya😂. . ."
+                    balas = ["Woii " + cName + ", Cie..cie,Fans Gwa Tambah 1"]
+                    balas1 = "Mau ngajak nikung ya?boleh aja. . ."
                     ret_ = random.choice(balas)
                     image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
                     name = re.findall(r'@(\w+)', msg.text)
@@ -1033,7 +1022,7 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': tjia}
                 nadya.sendMessage(msg)
-		nadya.sendText(msg.to,"Itu Creator Majikan Kami Yang Super Kece\nNikung aja Boss Kalau Gak Mau Di Baperin v: 😂\n\nJangan Lupa Follow Me For Instagram:\nhttps://www.instagram.com/galank_nhaa/\n\nAdd Me Dor Line:\nline.me/ti/p/~azhura07_\nThanks For U Gend!!!")
+		nadya.sendText(msg.to,"Itu Creator Majikan Kami Yang Super Kece\nNikung aja Boss Kalau Gak Mau Di Baperin v: 😂\n\nJangan Lupa Follow Me For Instagram:\nhttps://www.instagram.com/galank23_/\n\nAdd Me For Line:\nline.me/ti/p/~azhura07_\nThanks For U Gend!!!")
 
  
 
@@ -1582,39 +1571,39 @@ def bot(op):
                     nadya.sendText(msg.to, "Heh Belom Di Set")                         
 
 
-            elif msg.text in ["Status"]:
+            elif msg.text in ["Settings"]:
                 md = ""
-		if wait["Sambutan"] == True: md+="╠➩✔️ Sambutan : On\n"
-		else:md+="╠➩❌ Sambutan : Off\n"
-		if wait["AutoJoin"] == True: md+="╠➩✔️ Auto Join : On\n"
-                else: md +="╠➩❌ Auto Join : Off\n"
-		if wait["AutoJoinCancel"] == True: md+="╠➩✔️ Auto Join Cancel : On\n"
-                else: md +="╠➩❌ Auto Join Cancel : Off\n"                
-		if wait["Contact"] == True: md+="╠➩✔️ Info Contact : On\n"
-		else: md+="╠➩❌ Info Contact : Off\n"
-                if wait["AutoCancel"] == True:md+="╠➩✔️ Auto Cancel : On\n"
-                else: md+= "╠➩❌ Auto Cancel : Off\n"
-                if wait["inviteprotect"] == True:md+="╠➩✔️ Invite Protect : On\n"
-                else: md+= "╠➩❌ Invite Protect : Off\n"                
-		if wait["Qr"] == True: md+="╠➩✔️ Qr Protect : On\n"
-		else:md+="╠➩❌ Qr Protect : Off\n"
-		if wait["AutoKick"] == True: md+="╠➩✔️ Auto Kick : On\n"
-		else:md+="╠➩❌ Auto Kick : Off\n"
-		if wait["alwaysRead"] == True: md+="╠➩✔️ Always Read : On\n"
-		else:md+="╠➩❌ Always Read: Off\n"
-		if wait["detectMention"] == True: md+="╠➩✔️ Auto Respon1 : On\n"
-		else:md+="╠➩❌ Auto Respon1 : Off\n"		
-		if wait["detectMention2"] == True: md+="╠➩✔️ Auto Respon2 : On\n"
-		else:md+="╠➩❌ Auto Respon2 : Off\n"	
-		if wait["detectMention3"] == True: md+="╠➩✔️ Auto Respon3 : On\n"
-		else:md+="╠➩❌ Auto Respon3 : Off\n"			
-		if wait["kickMention"] == True: md+="╠➩✔️ Auto Respon Kick : On\n"
-		else:md+="╠➩❌ Auto Respon Kick : Off\n"				
-		if wait["Sider"] == True: md+="╠➩✔️ Auto Sider : On\n"
-		else:md+="╠➩❌ Auto Sider: Off\n"	
-		if wait["Simi"] == True: md+="╠➩✔️ Simisimi : On\n"
-		else:md+="╠➩❌ Simisimi: Off\n"		
-                nadya.sendText(msg.to,"╔═════════════════════════\n""║     ✯✰тєαм ѕℓα¢ĸвσт✰✯\n""╠═════════════════════════\n"+md+"╚═════════════════════════")
+		if wait["Sambutan"] == True: md+="║╠➣✔️ Sambutan : On\n"
+		else:md+="║╠➣❌ Sambutan : Off\n"
+		if wait["AutoJoin"] == True: md+="║╠➣✔️ Auto Join : On\n"
+                else: md +="║╠➣❌ Auto Join : Off\n"
+		if wait["AutoJoinCancel"] == True: md+="║╠➣✔️ Auto Join Cancel : On\n"
+                else: md +="║╠➣❌ Auto Join Cancel : Off\n"                
+		if wait["Contact"] == True: md+="║╠➣✔️ Info Contact : On\n"
+		else: md+="║╠➣❌ Info Contact : Off\n"
+                if wait["AutoCancel"] == True:md+="║╠➣✔️ Auto Cancel : On\n"
+                else: md+= "║╠➣❌ Auto Cancel : Off\n"
+                if wait["inviteprotect"] == True:md+="║╠➣✔️ Invite Protect : On\n"
+                else: md+= "║╠➣❌ Invite Protect : Off\n"                
+		if wait["Qr"] == True: md+="║╠➣✔️ Qr Protect : On\n"
+		else:md+="║╠➣❌ Qr Protect : Off\n"
+		if wait["AutoKick"] == True: md+="║╠➣✔️ Auto Kick : On\n"
+		else:md+="║╠➣❌ Auto Kick : Off\n"
+		if wait["alwaysRead"] == True: md+="║╠➣✔️ Always Read : On\n"
+		else:md+="║╠➣❌ Always Read: Off\n"
+		if wait["detectMention"] == True: md+="║╠➣✔️ Auto Respon1 : On\n"
+		else:md+="║╠➣❌ Auto Respon1 : Off\n"		
+		if wait["detectMention2"] == True: md+="║╠➣✔️ Auto Respon2 : On\n"
+		else:md+="║╠➣❌ Auto Respon2 : Off\n"	
+		if wait["detectMention3"] == True: md+="║╠➣✔️ Auto Respon3 : On\n"
+		else:md+="║╠➣❌ Auto Respon3 : Off\n"			
+		if wait["kickMention"] == True: md+="║╠➣✔️ Auto Respon Kick : On\n"
+		else:md+="║╠➣❌ Auto Respon Kick : Off\n"				
+		if wait["Sider"] == True: md+="║╠➣✔️ Auto Sider : On\n"
+		else:md+="║╠➣❌ Auto Sider: Off\n"	
+		if wait["Simi"] == True: md+="║╠➣✔️ Simisimi : On\n"
+		else:md+="║╠➣❌ Simisimi: Off\n"		
+                nadya.sendText(msg.to,"╔═════════════\n""╠➣тєαм ѕℓα¢ĸвσт\n""╚═════════════\n"+md+"╚═════════════")
 
 
             elif msg.text in ["Gift","gift"]:
@@ -2745,7 +2734,7 @@ def bot(op):
                                 nadya.sendText(msg.to,"Upload image failed.")
 
             elif msg.text.lower() in ["pap owner","pap creator"]:
-                                link = ["http://dl.profile.line-cdn.net/0hNPsZWL9WEX9OIz0lhyFuKHJmHxI5DRc3NkJaETwkRklqGwQoJkNbTGklHRo2G1B7cxFXH2NxSU03"]
+                                link = ["http://dl.profile.line-cdn.net/0hXvsxbt5qB1lOASvik5B4DnJECTQ5LwERNmdAb2wDW25gMkNbJTNAOjtTCz1jYkELJzJKNzkAUWxi"]
                                 pilih = random.choice(link)
                                 nadya.sendImageWithURL(msg.to,pilih)
 
