@@ -1176,7 +1176,7 @@ def bot(op):
 
 
 
-        if op.type == 25:
+        if op.type == 26:
             msg = op.message
 
 
@@ -1203,7 +1203,7 @@ def bot(op):
                      cl.sendText(msg.to,"Like Success")                     
                      wait['likeOn'] = False
 
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
             if msg.to in settings["simiSimi"]:
                 if settings["simiSimi"][msg.to] == True:
