@@ -623,7 +623,7 @@ def bot(op):
         if op.type == 0:
             return
 
-        if op.type == 5:
+        if op.type == 13:
            if wait["autoAdd"] == True:
               cl.findAndAddContactsByMid(op.param1)
               if(wait["message"]in[""," ","\n",None]):
@@ -632,7 +632,7 @@ def bot(op):
                 cl.sendText(op.param1,str(wait["message"]))
 
 
-        if op.type == 55:
+        if op.type == 19:
 	    try:
 	      group_id = op.param1
 	      user_id=op.param2
@@ -640,7 +640,7 @@ def bot(op):
 	    except Exception as e:
 	      print e
 	      
-        if op.type == 55:
+        if op.type == 22:
                 try:
                     if cctv['cyduk'][op.param1]==True:
                         if op.param1 in cctv['point']:
@@ -672,10 +672,10 @@ def bot(op):
             pass    	      
 	      
 
-        if op.type == 22:
+        if op.type == 24:
             cl.leaveRoom(op.param1)
 
-        if op.type == 21:
+        if op.type == 26:
             cl.leaveRoom(op.param1)
 
 
@@ -1176,7 +1176,7 @@ def bot(op):
 
 
 
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
 
 
@@ -1203,7 +1203,7 @@ def bot(op):
                      cl.sendText(msg.to,"Like Success")                     
                      wait['likeOn'] = False
 
-        if op.type == 25:
+        if op.type == 26:
             msg = op.message
             if msg.to in settings["simiSimi"]:
                 if settings["simiSimi"][msg.to] == True:
