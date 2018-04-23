@@ -1,7 +1,3 @@
- Aprank / public
-Code  Issues 0  Pull requests 0  Projects 0  Pulse
-public.py
-
 # -*- coding: utf-8 -*-
 #prankbots public
 
@@ -16,8 +12,8 @@ from googletrans import Translator
 import time,random,sys,json,codecs, threading,glob,urllib,urllib2,urllib3,re,ast,os, subprocess,requests,tempfile
 
 cl = LINETCR.LINE()
-cl.login(token="token bot")
-#cl.login(token='TOKEN_HERE')
+cl.login(token="EsNWuIKVDfS8OrUvtPie.ftlbF89zcBLoeX9VVVZNZG.Y5gvrj3LUoTBt6PacRJqA62oJFgBzZjYBzd85iMgkkE=")
+#cl.login(token='EsNWuIKVDfS8OrUvtPie.ftlbF89zcBLoeX9VVVZNZG.Y5gvrj3LUoTBt6PacRJqA62oJFgBzZjYBzd85iMgkkE=')
 cl.loginResult()
 print "PUBLICK PRANKBOTS SUCCESS LOGIN\nSELAMAT MENGGUNAKAN"
 
@@ -27,100 +23,107 @@ sys.setdefaultencoding('utf-8')
 
 
 #----------------------------------------------------------
-helpMessage ="""(╣••℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́ ̰в̰̰̈́❍̰̰̈́т̰̰̈́ѕ̰̰̈́••╣)
-✰ Hay (sapa si bot)
-✰ Playstore NamaApp
-✰ Fancytext: Text
-✰ /musik Judul-Penyanyi
-✰ /lirik Judul-Penyanyi
-✰ /musrik Judul-Penyanyi
-✰ /ig UsernameInstagram
-✰ /apakah Text (Kerang Ajaib)
-✰ /kapan Text (Kerang Ajaib)
-✰ /hari Text (Kerang Ajaib)
-✰ /berapa Text (Kerang Ajaib)
-✰ /berapakah Text
-✰ /me
-✰ Mid
-✰ Youtubelink: Judul Video
-✰ Youtubesearch: Judul Video
-✰ Image NamaGambar
-✰ Say-id Text
-✰ Say-en Text
-✰ Say-jp Text
-✰ Tr-id Text (Translate En Ke ID
-✰ Tr-en Text (Translate ID Ke En
-✰ Id@en Text (Translate ID Ke En
-✰ En@id Text (Translate En Ke ID
-✰ Welcome
-✰ Say welcome
-✰ Setlastpoint ( Set reading point)
-✰ Lurk:on ( Cek Sider pakai Tag )
-✰ Lurkers ( Cek Hasil Lurk:on )
-✰ Viewlastseen ( check sider )
-✰ Tagall ( Info Penting )
-✰ Gcreator ( Pembuat Group )
-✰ Ginfo (info grup)
-✰ Memlist (jumlah member)
-✰ Getgroup image (foto grup)
-✰ Urlgroup Image 
-✰ Creator 
-✰ Pap Owner ( Liat Owner Ku ) 
-✰ Waktu ( Check Waktu Tanggal )
-✰ Dugem ( Dugem text )
-✰ Wiki-id ( Wiki-id Terserah )
-✰ Wiki-en ( Versi English )
-✰ Quotes ( Kata Motivasi )
-✰ Checkdate contoh ( 17-09-1997 )
-✰ Kalender
-✰ Pp @tag ( Orangnya )
-✰ Cover ( @tag orangnya )
-✰ Getbio ( @tag orangnya )
-✰ Getcontact (@tag orangnya)
-✰ @bye ( Mengeluarkan bot)
-::::COMMAND ADMIN::::
-
-✰ Settings
-✰ Sett
-
+helpMessage ="""
+╔═════════════
+║╔═════¤═════╗
+║ тєαм ѕℓα¢ĸвσт
+║╚═════¤═════╝
+║╔═══════════
+║╠➣ Hay (sapa si bot)
+║╠➣ Playstore NamaApp
+║╠➣ Fancytext: Text
+║╠➣ /musik Judul-Penyanyi
+║╠➣ /lirik Judul-Penyanyi
+║╠➣ /musrik Judul-Penyanyi
+║╠➣ /ig UsernameInstagram
+║╠➣ /apakah Text (Kerang Ajaib)
+║╠➣ /kapan Text (Kerang Ajaib)
+║╠➣ /hari Text (Kerang Ajaib)
+║╠➣ /berapa Text (Kerang Ajaib)
+║╠➣ /berapakah Text
+║╠➣ /me
+║╠➣ Mid
+║╠➣ Youtubelink: Judul Video
+║╠➣ Youtubesearch: Judul Video
+║╠➣ Image NamaGambar
+║╠➣ Say-id Text
+║╠➣ Say-en Text
+║╠➣ Say-jp Text
+║╠➣ Tr-id Text (Translate En Ke ID
+║╠➣ Tr-en Text (Translate ID Ke En
+║╠➣ Id@en Text (Translate ID Ke En
+║╠➣ En@id Text (Translate En Ke ID
+║╠➣ Welcome
+║╠➣ Say welcome
+║╠➣ Setlastpoint ( Set reading point)
+║╠➣ Lurk:on ( Cek Sider pakai Tag )
+║╠➣ Lurkers ( Cek Hasil Lurk:on )
+║╠➣ Viewlastseen ( check sider )
+║╠➣ Tagall ( Info Penting )
+║╠➣ Gcreator ( Pembuat Group )
+║╠➣ Ginfo (info grup)
+║╠➣ Memlist (jumlah member)
+║╠➣ Getgroup image (foto grup)
+║╠➣ Urlgroup Image 
+║╠➣ Creator 
+║╠➣ Pap Owner ( Liat Owner Ku ) 
+║╠➣ Waktu ( Check Waktu Tanggal )
+║╠➣ Dugem ( Dugem text )
+║╠➣ Wiki-id ( Wiki-id Terserah )
+║╠➣ Wiki-en ( Versi English )
+║╠➣ Quotes ( Kata Motivasi )
+║╠➣ Checkdate contoh ( 17-09-1997 )
+║╠➣ Kalender
+║╠➣ Pp @tag ( Orangnya )
+║╠➣ Cover ( @tag orangnya )
+║╠➣ Getbio ( @tag orangnya )
+║╠➣ Getcontact (@tag orangnya)
+║╠➣ @bye ( Mengeluarkan bot)
+╚═════════════
+╔═════¤═════╗
+║COMMAND ADMIN
+╚═════¤═════╝
+╔═════════════
+║╠➣ Settings
+║╠➣ Sett
+╚═════════════
 CREATOR
-BY: PRANKBOTS
-  ❂•••••••SPONSOR•••••••❂
-         https://line.me/R/ti/p/%40iya4481p
-   ☆★☆★☆★☆★☆★☆★☆
-        http://line.me/ti/p/~@sml1492z
- ❂•••••••COSTUMER•••••••❂
-         http://line.me/ti/p/~@gnh2780p
-
+BY:тєαм ѕℓα¢ĸвσт
+  ●SPONSOR●
+ line.me/ti/p/~azhura07_
+ ●COSTUMER●
+ line.me/ti/p/~ardiy102
 """
-helpset="""{{ADMIN/OWNER}}
-✰ Ourl (open qr)
-✰ Curl (close qr)
-✰ Leave all grup
-✰ Join on/off
-✰ Contact:on/off
-✰ Read:on/off
-✰ Notif:on/off
-✰ Ghost on/off
-✰ Share on/off
-✰ Sider on/off
-✰ Qr on/off
-✰ set on/off
-✰ Tag on/off
-✰ Lurk:on/of
-✰ Lurkers
-✰ Broadcast: "text"
-
-:::SUBCRABE:::
-https://www.youtube.com/channel/UCycBrqSWEHdk-slnhUmGWiQ
-"""
+helpset="""
+╔═════════════
+║╔═════¤═════╗
+║  OWNER/ADMIN
+║╚═════¤═════╝
+║╔═══════════
+║╠➣ Ourl (open qr)
+║╠➣ Curl (close qr)
+║╠➣ Leave all grup
+║╠➣ Join on/off
+║╠➣ Contact:on/off
+║╠➣ Read:on/off
+║╠➣ Notif:on/off
+║╠➣ Ghost on/off
+║╠➣ Share on/off
+║╠➣ Sider on/off
+║╠➣ Qr on/off
+║╠➣ set on/off
+║╠➣ Tag on/off
+║╠➣ Lurk:on/of
+║╠➣ Lurkers
+║╠➣ Broadcast: "text"
+╚═════════════"""
 
 KAC=[cl]
 mid = cl.getProfile().mid
 
 Bots=[mid]
-Creator= "mid kamu" #bukan mid bot nya ya tapi mid si pembuat bot
-admin= "mid kamu" #yang ini samakan aja kayak mid creator
+Creator= "u19a6336222efe94acce1b05dd39c0940" #bukan mid bot nya ya tapi mid si pembuat bot
+admin= "u19a6336222efe94acce1b05dd39c0940","u329645b7a24610ca4d95c592a6c6ef3e" #yang ini samakan aja kayak mid creator
 
 contact = cl.getProfile()
 backup1 = cl.getProfile()
@@ -147,7 +150,7 @@ wait = {
     "comment2":"Wkwkwk ＼（○＾ω＾○）／",
     "comment3":"Lucu Banget!!! ヘ(^_^)ヘ",
     "comment4":"Nice Kak (^_^)",
-    "comment5":"Bot Auto Like ©By : https://www.youtube.com/channel/UCycBrqSWEHdk-slnhUmGWiQ\nContact pembuat : 👉 line.me/ti/p/~adiputra_95",    
+    "comment5":"Bot Auto Like ©By : ✯✰тєαм ѕℓα¢ĸвσт✰✯\nContact pembuat : 👉 line.me/ti/p/~azhura07-",    
     "commentOn":True,
     "commentBlack":{},
     "blacklist":{},
@@ -547,7 +550,7 @@ def bot(op):
 			kr.acceptGroupInvitationByTicket(op.param1,Ti)
 			G.preventJoinByTicket = True
 			cl.updateGroup(G)
-			cl.sendText(op.param1,"☆Ketik ☞Help☜ Untuk Bantuan☆\n☆Harap Gunakan Dengan Bijak ^_^ ☆")
+			cl.sendText(op.param1,"☆Ketik ☞Help☜ Untuk Bantuan☆\n☆Harap Gunakan Dengan Bijak.")
                 else:
 		    if op.param2 in admin:
                         cl.acceptGroupInvitation(op.param1)
@@ -561,7 +564,7 @@ def bot(op):
 			kr.acceptGroupInvitationByTicket(op.param1,Ti)
 			G.preventJoinByTicket = True
 			cl.updateGroup(G)
-			cl.sendText(op.param1,"☆Ketik ☞Help☜ Untuk Bantuan☆\n☆Harap Gunakan Dengan Bijak ^_^ ☆")
+			cl.sendText(op.param1,"☆Ketik ☞Help☜ Untuk Bantuan☆\n☆Harap Gunakan Dengan Bijak.")
 		    else:
                         cl.rejectGroupInvitation(op.param1)
 
@@ -578,12 +581,12 @@ def bot(op):
               #kr.sendText(op.param1,"Nama Grup: " + kr.getGroup(op.param1).name + "\nJumlah Member: " + str(len (kr.getGroup(op.param1).members)) + " orang\n\n")
               xname = cl.getContact(op.param2).displayName
               xlen = str(len(xname)+1)
-              cl.sendText(op.param1,"PRANKBOTS \n━━━━━━━━━━━━━━━━━\nNama Grup: " + cl.getGroup(op.param1).name + "\n Member: " + str(len (cl.getGroup(op.param1).members)) + " orang\n\nMaaf,  @"+xname+ "\nmember kurang dari 30 org\nUntuk info,Silahkan cek video nya di youtube dan jangan lupa subcrabe channel nya\n\nCHANNEL\nhttps://www.youtube.com/channel/UCycBrqSWEHdk-slnhUmGWiQ")
+              cl.sendText(op.param1,"тєαм ѕℓα¢ĸвσт \n━━━━━━━━━━━━━━━━━\nNama Grup: " + cl.getGroup(op.param1).name + "\n Member: " + str(len (cl.getGroup(op.param1).members)) + " orang\n\nMaaf,  @"+xname+ "\nmember kurang dari 30 org\nUntuk info,Silahkan cek video nya di youtube dan jangan lupa subcrabe channel nya\n\nCHANNEL\nhttps://www.youtube.com/channel/UCycBrqSWEHdk-slnhUmGWiQ")
               hanna = Message(to=op.param1, from_=None, text=None, contentType=13)
               hanna.contentMetadata={'mid': admin}
               cl.sendMessage(hanna)
               cl.sendText(op.param1,"PEMBUAT BOT")
-              hanna.contentMetadata={'mid':'ufce863f62f40706c01fa4a3c3c4cb096'}
+              hanna.contentMetadata={'mid':'u19a6336222efe94acce1b05dd39c0940'}
               cl.sendMessage(hanna)
               cl.sendText(op.param1,"SILAHKAN DI ADD KK BYE")
               time.sleep(1.0) 
@@ -856,7 +859,7 @@ def bot(op):
             ginfo = cl.getGroup(op.param1)
             contact = cl.getContact(op.param2)
             image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-            cl.sendText(op.param1,"Hallo " + cl.getContact(op.param2).displayName + "\nWelcome To ☞ " + str(ginfo.name) + " ☜" + "\nBudayakan Cek Note\nDan Semoga Betah Disini  (｀・ω・´)\n \n"  +  datetime.now().strftime('%H:%M:%S'))
+            cl.sendText(op.param1,"Hallo " + cl.getContact(op.param2).displayName + "\nWelcome To ☞ " + str(ginfo.name) + " ☜" + "\nBudayakan Cek Note\nDan Semoga Betah Disini\n \n"  +  datetime.now().strftime('%H:%M:%S'))
             cl.sendImageWithURL(op.param1,image)
             print "MEMBER JOIN TO GROUP"
 
@@ -2425,7 +2428,7 @@ def bot(op):
                 cl.inviteIntoGroup(msg.to,[midd])
 
             elif "Invite creator" in msg.text:
-                midd = "ufce863f62f40706c01fa4a3c3c4cb096"
+                midd = "u19a6336222efe94acce1b05dd39c0940"
                 cl.findAndAddContactsByMid(midd)
                 cl.inviteIntoGroup(msg.to,[midd])
 #--------------------------------------------------------
@@ -2619,8 +2622,8 @@ def bot(op):
 
             elif msg.text.lower() == "Creator": #Ngirim Semua Kontak Bot
                     msg.contentType = 13
-                    msg.contentMetadata = {'mid': "ufce863f62f40706c01fa4a3c3c4cb096"}
-                    cl.sendText(msg.to, "Jangan Lupa di Add Ya kak ")
+                    msg.contentMetadata = {'mid': "u19a6336222efe94acce1b05dd39c0940"}
+                    cl.sendText(msg.to, "Jangan Lupa di Add Ya kak\nNikung juga boleh,asal jan baper aja ")
                     cl.sendMessage(msg)
 
 #--------------------------------------------------------
@@ -3140,7 +3143,7 @@ def bot(op):
                                 cl.sendText(msg.to,"Upload image failed.")
 
             elif msg.text.lower() in ["pap owner","pap creator"]:
-                                cl.sendImageWithURL(msg.to,"http://dl.profile.line-cdn.net/0hQHBfiuxIDmd_HyI5amNxMENaAAoIMQgvBywTVFNIAgRTLk9kRHBCAlkcAFMGKkBiS3hAUQgbBVFU")
+                                cl.sendImageWithURL(msg.to,"http://dl.profile.line-cdn.net/0hXvsxbt5qB1lOASvik5B4DnJECTQ5LwERNmdAb2wDW25gMkNbJTNAOjtTCz1jYkELJzJKNzkAUWxi")
 
 #--------------------------------------------------------
             elif "S89m " in msg.text:
