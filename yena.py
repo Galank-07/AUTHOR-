@@ -4574,6 +4574,60 @@ def bot(op):
                     cl.sendText(msg.to, wait["spam"])
 
 #-------------------Fungsi spam finish----------------------------
+            elif msg.text.lower() == 'siri reinvite':
+                if msg.toType == 2:
+                        G = cl.getGroup(msg.to)
+                        ginfo = acil.getGroup(msg.to)
+                        cl.sendText(msg.to,"siri on...")
+                        ki.leaveGroup(msg.to)
+                        kk.leaveGroup(msg.to)
+                        kc.leaveGroup(msg.to)
+                        kd.leaveGroup(msg.to)
+                        ke.leaveGroup(msg.to)
+                        kf.leaveGroup(msg.to)
+                        kg.leaveGroup(msg.to)
+                        kh.leaveGroup(msg.to)
+                        kj.leaveGroup(msg.to)
+                        kl.leaveGroup(msg.to)
+                        km.leaveGroup(msg.to)
+                        kn.leaveGroup(msg.to)
+			ko.leaveGroup(msg.to)
+                        kp.leaveGroup(msg.to)
+                        kq.leaveGroup(msg.to)
+                        kr.leaveGroup(msg.to)
+                        ks.leaveGroup(msg.to)
+                        kt.leaveGroup(msg.to)
+                        G.preventJoinByTicket = False
+                        cl.updateGroup(G)
+                        invsend = 0
+                        Ticket = cl.reissueGroupTicket(msg.to)
+                        ki.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        kk.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        kc.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        kd.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ke.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        kf.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        kg.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        kh.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        kj.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        kl.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        km.acceptGroupInvitationByTicket(msg.to,Ticket)
+		kn.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ko.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        kp.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        kq.acceptGroupInvitationByTicket(msg.to,Ticket)
+			kr.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ks.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        kt.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        G = acil.getGroup(msg.to)
+                        ginfo = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = True
+                        ki.updateGroup(G)
+                        print "kicker ok"
+                        G.preventJoinByTicket(G)
+                        ki.updateGroup(G)
+#-------------------------------------
 #-----------------------------------------------
             elif "Apakah " in msg.text:
                 tanya = msg.text.replace("Apakah ","")
@@ -4709,59 +4763,6 @@ def bot(op):
 					for manusia in n:
 						cl.sendText(manusia,(bctxt))	
 						#-----------------------------------------------
-            elif msg.text.lower() == 'siri reinvite':
-                if msg.toType == 2:
-                        G = cl.getGroup(msg.to)
-                        ginfo = acil.getGroup(msg.to)
-                        cl.sendText(msg.to,"siri on...")
-                        ki.leaveGroup(msg.to)
-                        kk.leaveGroup(msg.to)
-                        kc.leaveGroup(msg.to)
-                        kd.leaveGroup(msg.to)
-                        ke.leaveGroup(msg.to)
-                        kf.leaveGroup(msg.to)
-                        kg.leaveGroup(msg.to)
-                        kh.leaveGroup(msg.to)
-                        kj.leaveGroup(msg.to)
-                        kl.leaveGroup(msg.to)
-                        km.leaveGroup(msg.to)
-                        kn.leaveGroup(msg.to)
-			ko.leaveGroup(msg.to)
-                        kp.leaveGroup(msg.to)
-                        kq.leaveGroup(msg.to)
-                        kr.leaveGroup(msg.to)
-                        ks.leaveGroup(msg.to)
-                        kt.leaveGroup(msg.to)
-                        G.preventJoinByTicket = False
-                        cl.updateGroup(G)
-                        invsend = 0
-                        Ticket = cl.reissueGroupTicket(msg.to)
-                        ki.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        ki.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        kk.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        kc.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        kd.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        ke.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        kf.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        kg.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        kh.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        kj.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        kl.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        km.acceptGroupInvitationByTicket(msg.to,Ticket)
-		kn.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        ko.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        kp.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        kq.acceptGroupInvitationByTicket(msg.to,Ticket)
-			kr.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        ks.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        kt.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        G = acil.getGroup(msg.to)
-                        ginfo = cl.getGroup(msg.to)
-                        G.preventJoinByTicket = True
-                        ki.updateGroup(G)
-                        print "kicker ok"
-                        G.preventJoinByTicket(G)
-                        ki.updateGroup(G)
 #-----------------------------------------------
 #========================================
             elif msg.text in ["Pamit all"]:
