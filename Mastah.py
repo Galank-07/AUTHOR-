@@ -90,7 +90,7 @@ ki19.login(token="EsL1If99lZ7K5sh7nV5b.97lTGVmvXjWrorbWSIp6wW.imKT/AYEdJN90GlFnh
 ki19.loginResult()
 
 ki20 = LINETCR.LINE()
-ki20.login(token="")
+ki20.login(token="EsnbZM26nsyQFfiE34Ne.ftlbF89zcBLoeX9VVVZNZG.xv6He9Z9A2wM9e2wZkMsXHGXwitLN3ftYx3LPTUGOJA=")
 ki20.loginResult()
 
 print "login success"
