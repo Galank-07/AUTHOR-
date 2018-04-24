@@ -46,74 +46,85 @@ kc.loginResult()
 print "sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ\n✮Ŧ€Äm ÄυŦĦōя bōŦ✮"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage= """\n
-=======================
-  ✩★BOT COMMANDS★✩
-=======================\n
-★ MODIFIER ★
-● Bot1 rename:[text]
-● Bot2 rename:[text]
-● Bot3 rename:[text]
-● Bot4 rename:[text]
-● Bot5 rename:[text]
-● Bot6 rename:[text]
-● All rename:[text]
-● Allbio:[text]
-● Bot1 clone @[name]
-● Bot2 clone @[name]
-● Bot3 clone @[name]
-● Bot4 clone @[name]
-● Bot5 clone @[name]
-● Bot6 clone @[name]
-● Comment:[text]
-● Message:[text]
-● Bot1-6 backup run
-● Bot1-6 backup
-● Group name:[text]
-
-★ PROMOTE/DEMOTE ★
-● Admin on @[name]
-● Expel on @[name]
-● Expelall
-● Set member:
-
-★ STEALING ★
-● Steal name    @[name]
-● Steal Bio     @[name]
-● Steal status  @[name]
-● Steal mid     @[name]
-● Steal contact @[name]
-● Steal cover   @[name]
-● Steal pict    @[name]
-● Steal group pict
-● Midpict:[mid]
-● Copy @[name]
-● Kembali ke asli
-
-★ GUARD MODE ★
-● Protect:low
-● Protect:hight
-
-★ MARK TO LIST ★
-● Ban    @[name]
-● Unban  @[name]
-● Ban group:
-● Del ban:
-● List ban group
-● Banned[send contact]
-● Unbanned[send contact]
-● Ban repeat @[name]
-● Blacklist all
-● Ban cek
-● Clear banlist
-● Mimic target @[name]
-● Mimic untarget @[name]
-● Add friend @[name]
-● Target @[name]
-● Del target @[name]
-● Target list
-
-★ INVITATION ★
+helpMessage= """
+╔═════════════
+║╔═════¤═════╗
+║  COMMAND BOT
+║╚═════¤═════╝
+║╔═══════════
+║╠➣ Bot1 rename:[text]
+║╠➣ Bot2 rename:[text]
+║╠➣ Bot3 rename:[text]
+║╠➣ Bot4 rename:[text]
+║╠➣ Bot5 rename:[text]
+║╠➣ Bot6 rename:[text]
+║╠➣ All rename:[text]
+║╠➣ Allbio:[text]
+║╠➣ Bot1 clone @[name]
+║╠➣ Bot2 clone @[name]
+║╠➣ Bot3 clone @[name]
+║╠➣ Bot4 clone @[name]
+║╠➣ Bot5 clone @[name]
+║╠➣ Bot6 clone @[name]
+║╠➣ Comment:[text]
+║╠➣ Message:[text]
+║╠➣ Bot1-6 backup run
+║╠➣ Bot1-6 backup
+║╠➣ Group name:[text]
+║╔═════¤═════╗
+║COMMAND PROMOTE
+║╚═════¤═════╝
+║╔═══════════
+║╠➣ Admin on @[name]
+║╠➣ Expel on @[name]
+║╠➣ Expelall
+║╠➣ Set member:
+║╔═════¤═════╗
+║ COMMAND STEAL
+║╚═════¤═════╝
+║╔═══════════
+║╠➣ Steal name    @[name]
+║╠➣ Steal Bio     @[name]
+║╠➣ Steal status  @[name]
+║╠➣ Steal mid     @[name]
+║╠➣ Steal contact @[name]
+║╠➣ Steal cover   @[name]
+║╠➣ Steal pict    @[name]
+║╠➣ Steal group pict
+║╠➣ Midpict:[mid]
+║╠➣ Copy @[name]
+║╠➣ Kembali ke asli
+║╔═════¤═════╗
+║  GUARD MODE
+║╚═════¤═════╝
+║╔═══════════
+║╠➣ Protect:low
+║╠➣ Protect:hight
+║╔═════¤═════╗
+║ COMMAND LIST
+║╚═════¤═════╝
+║╔═══════════
+║╠➣ Ban    @[name]
+║╠➣ Unban  @[name]
+║╠➣ Ban group:
+║╠➣ Del ban:
+║╠➣ List ban group
+║╠➣ Banned[send contact]
+║╠➣ Unbanned[send contact]
+║╠➣ Ban repeat @[name]
+║╠➣ Blacklist all
+║╠➣ Ban cek
+║╠➣ Clear banlist
+║╠➣ Mimic target @[name]
+║╠➣ Mimic untarget @[name]
+║╠➣ Add friend @[name]
+║╠➣ Target @[name]
+║╠➣ Del target @[name]
+║╠➣ Target list
+║╔═════¤═════╗
+║COMMAND INVITE
+║╚═════¤═════╝
+║╔═══════════
 ● Invite:[mid]
 ● Invite user[contact]
 ● Invite me
