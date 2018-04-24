@@ -35,56 +35,63 @@ ka.loginResult()
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage ="""ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ v2.1
-
-👊[Id]: ~÷~
-👊[Mid]: ~÷~
-👊[All mid]:
-👊[Me]: ~÷~
-👊[K1/K2/K3/]: "Contact"
-👊[K1/K2/K3 fuck:]: "Kick kicker"
-👊[Group Id]: "Id Me Group"
-👊[TL : "Text"]: "Auto status TL"
-👊[Clock :]: "Name Clock"
-👊[Up clock]: "Up date Clock"
-👊[Name : 'text']: "Name me"
-👊[MIC]: "mid"]: "Contact share"
-👊[Reject]: " invite"]: "Reject invite"
-👊[Massage add: "text"]: ~÷~
-👊[Add confirmasi]: ~÷~
-👊[Comment set : "Text"]: ~÷~
-👊[Comment check]: ~÷~
-👊[Clock: on]: "Clock name on"
-👊[Clock: off]: "Clock name off"
-👊[Ban]: "Add blacklist"
-👊[Unban]: "Dalate blacklist"
-👊[Banlist]: "Check blacklist"
-
--⚠™[ƧЄƬ]:ƇƠMMƛƝƊƧ ƧЄƬ. -
-👊[Contact: on/off]:
-👊[Auto join: on/off]:
-👊[Cancel Invite: 1 on/off]:
-👊[Auto share: on/off]:
-👊[Auto leave: on/off]:
-👊[Comment: on/off]:
-👊[Auto add: on/off]:
-👊[Auto like: on/off]:
-
--⚠™ƇƠMMƛƝƊƧ ƖƝ ƬHЄ ƓƦƠƲƤƧ. ~~~~
-👊[Ban " @Tag]:
-👊[Unban " @Tag]:
-👊[Urlon]: "Open urL"
-👊[Urloff]: "Closed urL"
-👊[Url]: " Check urL room"
-👊[Ginfo]: "~÷~ data room"
-👊[Invite: "mid"]:
-👊[Say: "Text"]: "Kicker talk"
-👊[Cancel]: "Cancel invite"
-👊[Gn: "name"]: "Change name Group"
-👊[NK: "Name"]: ~÷~
-👊[Dead]: "Kick Blacklist"
-
-"""
+helpMessage ="""
+╔═════════════
+║╔═════¤═════╗
+║   MENU HELP
+║╚═════¤═════╝
+║╔═══════════
+║╠➣Id]: ~÷~
+║╠➣Mid]: ~÷~
+║╠➣All mid]:
+║╠➣Me]: ~÷~
+║╠➣TSB1-TSB5]: "Contact"
+║╠➣TSB1-TSB5 fuck:]: "Kick kicker"
+║╠➣Group Id]: "Id Me Group"
+║╠➣TL : "Text"]: "Auto status TL"
+║╠➣Clock :]: "Name Clock"
+║╠➣Up clock]: "Up date Clock"
+║╠➣Name : 'text']: "Name me"
+║╠➣MIC]: "mid"]: "Contact share"
+║╠➣Reject]: " invite"]: "Reject invite"
+║╠➣Massage add: "text"]: ~÷~
+║╠➣Add confirmasi]: ~÷~
+║╠➣Comment set : "Text"]: ~÷~
+║╠➣Comment check]: ~÷~
+║╠➣Clock: on]: "Clock name on"
+║╠➣Clock: off]: "Clock name off"
+║╠➣Ban]: "Add blacklist"
+║╠➣Unban]: "Dalate blacklist"
+║╠➣Banlist]: "Check blacklist"
+║╔═════¤═════╗
+║  COMMAND SET
+║╚═════¤═════╝
+║╔═══════════
+║╠➣Contact: on/off]:
+║╠➣Auto join: on/off]:
+║╠➣Cancel Invite: 1 on/off]:
+║╠➣Auto share: on/off]:
+║╠➣Auto leave: on/off]:
+║╠➣Comment: on/off]:
+║╠➣Auto add: on/off]:
+║╠➣Auto like: on/off]:
+║╔═════¤═════╗
+║ COMMAND GROUP
+║╚═════¤═════╝
+║╔═══════════
+║╠➣Ban " @Tag]:
+║╠➣Unban " @Tag]:
+║╠➣Urlon]: "Open urL"
+║╠➣Urloff]: "Closed urL"
+║╠➣Url]: " Check urL room"
+║╠➣Ginfo]: "~÷~ data room"
+║╠➣Invite: "mid"]:
+║╠➣Say: "Text"]: "Kicker talk"
+║╠➣Cancel]: "Cancel invite"
+║╠➣Gn: "name"]: "Change name Group"
+║╠➣NK: "Name"]: ~÷~
+║╠➣Dead]: "Kick Blacklist"
+╚═════════════"""
 helpMessage2 ="""
 ╔═════════════
 ║╠➣Protect:on/off]:
