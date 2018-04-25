@@ -135,7 +135,7 @@ autoinvite = []
 autoleaveroom = []
 
 
-admins = ["udee46099e25e71f1fd1817cae9e7c429"]
+admins = ["uc70d401be3f16f6eb101c1154ca1855d"]
 Rx5 = ["u7fa2ce9fe592f5f02941fad640e1868e"]
 Rx4 = ["uf50a66ee773657022b4eab73f97e2c63"]
 Rx3 = ["u888ed7a1cf7601a0dee8f4a267cff3ba"]
