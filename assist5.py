@@ -1,35 +1,37 @@
-# -*- coding: utf-8 -*-
+#  -*- coding: utf-8 -*-
+#Aan Team Bot
 
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
-from io import StringIO
 from datetime import datetime
-import time,random,sys,json,codecs,threading,glob,sys
-import re,string,os
-import os.path,sys,urllib,shutil,subprocess
+from bs4 import BeautifulSoup
+from threading import Thread
+#from googletrans import Translator
+from gtts import gTTS
+import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
 cl = LINETCR.LINE()
-cl.login(token="EmOTY0ff98gBOzHrozA9.3UrGMEjECFh9gbFk6EFekq.8f+lmPRu9oJtzkNP0oWgkiEiApEJxWKQh00gGmwDQbg=")
+cl.login(token="Es0qfZH9ErrQ1d0Plehc.EiU0U3H/ifOcEyRhHc8L+a.tkuc6Dkf7AfDuYIWsyhouaqA+Qf4O1Zql5mCepqhkX8=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="Em6ddrL1MJ6NA8lo5ET3.9qPM7NC2vWiRtQTZ/x4SyW.lluqwyYZ/dr1bkPZJkDQuK9PGevG3JhKPbANAwQqKYA=")
+ki.login(token="EssYBBiNSnrtHwyPP3N3.opVfLAHd5WGf+bpOBpP3eW.daNP6kftJJg2aFnT2l3OFG4+mT507em+6+hEK2Lt5MU=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="Em8VjkYiXCe4CDYlQZJa.Ii7xOC92aAdE6psIz8+ZUG.SQtvw3+ATgu4DN8w4JS0As8QVTQ1C2iijTvpaiGrcns=")
+kk.login(token="EssFllShxazONgEpM89e.gCHBZ4Wg+A3q+6nb6neSdG.X51a3lEqGY02A+VTXplY9TRcI4HjjKbg2g2SXQ0/qoE=")
 kk.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(token="Emf6YqUxh3oBCRLOOM46.xkaL7HAdfdzB4bRIIC04jG./yKZfSTJf6XrWxGZKKiX++X6FmuKNhjQ8JIDBaX57rQ=")
+ks.login(token="EsVBPhrrxssf2oQy63qc.IDk4goeKO5Cf02ymF6+K3a.BEiUPGaLOLEhFVNn7AbtkI/8Xwi4IAVqMM3KxVhqq6o=")
 ks.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="EmvQ8lL3iQ3xbpdJ9t0c.aYbkAqXV5gf9Eu4MbqlVBa.gNoJ1W7dOQAdGVPsSIwjYPzfnWdBPJrmtDqUNdSHrIE=")
+kc.login(token="Es832tXGnrWER7i6Wyc7.OV5wO6KNT/Aej4WCRimKTW.iwS25+4ygeKgaLvugDdPyfU+KAUqOe4sMOGq33j5JH8=")
 kc.loginResult()
 
 ka = LINETCR.LINE()
-ka.login(token="EmjT3HQN0KdUVMvBpZn8.MQvnSQmxLZyecm+cYLEska.cMmEziWE4F4O5vTwn7B9dB9G+BV5DYtBmElhV+7989A=")
+ka.login(token="EszKkuZI9HnY1YTeMnN5.BLq7O8+KawO+e660v+4Ffq.MftE5PFErPCXOT9LsnuxFwEpfyxk69ljZuzi3dn3dX4=")
 ka.loginResult()
 
 print "login success"
