@@ -85,9 +85,9 @@ ki18 = LINETCR.LINE()
 ki18.login(token="Es9TBsTDJZQawHqcITr7.pt5ku5OvCXgXicoZ42L15W.t7+uZzOcgvQFMVL9pNB7CBs+XIOk3rOQkDGn7QEG6zA=")
 ki18.loginResult()
 
-ki1o = LINETCR.LINE()
-ki19.login(token="EspQzPVeiK3H5iYsfdqb.97lTGVmvXjWrorbWSIp6wW.+qbRsB/MD06mZs2Camr17B4GU59muzwwAHC1y1Q9Odc=")
-ki19.loginResult()
+#ki1o = LINETCR.LINE()
+#ki19.login(token="EspQzPVeiK3H5iYsfdqb.97lTGVmvXjWrorbWSIp6wW.+qbRsB/MD06mZs2Camr17B4GU59muzwwAHC1y1Q9Odc=")
+#ki19.loginResult()
 
 print "login success"
 reload(sys)
@@ -400,7 +400,7 @@ translateMessage ="""
 ���🔛║ ✰ {Setauto}
 ╚══╩══════╝
 """
-KAC=[acil,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10,ki11,ki12,ki13,ki14,ki15,ki16,ki17,ki18,ki19]
+KAC=[acil,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10,ki11,ki12,ki13,ki14,ki15,ki16,ki17,ki18]#,ki19]
 mid = acil.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
@@ -420,8 +420,8 @@ ki15mid = ki15.getProfile().mid
 ki16mid = ki16.getProfile().mid
 ki17mid = ki17.getProfile().mid
 ki18mid = ki18.getProfile().mid
-ki19mid = ki19.getProfile().mid
-Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,ki11mid,ki12mid,ki13mid,ki14mid,ki15mid,ki16mid,ki17mid,ki18mid,ki19mid]
+#ki19mid = ki19.getProfile().mid
+Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,ki11mid,ki12mid,ki13mid,ki14mid,ki15mid,ki16mid,ki17mid,ki18mid]#,ki19mid]
 admsa = "u78643d09e42a36836a17cc918963a8b7"
 wait = {
     'contact':False,
