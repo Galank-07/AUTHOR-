@@ -1281,6 +1281,12 @@ def bot(op):
                     acil.sendText(msg.to,helpMessage)
                 else:
                     acil.sendText(msg.to,helpMessage)
+		                   #acil.sendText(msg.to,helpFun)
+            elif msg.text.lower() == 'Key':
+                if wait["lang"] == "JP":
+                    acil.sendText(msg.to,KeyMessage)
+                else:
+                    acil.sendText(msg.to,KeyMessage)
             elif msg.text.lower() == 'media':
                 if wait["lang"] == "JP":
                     acil.sendText(msg.to,helpMedia)
