@@ -10,11 +10,11 @@ from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
 acil = LINETCR.LINE()
-acil.login(token="Es23P7jTnOPtCSlFP5I0.gAyZyIlV6uRm4BbD05Wjqa.6FDkkFiVE0iTTI0ZJvClSorlSL/GKg0m7lWkrRpD3Bw=")
+acil.login(token="EsFH7ZQt0I1d4H8EPXj7.Egq9cEqQnOnQf8YrIwoOTW.RENLUPNVQPX/3seMqDMGBUe/KGofOoQeAZch7Z2s6nk=")
 acil.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="EsyvGROh7HKGmLpm8HHe.wvhydD8HlswGsvWpinOaVG.t09LzatW3aUzkiMMZZ20gLXl0vcrnPWcynNjYdVEn7k=")
+ki.login(token="Es15oyIVcYqTbtU5Ptwe.wvhydD8HlswGsvWpinOaVG.Fh9H0iDUncpj3w7E8x7jcqrFu4+NWzrGX2KoyeTShR8=")
 ki.loginResult()
 
 ki2= LINETCR.LINE()
