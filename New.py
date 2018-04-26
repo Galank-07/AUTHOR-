@@ -1483,7 +1483,7 @@ def bot(op):
                 ki10.sendMessage(msg)
             elif "Creator" == msg.text:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'u19a6336222efe94acce1b05dd39c0940'}
+                msg.contentMetadata = {'mid': 'u78643d09e42a36836a17cc918963a8b7'}
                 acil.sendMessage(msg)
             elif msg.text in ["Allgift","B1 gift"]:
                 msg.contentType = 9
@@ -2180,50 +2180,50 @@ def bot(op):
                     else:
                         acil.sendText(msg.to,"Off ✖")
             elif msg.text.lower() == 'set':
-                md = "╔▬▬✯✰тєαм ѕℓα¢ĸвσт✰✯▬▬╗\n"
-                if wait["likeOn"] == True: md+="║☆║Like:ON➡️📱\n"
-                else: md+="║☆║Like:OFF➡️📴\n"
-                if wait["wcOn"] == True: md+="║☆║Welcome:ON➡️📱\n"
-                else: md+="║☆║Welcome:OFF➡️📴\n"
-                if wait["leftOn"] == True: md+="║☆║Left:ON➡️📱\n"
-                else: md+="║☆║Left:OFF➡️📴\n"
-                if wait["detectMention"] == True: md+="║☆║Respon:ON➡️📱\n"
-                else: md +="║☆║Respon:OFF➡️📴\n"
-                if wait["stickerMention"] == True: md+="║☆║Stickertag:ON➡️📱\n"
-                else: md +="║☆║Stickertag:OFF➡️📴\n"
-                if settings["simiSimi"] == True: md+="║☆║Simisimi:ON➡️📱\n"
-                else: md+="║☆║Simisimi:OFF➡️📴\n"
-                if wait["alwayRead"] == True: md+="║☆║Auto read:ON➡️📱\n"
-                else: md+="║☆║Auto read:OFF➡️📴\n"
-                if wait["Sider"] == True: md+="║☆║Sider:ON➡️📱\n"
-                else: md+="║☆║Sider:OFF➡️📴\n"
-                if wait["kickMention"] == True: md+="║☆║Notag:ON➡️📱\n"
-                else:md+="║☆║Notag:OFF➡️📴\n"
-                if wait["contact"] == True: md+="║☆║Contact:ON➡️📱\n"
-                else: md+="║☆║Contact:OFF➡️📴\n"
-                if wait["autoJoin"] == True: md+="║☆║Join:ON➡️📱\n"
-                else: md +="║☆║Join:OFF➡️📴\n"
-                if wait["autoCancel"]["on"] == True:md+="║☆║Cancel:" + str(wait["autoCancel"]["members"]) + "➡️📱\n"
-                else: md+= "║☆║Cancel:OFF➡️📴\n"
-                if wait["leaveRoom"] == True: md+="║☆║Leave:ON➡️📱\n"
-                else: md+="║☆║Leave:OFF➡️📴\n"
-                if wait["timeline"] == True: md+="║☆║Share:ON➡️📱\n"
-                else:md+="║☆║Share:OFF➡️📴\n"
-                if wait["autoAdd"] == True: md+="║☆║Add:ON➡️📱\n"
-                else:md+="║☆║Add:OFF➡️??\n"
-                if wait["commentOn"] == True: md+="║☆║Com:ON➡️📱\n"
-                else:md+="║☆║Com:OFF➡️📴\n║▬║❨◄���▬▬►❩\n║☆║◄═PROTECTION═►\n║▬║▬✯✰тєαм ѕℓα¢ĸвσт✰✯▬╣\n"
-                if wait["protect"] == True: md+="║☆║Pro:ON➡️📱\n"
-                else:md+="║☆║Pro:OFF➡️📴\n"
-                if wait["linkprotect"] == True: md+="║☆║ProtectQr:ON➡️📱\n"
-                else:md+="║☆║ProtectQr:OFF➡️📴\n"
-                if wait["inviteprotect"] == True: md+="║☆║Proinvite:ON➡️📱\n"
-                else:md+="║☆║Proinvite:OFF➡️📴\n"
-                if wait["cancelprotect"] == True: md+"║☆║Procancel:ON➡️📱\n"
-                else:md+="║☆║Procancel:OFF➡️📴\n"
-                if wait["pname"] == True: md+="║☆║Namelock:ON➡️📱\n"
-                else: md+="║☆║Namelock:OFF➡️📴\n"   
-                acil.sendText(msg.to,md + "║sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ║\n✯✰тєαм ѕℓα¢ĸвσт✰✯")
+                md = "╔══════тєαм ѕℓα¢ĸвσт══════╗\n"
+                if wait["likeOn"] == True: md+="║╠➣Like:ON➡️📱\n"
+                else: md+="║╠➣Like:OFF➡️📴\n"
+                if wait["wcOn"] == True: md+="║╠➣Welcome:ON➡️📱\n"
+                else: md+="║╠➣Welcome:OFF➡️📴\n"
+                if wait["leftOn"] == True: md+="║╠➣Left:ON➡️📱\n"
+                else: md+="║╠➣Left:OFF➡️📴\n"
+                if wait["detectMention"] == True: md+="║╠➣Respon:ON➡️📱\n"
+                else: md +="║╠➣Respon:OFF➡️📴\n"
+                if wait["stickerMention"] == True: md+="║╠➣Stickertag:ON➡️📱\n"
+                else: md +="║╠➣Stickertag:OFF➡️📴\n"
+                if settings["simiSimi"] == True: md+="║╠➣Simisimi:ON➡️📱\n"
+                else: md+="║╠➣Simisimi:OFF➡️📴\n"
+                if wait["alwayRead"] == True: md+="║╠➣Auto read:ON➡️📱\n"
+                else: md+="║╠➣Auto read:OFF➡️📴\n"
+                if wait["Sider"] == True: md+="║╠➣Sider:ON➡️📱\n"
+                else: md+="║╠➣Sider:OFF➡️📴\n"
+                if wait["kickMention"] == True: md+="║╠➣Notag:ON➡️📱\n"
+                else:md+="║╠➣Notag:OFF➡️📴\n"
+                if wait["contact"] == True: md+="║╠➣Contact:ON➡️📱\n"
+                else: md+="║╠➣Contact:OFF➡️📴\n"
+                if wait["autoJoin"] == True: md+="║╠➣Join:ON➡️📱\n"
+                else: md +="║╠➣Join:OFF➡️📴\n"
+                if wait["autoCancel"]["on"] == True:md+="║╠➣Cancel:" + str(wait["autoCancel"]["members"]) + "➡️📱\n"
+                else: md+= "║╠➣Cancel:OFF➡️📴\n"
+                if wait["leaveRoom"] == True: md+="║╠➣Leave:ON➡️📱\n"
+                else: md+="║╠➣Leave:OFF➡️📴\n"
+                if wait["timeline"] == True: md+="║╠➣Share:ON➡️📱\n"
+                else:md+="║╠➣Share:OFF➡️📴\n"
+                if wait["autoAdd"] == True: md+="║╠➣Add:ON➡️📱\n"
+                else:md+="║╠➣Add:OFF➡️??\n"
+                if wait["commentOn"] == True: md+="║╠➣Com:ON➡️📱\n"
+                else:md+="║╠➣Com:OFF➡️📴\n"
+                if wait["protect"] == True: md+="║╠➣Pro:ON➡️📱\n"
+                else:md+="║╠➣Pro:OFF➡️📴\n"
+                if wait["linkprotect"] == True: md+="║╠➣ProtectQr:ON➡️📱\n"
+                else:md+="║╠➣ProtectQr:OFF➡️📴\n"
+                if wait["inviteprotect"] == True: md+="║╠➣Proinvite:ON➡️📱\n"
+                else:md+="║╠➣Proinvite:OFF➡️📴\n"
+                if wait["cancelprotect"] == True: md+"║╠➣Procancel:ON➡️📱\n"
+                else:md+="║╠➣Procancel:OFF➡️📴\n"
+                if wait["pname"] == True: md+="║╠➣Namelock:ON➡️📱\n"
+                else: md+="║╠➣Namelock:OFF➡️📴\n"   
+                acil.sendText(msg.to,md + "╔═════════════\n║╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ\n╚═════════════\n✯тєαм ѕℓα¢ĸвσт✯")
             elif "Creatorgrup" == msg.text:
                 try:
                     group = acil.getGroup(msg.to)
@@ -2245,13 +2245,13 @@ def bot(op):
                     acil.sendText(msg.to,"old user")
             elif cms(msg.text,["Add","Creator"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'u19a6336222efe94acce1b05dd39c0940'}
-                acil.sendText(msg.to,"❂•••••••••✧••••••••••❂")
+                msg.contentMetadata = {'mid': 'u78643d09e42a36836a17cc918963a8b7'}
+                acil.sendText(msg.to,"╔═════════════")
                 acil.sendMessage(msg)
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': 'u329645b7a24610ca4d95c592a6c6ef3e'}
                 acil.sendMessage(msg)
-                acil.sendText(msg.to,"❂••••••••✰•✰••••••••❂\n\n✮Follow IG✮\nhttps://www.instagram.com/galank23_/\n\nId SMULE:\nNBS_VAMPIRE_V1AG\nADD FOR LINE:\nline.me/ti/p/~azhura07_\nline.me/ti/p/~Ardiy102\n\nsᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ\n✯✰тєαм ѕℓα¢ĸвσт✰✯\n\nThanks for add Gend!!")
+                acil.sendText(msg.to,"╚═════════════\n\n✮Follow IG✮\nhttps://www.instagram.com/galank23_/\n\nId SMULE:\nNBS_VAMPIRE_V1AG\nADD FOR LINE:\nline.me/ti/p/~fuck.you__\nline.me/ti/p/~Ardiy102\n\nsᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ\n✯✰тєαм ѕℓα¢ĸвσт✰✯\n\nThanks for add Gend!!")
      #-------------Fungsi Speedbot Start---------------------#
             elif msg.text in ["Speed","Sp"]:
               if msg.from_ in admin and owner:
@@ -3572,6 +3572,16 @@ def bot(op):
                    ki8.sendText(msg.to,"done ✔")
                    ki9.sendText(msg.to,"done ✔")
                    ki10.sendText(msg.to,"done ✔")
+                   ki11.sendText(msg.to,"done ✔")
+                   ki12.sendText(msg.to,"done ✔")
+                   ki13.sendText(msg.to,"done ✔")
+                   ki14.sendText(msg.to,"done ✔")
+                   ki15.sendText(msg.to,"done ✔")
+                   ki16.sendText(msg.to,"done ✔")
+                   ki17.sendText(msg.to,"done ✔")
+                   ki18.sendText(msg.to,"done ✔")
+                   ki19.sendText(msg.to,"done ✔")
+                   #ki20.sendText(msg.to,"done ✔")
                    ki.sendText(msg.to,"blacklist done all removed 👮")
             elif msg.text.lower() == 'kick@mbl':
                 if msg.toType == 2:
@@ -3745,7 +3755,7 @@ def bot(op):
                 tts = gTTS(text=say, lang=lang)
                 tts.save("hasil.mp3")
                 acil.sendAudio(msg.to,"hasil.mp3")
-            elif "Nuke" in msg.text:
+            elif "Salken" in msg.text:
                 if msg.toType == 2:
                     print "Nuke ok"
                     _name = msg.text.replace("Nuke","")
