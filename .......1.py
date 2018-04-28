@@ -85,256 +85,252 @@ ki18 = LINETCR.LINE()
 ki18.login(token="Es9TBsTDJZQawHqcITr7.pt5ku5OvCXgXicoZ42L15W.t7+uZzOcgvQFMVL9pNB7CBs+XIOk3rOQkDGn7QEG6zA=")
 ki18.loginResult()
 
-#ki1o = LINETCR.LINE()
-#ki19.login(token="EspQzPVeiK3H5iYsfdqb.97lTGVmvXjWrorbWSIp6wW.+qbRsB/MD06mZs2Camr17B4GU59muzwwAHC1y1Q9Odc=")
-#ki19.loginResult()
+ki19 = LINETCR.LINE()
+ki19.login(token="EspQzPVeiK3H5iYsfdqb.97lTGVmvXjWrorbWSIp6wW.+qbRsB/MD06mZs2Camr17B4GU59muzwwAHC1y1Q9Odc=")
+ki19.loginResult()
 
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage="""(✮Ŧ€Äm ÄυŦĦōя bōŦ✮)
-╔═ line.me/ti/p/~azhura07_
-║1║ ✰ Me
-║2║ ✰ Add
-║3║ ✰ Gift
-║4║ ✰ Spam gift️
-║5║ ✰ Cn "text"
-║6║ ✰ Clockname "text"
-║7║ ✰ TL:"text"
-║8║ ✰ Ban:"mid"
-║9║ ✰ Unban:"mid"
-║10║ ✰ Bl:on
-║11║ ✰ Unbl:on
-║12║ ✰ Mcheck
-║13║ ✰ Mybio:
-║14║ ✰ Mybots
-║15║ ✰ Mymid
-║16║ ✰ Mygroups
-║17║ ✰ Group id
-║18║ ✰ Message set:"text"
-║19║ ✰ Message confirm
-║20║ ✰ Msg add-"text"
-║21║ ✰ Com set:"text"
-║22║ ✰ Comment
-║13║ ✰ Comban/del/cek
-║24║ ✰ Help set:"text"
-║25║ ✰ Change
-║26║ ✰ Gn "text"
-║27║ ✰ Clink/Curl
-║28║ ✰ Kick:"mid"
-║29║ ✰ Invite:"mid"
-║30║ ✰ Creator
-║31║ ✰ Gcancel:"jumlah"
-║32║ ✰ Gcancelall
-║33║ ✰ Ginfo
-║34║ ✰ Check
-║35║ ✰ Cctv
-║36║ ✰ Glink
-║37║ ✰ Spam on/off
-║38║ ✰ Gurl
-║39║ ✰ Clink
-║40║ ✰ Blocklist
-║41║ ✰ Banlist
-║42║ ✰ Update
-║23║ ✰ Creator
-║44║ ✰ Sc:"mid"
-║45║ ✰ Ban "@"
-║46║ ✰ Unban "@"
-║47║ ✰ Sc @
-║48║ ✰ Nuke
-║49║ ✰ Backup
-║50║ ✰ Tagall
-║51║ ✰ Kick@mbl 
-║52║ ✰ Reinvite
-║53║ ✰ Conban
-║54║ ✰ Clearban
-║55║ ✰ Gid
-║56║ ✰ Grupname
-║57║ ✰ Lurk:on/off
-║58║ ✰ Lurkers
-║59║ ✰ Wc️
-║60║ ✰ Sp
-║61║ ✰ stafflist
-║62║ ✰ Reboot
-║63║ ✰ Leaveallgroup
-║64║ ✰ Pmfavorite
-║65║ ✰ Broken
-║╩═══NEXT PAGE═══╦
-║🃏║ ✰ {  Media  }
-║🇲🇨║ ✰ {Translate}
-║⚙️║ ✰ {    Set   }
-║🏴║ ✰ {Helpbots}
-║🔧║ ✰ {Settings}
-║🔛║ ✰ {Setauto}
-╚══╩════════╝
+helpMessage="""╔═════════════
+║╔═════¤═════╗
+║COMMAND SPESIAL
+║╚═════¤═════╝
+║╔═══════════
+║╠➣Media  
+║╠➣Translate
+║╠➣Set   
+║╠➣Helpbots
+║╠➣Settings
+║╠➣Setauto
+╚═════════════
+║╔═════¤═════╗
+║  COMMAND SELF
+║╚═════¤═════╝
+║╔═══════════
+║╠➣Me
+║╠➣Add
+║╠➣Gift
+║╠➣Spam gift️
+║╠➣Cn "text"
+║╠➣Clockname "text"
+║╠➣TL:"text"
+║╠➣Ban:"mid"
+║╠➣Unban:"mid"
+║╠➣Bl:on
+║╠➣Unbl:on
+║╠➣Mcheck
+║╠➣Mybio:
+║╠➣Mybots
+║╠➣Mymid
+║╠➣Mygroups
+║╠➣Group id
+║╠➣Message set:"text"
+║╠➣Message confirm
+║╠➣Msg add-"text"
+║╠➣Com set:"text"
+║╠➣Comment
+║╠➣Comban/del/cek
+║╠➣Help set:"text"
+║╠➣Change
+║╠➣Gn "text"
+║╠➣Clink/Curl
+║╠➣Kick:"mid"
+║╠➣Invite:"mid"
+║╠➣Creator
+║╠➣Gcancel:"jumlah"
+║╠➣Gcancelall
+║╠➣Ginfo
+║╠➣Check
+║╠➣Cctv
+║╠➣Glink
+║╠➣Spam on/off
+║╠➣Gurl
+║╠➣Clink
+║╠➣Blocklist
+║╠➣Banlist
+║╠➣Update
+║╠➣Creator
+║╠➣Sc:"mid"
+║╠➣Ban "@"
+║╠➣Unban "@"
+║╠➣Sc @
+║╠➣Nuke
+║╠➣Backup
+║╠➣Tagall
+║╠➣Kick@mbl 
+║╠➣Reinvite
+║╠➣Conban
+║╠➣Clearban
+║╠➣Gid
+║╠➣Grupname
+║╠➣Lurk:on/off
+║╠➣Lurkers
+║╠➣Wc️
+║╠➣Speed
+║╠➣stafflist
+║╠➣Reboot
+║╠➣Leaveallgroup
+║╠➣Pmfavorite
+║╠➣Broken
+╚═════════════
   """
-helpMedia="""(✯✰тєαм ѕℓα¢ĸвσт✰✯)
-╔═ line.me/ti/p/~azhura07_
-║╦═══MEDIA═══
-║1║ ✰ Youtube *text*
-║2║ ✰ Youtubesearch *user*
-║3║ ✰ Audio "text"
-║4║ ✰ Lirik "text"
-║5║ ✰ Ig "name"
-║5║ ✰ Tts "judul/nama band"
-║6║ ✰ Gimage 
-║7║ ✰ Image *text*
-║8║ ✰ Google *text*
-║9║ ✰ Micadd @
-║10║ ✰ Micdel @
-║11║ ✰ Miclist
-║12║ ✰ Picturl @
-║13║ ✰ Coverurl @
-║14║ ✰ Copy @
-║15║ ✰ Getname @
-║16║ ✰ Getinfo @
-║17║ ✰ pict @️
-║18║ ✰ Getcontact @
-║19║ ✰ Getvid @
-║20║ ✰ Getmid @
-║21║ ✰ Copy @     
-║22║ ✰ Recopy
-║23║ ✰ Getcover @    
-║24║  ✰ Getbio @
-║25║ ✰ Getinfo @
-║26║ ✰ youinfo @
-║27║ ✰ info "mid"
-║28║ ✰ Contact "mid"
-║29║ ✰ Id "idline"
-║30║ ✰ Memlist
-║31║ ✰ Setimage:
-║32║ ✰ Papimage
-║33║ ✰ Setvideo:
-║34║ ✰ Papvideo
-║25║ ✰ Checkdate
-║36║ ✰ Myname
-║37║ ✰ Mybio
-║38║ ✰ Mypict
-║39║ ✰ Myvid
-║40║ ✰ Urlpict
-║41║ ✰ Mycover
-║42║ ✰ Urlcover
-║43║ ✰ Hay "text"
-║44║ ✰ Record "text"
-║45║ ✰ Xvideo "text"
-║46║ ✰ Smule "id smule"
-║47║ ✰ Time
-║48║ ✰ Imagetxt "text"
-║49║ ✰ Cuaca*txt
-║50║ ✰ Lokasi*txt
-║51║ ✰ Shalat*txt
-║52║ ✰ Anime"text"
-║53║ ✰ Cekmovie"text"
-║54║ ✰ Video"text"
-║55║ ✰ Playstore"txt"
-║56║ ✰ Twitter*txt
-║57║ ✰ Klip"text"
-║48║✰ Github*txt
-║59║✰ Facebook*txt
-║60║✰ Wikipedia*txt
-║61║✰ Checkdate*ttl
-║62║✰ Virus
-║╩══BROADCAST═══
-║📩║ ✰ sendpm "text"
-║📨║ ✰ sendgrup "text"
-║╩═══NEXT PAGE═╦
-║🃏║ ✰ {  Media  }
-║🇲🇨║ ✰ {Translate}
-║⚙️║ ✰ {    Set   }
-║🏴║ ✰ {Helpbots}
-║🔧║ ✰ {Settings}
-║🔛║ ✰ {Setauto}
-╚══╩══════╝
+helpMedia="""╔═════════════
+║╔═════¤═════╗
+║ COMMAND MEDIA
+║╚═════¤═════╝
+║╔═══════════
+║╠➣Youtube *text*
+║╠➣Youtubesearch *user*
+║╠➣Audio "text"
+║╠➣Lirik "text"
+║╠➣Ig "name"
+║╠➣Tts "judul/nama band"
+║╠➣Gimage 
+║╠➣Image *text*
+║╠➣Google *text*
+║╠➣Micadd @
+║╠➣Micdel @
+║╠➣Miclist
+║╠➣Picturl @
+║╠➣Coverurl @
+║╠➣Copy @
+║╠➣Getname @
+║╠➣Getinfo @
+║╠➣pict @️
+║╠➣Getcontact @
+║╠➣Getvid @
+║╠➣Getmid @
+║╠➣Copy @     
+║╠➣Recopy
+║╠➣Getcover @    
+║╠➣Getbio @
+║╠➣Getinfo @
+║╠➣youinfo @
+║╠➣info "mid"
+║╠➣Contact "mid"
+║╠➣Id "idline"
+║╠➣Memlist
+║╠➣Setimage:
+║╠➣Papimage
+║╠➣Setvideo:
+║╠➣Papvideo
+║╠➣Checkdate
+║╠➣Myname
+║╠➣Mybio
+║╠➣Mypict
+║╠➣Myvid
+║╠➣Urlpict
+║╠➣Mycover
+║╠➣Urlcover
+║╠➣Hay "text"
+║╠➣Record "text"
+║╠➣Xvideo "text"
+║╠➣Smule "id smule"
+║╠➣Time
+║╠➣Imagetxt "text"
+║╠➣Cuaca*txt
+║╠➣Lokasi*txt
+║╠➣Shalat*txt
+║╠➣Anime"text"
+║╠➣Cekmovie"text"
+║╠➣Video"text"
+║╠➣Playstore"txt"
+║╠➣Twitter*txt
+║╠➣Klip"text"
+║╠➣Github*txt
+║╠➣Facebook*txt
+║╠➣Wikipedia*txt
+║╠➣Checkdate*ttl
+║╠➣Virus
+║╠➣sendpm "text"
+║╠➣sendgrup "text"
+╚═════════════
 """
-helpFun = """(✯✰тєαм ѕℓα¢ĸвσт✰✯)
-╔═line.me/ti/p/~azhura07_
-║╦═══MEDIA═══
-║1║ ✰ sider:*txt*
-║2║ ✰ tagme:*txt
-║3║ ✰ welcome:*txt
-║4║ ✰ left:*txt
-║5║ ✰ message set:*txt*
-║6║ ✰ STKID:*sticker id
-║7║ ✰ STKPKGID:*stkr gid
-║8║ ✰ STKVER:*version
-║9║ ✰ cekresponse
-║╩══NEXT PAGE══╦
-║🃏║ ✰ {  Media  }
-║🇲🇨║ ✰ {Translate}
-║⚙️║ ✰ {    Set   }
-║🏴║ ✰ {Helpbots}
-║🔧║ ✰ {Settings}
-║🔛║ ✰ {Setauto}
-╚══╩══════╝
+helpFun = """╔═════════════
+║╔═════¤═════╗
+║COMMAND RESPONS
+║╚═════¤═════╝
+║╔═══════════
+║╠➣sider:*txt*
+║╠➣tagme:*txt
+║╠➣welcome:*txt
+║╠➣left:*txt
+║╠➣message set:*txt*
+║╠➣STKID:*sticker id
+║╠➣STKPKGID:*stkr gid
+║╠➣STKVER:*version
+║╠➣cekresponse
+╚═════════════
 """
-helpself="""
-╔╦═COMMAND FOR ALL BOT═╦╗
-║ ═══════════║
-║1║ ✰ Fuck1/20 "@"
-║2║ ✰ Kick1/20 "@"
-║3║ ✰ All mid
-║4║ ✰ Reinvite
-║5║ ✰ B1-20 mid
-║6║ ✰ B1-20name "text"
-║7║ ✰ B1-20
-║8║ ✰ B1-20 gift
-║9║ ✰ B1-20 in
-║10║ ✰ B1-20 bye
-║11║ ✰ Bc "text"
-║12║ ✰ Say "text"
-║13║ ✰ Bom "text"
-║14║ ✰ Allgift
-║15║ ✰ Spam gift️
-║16║ ✰ Botcopy
-║18║ ✰ Botbackup
-║19║ ✰ Botpict
-║20║ ✰ Botcover
-║21║ ✰ Botak
-║22║ ✰ Allname "nama"
-║23║ ✰ Allbio "status"
-║24║ ✰ Sendcontact "text"
-║25║ ✰ Botbyeall  
+helpself="""╔═════════════
+║╔═════¤═════╗
+║ COMMAND BOTS
+║╚═════¤═════╝
+║╔═══════════
+║╠➣Fuck1/20 "@"
+║╠➣Kick1/20 "@"
+║╠➣All mid
+║╠➣Reinvite
+║╠➣B1-20 mid
+║╠➣B1-20name "text"
+║╠➣B1-20
+║╠➣B1-20 gift
+║╠➣B1-20 in
+║╠➣B1-20 bye
+║╠➣Bc "text"
+║╠➣Say "text"
+║╠➣Bom "text"
+║╠➣Allgift
+║╠➣Spam gift️
+║╠➣Botcopy
+║╠➣Botbackup
+║╠➣Botpict
+║╠➣Botcover
+║╠➣Botak
+║╠➣Allname "nama"
+║╠➣Allbio "status"
+║╠➣Sendcontact "text"
+║╠➣Botbyeall  
 ║✯✰тєαм ѕℓα¢ĸвσт✰✯
 ╚═══════════╝
   """
-helpset="""╔(SETTINGS FOR BOT)╗
-║ ✰ Ban:on/Unbl:on
-║ ✰ Contact:on/off
-║ ✰ Add:on/off
-║ ✰ Join:on/off
-║ ✰ Leave:on/off
-║ ✰ Share:on/off
-║ ✰ Com:on/off
-║ ✰ Clock:on/off
-║ ✰ Respon:on/off
-║ ✰ Stickertag:on/off
-║ ✰ Welcome:on/off
-║ ✰ Left:on/off
-║ ✰ Sider:on/off
-║ ✰ Notag:on/off
-║ ✰ Mimic on/off
-║ ✰ Simsimi:on/off
-║ ✰ Read:0n/off
-║ ✰ Like:on/off
-║ ✰ Runtime
-║═(SETTINGS FOR GROUP)═
-║ ★ Pro:on/off
-║ ★ Prolink:on/off
-║ ★ Proinvite:on/off
-║ ★ Procancel:on/off
-║ ★ Namelock:on/off
-║ ★ Projoin:on/off
-║ ★ Allprotect:on/off
-║╩═══NEXT PAGE═╦
-║🃏║ ✰ {  Media  }
-║🇲🇨║ ✰ {Translate}
-║⚙️║ ✰ {    Set   }
-║🏴║ ✰ {Helpbots}
-║🔧║ ✰ {Settings}
-║🔛║ ✰ {Setauto}
-╚══╩══════╝
-║ ✯✰тєαм ѕℓα¢ĸвσт✰✯
-╚═ line.me/ti/p/~azhura07_ ╝
+helpset="""╔═════════════
+║╔═════¤═════╗
+║  COMMAND SET
+║╚═════¤═════╝
+║╔═══════════
+║╠➣Ban:on/Unbl:on
+║╠➣Contact:on/off
+║╠➣Add:on/off
+║╠➣Join:on/off
+║╠➣Leave:on/off
+║╠➣Share:on/off
+║╠➣Com:on/off
+║╠➣Clock:on/off
+║╠➣Respon:on/off
+║╠➣Stickertag:on/off
+║╠➣Welcome:on/off
+║╠➣Left:on/off
+║╠➣Sider:on/off
+║╠➣Notag:on/off
+║╠➣Mimic on/off
+║╠➣Simsimi:on/off
+║╠➣Read:0n/off
+║╠➣Like:on/off
+║╠➣Runtime
+║╔═════¤═════╗
+║ COMMAND GROUP
+║╚═════¤═════╝
+║╔═══════════
+║╠➣Pro:on/off
+║╠➣Prolink:on/off
+║╠➣Proinvite:on/off
+║╠➣Procancel:on/off
+║╠➣Namelock:on/off
+║╠➣Projoin:on/off
+║╠➣Allprotect:on/off
+╚═════════════
 """
 translateMessage ="""
 ╔══════════
@@ -400,7 +396,7 @@ translateMessage ="""
 ���🔛║ ✰ {Setauto}
 ╚══╩══════╝
 """
-KAC=[acil,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10,ki11,ki12,ki13,ki14,ki15,ki16,ki17,ki18]#,ki19]
+KAC=[acil,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10,ki11,ki12,ki13,ki14,ki15,ki16,ki17,ki18,ki19]
 mid = acil.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
@@ -420,7 +416,7 @@ ki15mid = ki15.getProfile().mid
 ki16mid = ki16.getProfile().mid
 ki17mid = ki17.getProfile().mid
 ki18mid = ki18.getProfile().mid
-#ki19mid = ki19.getProfile().mid
+ki19mid = ki19.getProfile().mid
 Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,ki11mid,ki12mid,ki13mid,ki14mid,ki15mid,ki16mid,ki17mid,ki18mid]#,ki19mid]
 admsa = "u78643d09e42a36836a17cc918963a8b7"
 wait = {
@@ -435,10 +431,10 @@ wait = {
     'joingc':"message member join belum di set",
     'leftgc':"message member left belum di set",
     "stickerMention":False,
-    'message':"""THANKS FOR ADD ME\n\nFOLLOW ME ON INSTAGRAM\n\nhttps://www.instagram.com/galank_nhaa/""",
+    'message':"""THANKS FOR ADD ME\n\nFOLLOW ME ON INSTAGRAM\n\nhttps://www.instagram.com/galank23_/""",
     "lang":"JP",
     "comment":"Thanks For Add Me",
-    "comment1":"❂•••••••••••••••••••••••••❂\n                  line.me/ti/p/~azhura07_\n『◉✮Ŧ€Äm ÄυŦĦōя bōŦ✮◉』",
+    "comment1":"❂•••••••••••••••••••••••••❂\nline.me/ti/p/~azhura07_\n『✯✰тєαм ѕℓα¢ĸвσт✰✯』",
     "commentOn":False,
     "likeOn":True,
     "wcOn":True,
@@ -1374,10 +1370,10 @@ def bot(op):
                 msg.contentMetadata = {'mid': ki17mid}
                 acil.sendMessage(msg)
                 msg.contentType = 13
-                #msg.contentMetadata = {'mid': ki18mid}
-                #acil.sendMessage(msg)
-                #msg.contentType = 13
                 msg.contentMetadata = {'mid': ki18mid}
+                acil.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki19mid}
                 acil.sendMessage(msg)
             elif "Respon" == msg.text:
                 msg.contentType = 13
@@ -1432,10 +1428,10 @@ def bot(op):
                 msg.contentMetadata = {'mid': ki17mid}
                 ki17.sendMessage(msg)
                 msg.contentType = 13
-                #msg.contentMetadata = {'mid': ki18mid}
-                #ki18.sendMessage(msg)
-                #msg.contentType = 13
                 msg.contentMetadata = {'mid': ki18mid}
+                ki18.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki19mid}
                 ki18.sendMessage(msg)
                 ki.sendText(msg.to,"SIAP JALANIN TUGAS BOSS")
             elif "B1" == msg.text:
@@ -3577,7 +3573,7 @@ def bot(op):
                    ki16.sendText(msg.to,"done ✔")
                    ki17.sendText(msg.to,"done ✔")
                    ki18.sendText(msg.to,"done ✔")
-                   #ki19.sendText(msg.to,"done ✔")
+                   ki19.sendText(msg.to,"done ✔")
                    ki.sendText(msg.to,"blacklist done all removed Boss")
             elif msg.text.lower() == 'kick@mbl':
                 if msg.toType == 2:
@@ -3882,7 +3878,7 @@ def bot(op):
                         ki16.leaveGroup(msg.to)
                         ki17.leaveGroup(msg.to)
                         ki18.leaveGroup(msg.to)
-                        #ki19.leaveGroup(msg.to)
+                        ki19.leaveGroup(msg.to)
                         G.preventJoinByTicket = False
                         acil.updateGroup(G)
                         invsend = 0
@@ -3905,7 +3901,7 @@ def bot(op):
                         ki16.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki17.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki18.acceptGroupInvitationByTicket(msg.to,Ticket)
-                        #ki19.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki19.acceptGroupInvitationByTicket(msg.to,Ticket)
                         G = acil.getGroup(msg.to)
                         ginfo = acil.getGroup(msg.to)
                         G.preventJoinByTicket = True
@@ -4098,7 +4094,7 @@ def bot(op):
                         ki16.leaveGroup(msg.to)
                         ki17.leaveGroup(msg.to)
                         ki18.leaveGroup(msg.to)
-                        #ki19.leaveGroup(msg.to)
+                        ki19.leaveGroup(msg.to)
                         #ki10.leaveGroup(msg.to)
                     except:
                         pass
@@ -4342,7 +4338,7 @@ def bot(op):
                 ki16.sendText(msg.to,"Ping 􀜁􀇔􏿿")
                 ki17.sendText(msg.to,"Ping 􀜁􀇔􏿿")
                 ki18.sendText(msg.to,"Ping 􀜁􀇔􏿿")
-                #ki19.sendText(msg.to,"Ping 􀜁􀇔􏿿")
+                ki19.sendText(msg.to,"Ping 􀜁􀇔􏿿")
 
 #-----------------------------------------------
 #-----------------------------------------------
