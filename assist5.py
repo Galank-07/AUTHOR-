@@ -11,19 +11,19 @@ from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
 cl = LINETCR.LINE()
-cl.login(token="Es0qfZH9ErrQ1d0Plehc.EiU0U3H/ifOcEyRhHc8L+a.tkuc6Dkf7AfDuYIWsyhouaqA+Qf4O1Zql5mCepqhkX8=")
+cl.login(token="EsOfObgririxVI9L8pc0.eoDyPh49m80ooLAM+ag0Ga.Bf44+tvY9cr8apbtHWFWvURBZfWybfOFvhaUfFQgNGo=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="EssYBBiNSnrtHwyPP3N3.opVfLAHd5WGf+bpOBpP3eW.daNP6kftJJg2aFnT2l3OFG4+mT507em+6+hEK2Lt5MU=")
+ki.login(token="Esn4N7XIIDyqQUvjmpk5.1zUe0oCVJUa5WsBmJ9UOLq.bnyW0p1peuYPIb8qRYlxKOgM1TMhbcjoiEXphg1esNE=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="EssFllShxazONgEpM89e.gCHBZ4Wg+A3q+6nb6neSdG.X51a3lEqGY02A+VTXplY9TRcI4HjjKbg2g2SXQ0/qoE=")
+kk.login(token="EsFefHwAUga3VybsSJk5.q+dyhKZ49JRqoav+GhZ7Lq.U2D8W+jO1QUBR4AsUH9luk2TN7ENW9ECdxrcfBFEOmE=")
 kk.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(token="EsVBPhrrxssf2oQy63qc.IDk4goeKO5Cf02ymF6+K3a.BEiUPGaLOLEhFVNn7AbtkI/8Xwi4IAVqMM3KxVhqq6o=")
+ks.login(token="EsJEqDOah4IqCdCIiNY2.3166fQCJYRx5lEfyHWpOuG.51spBcdsf8v1gbveI44j1zPL85+45wpB2rOQGUDUemQ=")
 ks.loginResult()
 
 #kc = LINETCR.LINE()
@@ -116,7 +116,7 @@ Cmid = kc.getProfile().mid
 Emid = ka.getProfile().mid
 
 Bots=[mid,Amid,kimid,ki2mid]#,Cmid,Emid]
-admin = ["uc70d401be3f16f6eb101c1154ca1855d","u7fa2ce9fe592f5f02941fad640e1868e"]
+admin = ["u10e758a47e3d33cd0e3a56a6fc01b480"]#,"u7fa2ce9fe592f5f02941fad640e1868e"]
 
 me = cl.getProfile().mid
 bot1 = cl.getProfile().mid
