@@ -26,13 +26,13 @@ ks = LINETCR.LINE()
 ks.login(token="EsVBPhrrxssf2oQy63qc.IDk4goeKO5Cf02ymF6+K3a.BEiUPGaLOLEhFVNn7AbtkI/8Xwi4IAVqMM3KxVhqq6o=")
 ks.loginResult()
 
-kc = LINETCR.LINE()
-kc.login(token="Es832tXGnrWER7i6Wyc7.OV5wO6KNT/Aej4WCRimKTW.iwS25+4ygeKgaLvugDdPyfU+KAUqOe4sMOGq33j5JH8=")
-kc.loginResult()
+#kc = LINETCR.LINE()
+#kc.login(token="Es832tXGnrWER7i6Wyc7.OV5wO6KNT/Aej4WCRimKTW.iwS25+4ygeKgaLvugDdPyfU+KAUqOe4sMOGq33j5JH8=")
+#kc.loginResult()
 
-ka = LINETCR.LINE()
-ka.login(token="EszKkuZI9HnY1YTeMnN5.BLq7O8+KawO+e660v+4Ffq.MftE5PFErPCXOT9LsnuxFwEpfyxk69ljZuzi3dn3dX4=")
-ka.loginResult()
+#ka = LINETCR.LINE()
+#ka.login(token="EszKkuZI9HnY1YTeMnN5.BLq7O8+KawO+e660v+4Ffq.MftE5PFErPCXOT9LsnuxFwEpfyxk69ljZuzi3dn3dX4=")
+#ka.loginResult()
 
 print "login success"
 reload(sys)
@@ -102,11 +102,11 @@ helpMessage2 ="""
 ║╠➣Blockinvite:on/off]:
 ╚═════════════
 """
-KAC = [cl,ki,kk,ks,kc,ka]
+KAC = [cl,ki,kk,ks]#,kc,ka]
 KAB1 = ki.getProfile().mid
-KAB2 = kk.getProfile().mid
+#KAB2 = kk.getProfile().mid
 KAB3 = ks.getProfile().mid
-KAB4 = kc.getProfile().mid
+#KAB4 = kc.getProfile().mid
 KAB5 = ka.getProfile().mid
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
@@ -115,7 +115,7 @@ ki2mid = ks.getProfile().mid
 Cmid = kc.getProfile().mid
 Emid = ka.getProfile().mid
 
-Bots=[mid,Amid,kimid,ki2mid,Cmid,Emid]
+Bots=[mid,Amid,kimid,ki2mid]#,Cmid,Emid]
 admin = ["uc70d401be3f16f6eb101c1154ca1855d","u7fa2ce9fe592f5f02941fad640e1868e"]
 
 me = cl.getProfile().mid
@@ -124,8 +124,8 @@ main = cl.getProfile().mid
 kicker1 = ki.getProfile().mid
 kicker2 = kk.getProfile().mid
 kicker3 = ks.getProfile().mid
-kicker4 = kc.getProfile().mid
-kicker5 = ka.getProfile().mid
+#kicker4 = kc.getProfile().mid
+#kicker5 = ka.getProfile().mid
 bots = me + kicker1
 protectname = []
 protecturl = []
@@ -155,9 +155,9 @@ wait = {
     'leaveRoom':False,
     'timeline':False,
     'autoAdd':False,
-    'message':"Thanks add me Creator bot:http://line.me/ti/p/~azhura07_",
+    'message':"Thanks add me Creator bot:http://line.me/ti/p/~fuck.you__",
     "lang":"JP",
-    "comment":"Auto like ✯✰тєαм ѕℓα¢ĸвσт✰✯:http://line.me/ti/p/~azhura07_",
+    "comment":"Auto like ✯✰тєαм ѕℓα¢ĸвσт✰✯:http://line.me/ti/p/~fuck.you__",
     "likeOn":False,
     "commentOn":False,
     "commentBlack":{},
