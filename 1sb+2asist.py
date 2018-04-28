@@ -6,12 +6,20 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token='EsP5WFalLxrbR1TmjcGe.zVVlDuPHYYt3sRhRYkVoNG.LTpgFm8xzHgzCf+jBj8m5DsgBtrLgt/cV6jhuYtOmzA=')
+cl.login(token="EsOfObgririxVI9L8pc0.eoDyPh49m80ooLAM+ag0Ga.Bf44+tvY9cr8apbtHWFWvURBZfWybfOFvhaUfFQgNGo=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token='EsntPJJXRjaUsexNvrP7.WDeMtwKV2AWxX6fICV/kTW.InId9uUBTop2qjuQIzVVsuxGlgr6ErumdNhyUZylLao=')
+ki.login(token="Esn4N7XIIDyqQUvjmpk5.1zUe0oCVJUa5WsBmJ9UOLq.bnyW0p1peuYPIb8qRYlxKOgM1TMhbcjoiEXphg1esNE=")
 ki.loginResult()
+
+ki2 = LINETCR.LINE()
+ki2.login(token="EsFefHwAUga3VybsSJk5.q+dyhKZ49JRqoav+GhZ7Lq.U2D8W+jO1QUBR4AsUH9luk2TN7ENW9ECdxrcfBFEOmE=")
+ki2.loginResult()
+
+#ki = LINETCR.LINE()
+#ki.login(token='EsntPJJXRjaUsexNvrP7.WDeMtwKV2AWxX6fICV/kTW.InId9uUBTop2qjuQIzVVsuxGlgr6ErumdNhyUZylLao=')
+#ki.loginResult()
 
 #ki2 = LINETCR.LINE()
 #ki2.login(qr=True)
@@ -68,19 +76,19 @@ helpMessage ="""╔═════════════
 ╠✍͡➴͜Ĝα₤αηĸ͜͡✫
 ╠✍͡➴͜Ardiy͜͡✫
 ╚═════════════
-line.me/ti/p/~azhura07_
+line.me/ti/p/~fuck.you__
 line.me/ti/p/~Ardiy102
 """
 
 Setgroup =""" 
     ✯✰тєαм ѕℓα¢ĸвσт✰✯"""
-KAC=[cl,ki]#,ki2]
+KAC=[cl,ki,ki2]
 mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
-#ki2mid = ki2.getProfile().mid
-Bots=[mid,kimid]#,ki2mid]
-owner =["u66fbcb754a61cb24f74ab1ebc8abce9e"]
-admin = ["u66fbcb754a61cb24f74ab1ebc8abce9e"]
+ki2mid = ki2.getProfile().mid
+Bots=[mid,kimid,ki2mid]
+owner =["u10e758a47e3d33cd0e3a56a6fc01b480"]
+admin = ["u10e758a47e3d33cd0e3a56a6fc01b480"]
 wait = {
     'contact':False,
     'autoJoin':True,
