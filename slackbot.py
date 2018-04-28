@@ -13,7 +13,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 nadya = LINETCR.LINE()
 #nadya.login(qr=True)
-nadya.login(token='Es23P7jTnOPtCSlFP5I0.gAyZyIlV6uRm4BbD05Wjqa.6FDkkFiVE0iTTI0ZJvClSorlSL/GKg0m7lWkrRpD3Bw=')
+nadya.login(token='EsXrZCZ3WVhNRGU3wib2.jADvmTjJHS6UyN5/XrCEeG.F1ofceIwSQ5nNpMCU4RhjTmv1ruS4GQAUQJhCHsBZ2E=')
 nadya.loginResult()
 print "Nadya-Login Success\n\n=====[Sukses Login]====="
 
@@ -138,7 +138,7 @@ groupMessage ="""
 ║╠➣Getgroup image
 ║╠➣Urlgroup Image
 ╚═════════════"""
-tjia="u19a6336222efe94acce1b05dd39c0940"
+tjia="u78643d09e42a36836a17cc918963a8b7"
 
 setMessage ="""
 ╔═════════════
@@ -234,7 +234,7 @@ helpMessage ="""
 ║╠➣✍͡➴͜Ĝα₤αηĸ͜͡✫
 ║╠➣✍͡➴͜Ardiy͜͡✫
 ╚═════════════
-line.me/ti/p/~azhura07_
+line.me/ti/p/~fuck.you__
 line.me/ti/p/~Ardiy102
 """
 
@@ -242,8 +242,8 @@ line.me/ti/p/~Ardiy102
 KAC=[nadya]
 mid = nadya.getProfile().mid
 Bots=[mid]
-Creator=["u19a6336222efe94acce1b05dd39c0940"]
-admin=["u19a6336222efe94acce1b05dd39c0940"]
+Creator=["u25a75532d26386ceae627e7ec5171e12"]
+admin=["u25a75532d26386ceae627e7ec5171e12"]
 
 contact = nadya.getProfile()
 backup1 = nadya.getProfile()
