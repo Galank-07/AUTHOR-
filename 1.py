@@ -14,15 +14,15 @@ import re,string,os
 import os.path,sys,urllib,shutil,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token="EnO9QTnDuhGMufCrTxv4.ToWzdCrfbxNyqFUNLOmrTa.pT/jn2nnfbdbkxkaHpWeRI4u4+Ekk8YjbN6W+OuS6ps=")
+cl.login(token="Es7osuZe4O8Uhd8AWuM0.eoDyPh49m80ooLAM+ag0Ga.hQSiYgyuJCmiIrpFRaPxd5a6Lk740X5NiOUHaMwJ1uM=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="En37XLxIAOucFCb5EGF6.inoLL5Eod23vRuhoVoPLLG./rkYm6JgfGpzxNoklR8hhXtFdb9eM4u7Rut0bDexd/M=")
+ki.login(token="EsisZrdvqx5FErnZy4A5.1zUe0oCVJUa5WsBmJ9UOLq.WEcE72a/8XLOMPZo6svy4nCyLPi8YToAcYMrHkK/d1s=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="En37XLxIAOucFCb5EGF6.inoLL5Eod23vRuhoVoPLLG./rkYm6JgfGpzxNoklR8hhXtFdb9eM4u7Rut0bDexd/M=")
+kk.login(token="Es0WyqFcVlU9vt5AiVv2.3166fQCJYRx5lEfyHWpOuG.rDiOiq0c1NhqiTcqJP+DnEJ5vjj6Fx93k1rR6r3IA3Q=")
 kk.loginResult()
 
 #ks = LINETCR.LINE()
@@ -104,8 +104,8 @@ Amid = ki.getProfile().mid
 kimid = kk.getProfile().mid
 #ki2mid = ks.getProfile().mid
 Bots = [mid,Amid,kimid]#,ki2mid]
-administrator = ["ub4ec190dc4450579d841fba7968311b4"]
-admin = ["ub4ec190dc4450579d841fba7968311b4"]
+administrator = ["u10e758a47e3d33cd0e3a56a6fc01b480"]
+admin = ["u10e758a47e3d33cd0e3a56a6fc01b480"]
 wait = {
     'contact':False,
     'autoJoin':True,
