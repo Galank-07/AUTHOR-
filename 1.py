@@ -25,16 +25,16 @@ kk = LINETCR.LINE()
 kk.login(token="En37XLxIAOucFCb5EGF6.inoLL5Eod23vRuhoVoPLLG./rkYm6JgfGpzxNoklR8hhXtFdb9eM4u7Rut0bDexd/M=")
 kk.loginResult()
 
-ks = LINETCR.LINE()
-ks.login(token="Enao9TmZmVVbFwGbLbzf.jkf9nACAg6rVkicOgwDbVW.D4rtzcp/d+MT5UxiXFJA3RflVAEnQeKK2AeSwNVCCQA=")
-ks.loginResult()
+#ks = LINETCR.LINE()
+#ks.login(token="Enao9TmZmVVbFwGbLbzf.jkf9nACAg6rVkicOgwDbVW.D4rtzcp/d+MT5UxiXFJA3RflVAEnQeKK2AeSwNVCCQA=")
+#ks.loginResult()
 
 print "1DaffaN3Kalani login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage ="""〘👑1DaffaN3Kalani👑〙
+helpMessage ="""
 ╔══════════════════════  
-║☁̸҉̸.̸҉ =ȼ๏ʍʍąɲď β๏ţ  ̸҉̸.̸҉̸☁
+║COMMAND SELF
 ╠══════════════════════
 ║[Id]
 ║[Mid]:
@@ -59,7 +59,7 @@ helpMessage ="""〘👑1DaffaN3Kalani👑〙
 ║[Unban]: "Dalate blacklist"
 ║[Banlist]: "Check blacklist"
 ╠════════════
-║〚C͓̳͓O͓̳͓M͓̳͓M͓̳͓A͓̳͓N͓̳͓D͓̳͓ ͓S͓̳͓E͓̳͓T͓̳͓〛
+║〚COMMAND SET〛
 ╠════════════
 ║[Contact: on/off]: 
 ║[Auto join: on/off]: 
@@ -70,7 +70,7 @@ helpMessage ="""〘👑1DaffaN3Kalani👑〙
 ║[Auto add: on/off]: 
 ║[Auto like: on/off]: 
 ╠═══════════════	
-║⟦ϲ̳̳̋ο̳̳̋м̳̳̋м̳̳̋α̳̳̋и̳̳̋∂̳̳̋ ̳̳̋ι̳̳̋и̳̳̋ ̳̳̋g̳̳̋я̳̳̋ο̳̳̋υ̳̳̋ρ̳̳̋⟧
+║COMMAND GROUP
 ╠═══════════════
 ║[Ban " @Tag]: 
 ║[Unban " @Tag]: 
@@ -113,9 +113,9 @@ wait = {
     'leaveRoom':False,
     'timeline':False,
     'autoAdd':False,
-    'message':"Thanks For Add Me By 􀰂􀰂􀰂􀰂[數]@1DaffaN3Kalani☪ইद 􀂳􏿿",
+    'message':"Thanks For Add Me By ✯✰тєαм ѕℓα¢ĸвσт✰✯",
     "lang":"JP",
-    "comment":"Auto Like By  􀰂􀰂􀰂􀰂[數]@1DaffaN3Kalani☪ইद 􀂳􏿿",
+    "comment":"Auto Like By  ✯✰тєαм ѕℓα¢ĸвσт✰✯",
     "likeOn":True,
     "commentOn":True,
     "commentBlack":{},
@@ -478,12 +478,12 @@ def bot(op):
                     cl.sendText(msg.to,msg.text)
             elif msg.text is None:
                 return
-            elif msg.text in ["Set:list"]:
+            elif msg.text in ["Key"]:
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,helpMessage)
                 else:
                     cl.sendText(msg.to,helpt)
-            elif msg.text in ["Set:key"]:
+            elif msg.text in ["help"]:
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,helpMessage2)
                 else:
