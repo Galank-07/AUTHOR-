@@ -226,7 +226,7 @@ helpMessage ="""
 ║╠➣Pap owner
 ║╠➣Speed
 ║╠➣Speed test
-║╠➣✫Status
+║╠➣Settings
 ╠══════════════
 ║╠➣SPECIAL THANKS TO:
 ║╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ:
