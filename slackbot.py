@@ -1022,7 +1022,7 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': tjia}
                 nadya.sendMessage(msg)
-		nadya.sendText(msg.to,"Itu Creator Majikan Kami Yang Super Kece\nNikung aja Boss Kalau Gak Mau Di Baperin v: 😂\n\nJangan Lupa Follow Me For Instagram:\nhttps://www.instagram.com/galank23_/\n\nAdd Me For Line:\nline.me/ti/p/~fuck.you_\n\nThanks For U Gend!!!")
+		nadya.sendText(msg.to,"Creator Majikan Kami\n╔═════════════\n╠➣✍͡➴͜Ĝα₤αηĸ͜͡✫\n╚═════════════\n Yang Super Kece Kepo,in aja\nNikung aja Boss Kalau Gak Mau Di Baperin v: 😂\n\nJangan Lupa Follow Me For Instagram:\nhttps://www.instagram.com/galank23_/\n\nAdd Me For Line:\nline.me/ti/p/~fuck.you_\n\nThanks For U Gend!!!")
 
  
 
