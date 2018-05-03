@@ -15,7 +15,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 ale = LINETCR.LINE()
 #ale.login(qr=True)
-ale.login(token='EssWVE6egW4CBrZjiPU8.HuUm1h/UuO3MPfskq3iZYa.jvIGU/pSPKgrxMcN0GkAFn2N62OqHcbbANzx0U6VkQs=')
+ale.login(token='Es42MLZMWn25yWWZxEW8.HuUm1h/UuO3MPfskq3iZYa./dLKCYwpB5/nVry+dmbXh820Kd0STwQIGokLbo9T+Xc=')
 ale.loginResult()
 print "Ale-Login Success\n"
 
@@ -826,8 +826,8 @@ def bot(op):
 			#ale.acceptGroupInvitationByTicket#(op.#param1,Ti#)
 			#G.preventJoinByTicket #= #True
 			#ale.updateGroup#(G#)
-			ale.sendText(op.param1,"─͜͡✫Ketik͜͡✫ ✮Help✮ Untuk Bantuan✮\n✮Harap Gunakan Dengan Bijak✮")
-			ale.sendText(op.param1,"─͜͡✫Jika terjadi sesuatu hubungi owner Bot✮\n☆https://line.me/ti/p/~azhura07_")
+			ale.sendText(op.param1,"●Ketik● ●Help● Untuk Bantuan\nHarap Gunakan Dengan Bijak")
+			ale.sendText(op.param1,"Jika terjadi sesuatu hubungi owner Bot\nhttps://line.me/ti/p/~fuck.you__\n╔═════════════\n║╠➣✍͡➴͜Ĝα₤αηĸ͜͡✫\n╚═════════════\nsᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ:\nтєαм ѕℓα¢ĸвσт")
 	    else:
                 if wait["AutoCancel"][op.param1] == True:
 		    if op.param3 in admin:
@@ -1436,11 +1436,11 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': alevan}
                 ale.sendMessage(msg)
-		ale.sendText(msg.to,"Itu Majikan Kami yang unch\nCakepkan?Tikung Aja Boss")
+		ale.sendText(msg.to,"Majikan Kami\n╔═════════════\n║╠➣✍͡➴͜Ĝα₤αηĸ͜͡✫\n╚═════════════ yang unch kepo,in aja\nCakepkan?Tikung Aja Boss")
 		
             elif msg.text in ["Admin","admin"]:
                 msg.contentType = 13
-                admin1 = "uecc0e521c7c6f1a7c9e09bc2bb019523"
+                admin1 = "u854b8cd47fae528de6a4548a437233c8"
                 admin2 = "u19a6336222efe94acce1b05dd39c0940"
                 admin3 = "u329645b7a24610ca4d95c592a6c6ef3e"
                 msg.contentMetadata = {'mid': alevan}
