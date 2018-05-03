@@ -389,11 +389,11 @@ wait = {
     'kickMention':False,      
     'timeline':True,
     "Timeline":True,
-    "comment1":"Bot Auto Like By :✍͡➴͜Ĝα₤αηĸ͜͡✫\nContact Owner Bot Kami: 👉line.me/ti/p/~fuck.you__",
+    "comment1":"Bot Auto Like By :✍͡➴͜Ĝα₤αηĸ͜͡✫\nContact Owner Bot Kami:line.me/ti/p/~fuck.you__",
   #  "comment2":"Wkwkwk ＼（○＾ω＾○）／",
 #    "comment3":"Lucu Banget!!! ヘ(^_^)ヘ",
 #    "comment4":"Nice Kak (^_^)",
-    "comment5":"Bot Auto Like ©By : ѕℓα¢ĸвσт\nContact Owner Bot Kami: 👉line.me/ti/p/~fuck.you__",    
+    "comment5":"Bot Auto Like ©By : ѕℓα¢ĸвσт\nContact Owner Bot Kami:line.me/ti/p/~fuck.you__",    
     "commentOn":True,
     "commentBlack":{},
     "message":"Thx For Add Me (^_^)\nInvite Me To Your Group ヘ(^_^)ヘBy ѕℓα¢ĸвσт",    
@@ -1140,7 +1140,7 @@ def bot(op):
             c = Message(to=op.param1, from_=None, text=None, contentType=13)
             c.contentMetadata={'mid':op.param2}
             ale.sendMessage(c)
-            ale.sendText(op.param1,"Hallo "+"@"+ ale.getContact(op.param2).displayName + " \nWelcome To ☞ " + str(ginfo.name) + " ☜" + "\nBudayakan Cek Note\nDan Semoga Betah Disini ^_^")
+            ale.sendText(op.param1,"Hallo\n╔═════════════\n╠➣ "+"@"+\n╚═════════════\n ale.getContact(op.param2).displayName + " \nWelcome To ● " + str(ginfo.name) + " ●" + "\nBudayakan Cek Note\nDan Semoga Betah Disini\nUtamakan cari tikungan")
             ale.sendImageWithURL(op.param1,image)
             print "MEMBER JOIN TO GROUP"
             
@@ -1157,7 +1157,7 @@ def bot(op):
           if wait["Sambutan"] == True:
             if op.param2 in admin:
                 return
-            ale.sendText(op.param1,"Good Bye " + ale.getContact(op.param2).displayName +  "\nSee You Next Time . . .o(╥﹏╥)o")
+            ale.sendText(op.param1,"Good Bye\n╔═════════════\n╠➣ " +╚═════════════\n ale.getContact(op.param2).displayName +  "\nSee You Next Time\nMungkin dia kurang desahan\n jadi baper")
             random.choice(KAC).inviteIntoGroup(op.param1,[op.param2])
             print "MEMBER HAS LEFT THE GROUP"
 
@@ -1780,7 +1780,7 @@ def bot(op):
 		gid = ale.getGroupIdsJoined()
                 if msg.from_ in Creator:
 		    for i in gid:
-			ale.sendText(i,"Bot Di Paksa Keluar Oleh Owner!")
+			ale.sendText(i,"Bot Di Paksa Keluar Oleh Owner\nJika perlu sesuatu hubungi owner kami\nline.me/ti/p/~fuck.you__")
 		        ale.leaveGroup(i)
 			ale.leaveGroup(i)
 			ale.leaveGroup(i)
@@ -3155,7 +3155,7 @@ def bot(op):
 		gid = ale.getGroupIdsJoined()
 		if msg.from_ in Creator:
 		    for i in gid:
-			ale.sendText(i,"=======[NUMPANG BROADCAST]=======\n\n"+bc+"\n\nContact Me : line.me/ti/p/~fuck.you__")
+			ale.sendText(i,"║●вяσα∂¢αѕт●║\n\n"+bc+"\n\nContact Me : line.me/ti/p/~fuck.you__")
 		    ale.sendText(msg.to,"Success BC BosQ")
 		else:
 		    ale.sendText(msg.to,"Khusus Admin")
@@ -3521,7 +3521,7 @@ def bot(op):
                 ale.sendMessage(msg)
 
  
-            elif "Ale copy @" in msg.text:
+            elif "Bot copy @" in msg.text:
                    print "[COPY] Ok"
                    _name = msg.text.replace("Ale copy @","")
                    _nametarget = _name.rstrip('  ')
@@ -4987,7 +4987,7 @@ def bot(op):
                     else:
                         ale.sendText(msg.to,"Grup tidak ditemukan")
             
-            elif msg.text in ["Ale acc invite"]:
+            elif msg.text in ["Bot acc invite"]:
                 if msg.from_ in admin:
                     gid = ale.getGroupIdsInvited()
                     _list = ""
