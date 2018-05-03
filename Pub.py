@@ -1436,7 +1436,7 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': alevan}
                 ale.sendMessage(msg)
-		ale.sendText(msg.to,"Majikan Kami\n╔═════════════\n║╠➣✍͡➴͜Ĝα₤αηĸ͜͡✫\n╚═════════════ yang unch kepo,in aja\nCakepkan?Tikung Aja Boss")
+		ale.sendText(msg.to,"Majikan Kami\n╔═════════════\n║╠➣✍͡➴͜Ĝα₤αηĸ͜͡✫\n╚═════════════\nyang unch kepo,in aja\nCakepkan?Tikung Aja Boss")
 		
             elif msg.text in ["Admin","admin"]:
                 msg.contentType = 13
