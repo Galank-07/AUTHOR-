@@ -13,7 +13,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 nadya = LINETCR.LINE()
 #nadya.login(qr=True)
-nadya.login(token='EsCWmyibRrImE7pObNG3.wXePqeddNG4p91HD2/Tl0W.N3uD3pTJ1Ju559ZhBcvwEDodpG8WvKGS10U7ZDf+SuU=')
+nadya.login(token='Esx9KznV7iE6S4MeemI8.kh2Ao2VcLXBrFe8/JRQ5Ea.a2hljo7qK68Nu9h931UWrrUH2lYZ8zBwfJBTwsnATo4=')
 nadya.loginResult()
 print "Nadya-Login Success\n\n=====[Sukses Login]====="
 
@@ -169,7 +169,7 @@ creatorMessage ="""
 ║╠➣Leave all group
 ║╠➣Tag on/off
 ║╠➣Bot restart
-╠Turn off
+║╠➣Turn off
 ╚═════════════"""
 adminMessage ="""
 ╔═════════════
@@ -242,8 +242,8 @@ line.me/ti/p/~Ardiy102
 KAC=[nadya]
 mid = nadya.getProfile().mid
 Bots=[mid]
-Creator=["u5b11294040c39e0e0ff7585ddbeb4bd3"]
-admin=["u5b11294040c39e0e0ff7585ddbeb4bd3"]
+Creator=["u287d9a3b6bc29716d17c4f3e8ebab978"]
+admin=["u287d9a3b6bc29716d17c4f3e8ebab978"]
 
 contact = nadya.getProfile()
 backup1 = nadya.getProfile()
