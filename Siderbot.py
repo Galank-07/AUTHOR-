@@ -9,10 +9,10 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token='ISI TOKEN KAMU')
+cl.login(token='Es3yfQCmmjLzo8Wy5cg8.PpgyChCcaP7Gv2jcdrsIEa.H+0BsXYaMQOak58w0DJ2jmyjlAd9Ukm5mXqwktN/wMM=')
 cl.loginResult()
 
-print "login Bot Ferians Succes"
+print "login Bot 0███████████████████100% Succes"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
