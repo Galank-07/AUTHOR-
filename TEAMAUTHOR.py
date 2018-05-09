@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import AUTHOR-BOT
-from AUTHOR-BOT.lib.curve.ttypes import *
+import LINETCR
+from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 
 import time, random, sys, ast, re, os, io, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3, wikipedia, tempfile
@@ -19,9 +19,9 @@ from gtts import gTTS
 #from gtts import gTTS
 #JANGAN LUPA =>  sudo pip install bs4 => sudo pip install BeautifulSoup => sudo pip install urllib
 
-kr = AUTHOR-BOT.LINE()
+kr = LINETCR.LINE()
 #kr.login(qr=True)
-kr.login(token="EpQALNY5vpxF8ETI7m10.gAyZyIlV6uRm4BbD05Wjqa.zYW2FE46oOtOgHXNE3ArcxTpBUTDvzVRpA5W0whSIYY=")#r
+kr.login(token="EsdXMJxWAjr7mhrnxFi7.Egq9cEqQnOnQf8YrIwoOTW.TmCjAU/B+oUJm9D9zGmfBAWkrD9EyXS1cANL+oGF0MQ=")#r
 kr.loginResult()
 
 print "╔════════════════════════════════════════════════════\n╠❂➣[BERHASIL LOGIN]\n╚════════════════════════════════════════════════════"
@@ -30,10 +30,6 @@ sys.setdefaultencoding('utf-8')
 
 helpmsg ="""
 ╔═════════════
-║ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ
-╠═════════════
-║ [OWNER:Ĝα₤αηĸ]=║
-╠═════════════
 ║╔════════════
 ║╠❂➣google (text)
 ║╠❂➣playstore (text)
@@ -65,16 +61,10 @@ helpmsg ="""
 ║╠❂➣keybot
 ║╚════════════
 ╚═════════════
-║ōωπÊя cяÊÀ╦ōя βō╦
-║http://line.me/ti/p/1bytI8rFC9
 """
 
 keymsg ="""
 ╔═════════════
-║ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ
-╠═════════════
-║ [OWNER:Ĝα₤αηĸ]=║
-╠═════════════
 ║╔════════════
 ║╠❂➣keypro
 ║╠❂➣keyself
@@ -84,16 +74,10 @@ keymsg ="""
 ║╠❂➣mode on/off
 ║╚════════════
 ╚═════════════
-║ōωπÊя cяÊÀ╦ōя βō╦
-║http://line.me/ti/p/1bytI8rFC9
 """
 
 helppro ="""
 ╔═════════════
-║ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ
-╠═════════════
-║ [OWNER:Ĝα₤αηĸ]=║
-╠═════════════
 ║╔════════════
 ║╠❂➣mode on/off
 ║╠❂➣protect on/off
@@ -102,16 +86,10 @@ helppro ="""
 ║╠❂➣cancel on/off
 ║╚════════════
 ╚═════════════
-║ōωπÊя cяÊÀ╦ōя βō╦
-║http://line.me/ti/p/1bytI8rFC9
 """
 
 helpself ="""
 ╔═════════════
-║ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ
-╠═════════════
-║ [OWNER:Ĝα₤αηĸ]=║
-╠═════════════
 ║╔════════════
 ║╠❂➣Me
 ║╠❂➣Myname:
@@ -141,16 +119,10 @@ helpself ="""
 ║╠❂➣Miclist
 ║╚════════════
 ╚═════════════
-║ōωπÊя cяÊÀ╦ōя βō╦
-║http://line.me/ti/p/1bytI8rFC9
 """
 
 helpset ="""
 ╔═════════════
-║ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ
-╠═════════════
-║ [OWNER:Ĝα₤αηĸ]=║
-╠═════════════
 ║╔════════════
 ║╠❂➣contact on/off
 ║╠❂➣autojoin on/off
@@ -167,16 +139,10 @@ helpset ="""
 ║╠❂➣Kicktag on/off
 ║╚════════════
 ╚═════════════
-║ōωπÊя cяÊÀ╦ōя βō╦
-║http://line.me/ti/p/1bytI8rFC9
 """
 
 helpgrup ="""
 ╔═════════════
-║ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ
-╠═════════════
-║ [OWNER:Ĝα₤αηĸ]=║
-╠═════════════
 ║╔════════════
 ║╠❂➣Link on
 ║╠❂➣Url
@@ -199,16 +165,10 @@ helpgrup ="""
 ║╠❂➣Midban
 ║╚════════════
 ╚═════════════
-║ōωπÊя cяÊÀ╦ōя βō╦
-║http://line.me/ti/p/1bytI8rFC9
 """
 
 helptranslate ="""
 ╔═════════════
-║ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ
-╠═════════════
-║ [OWNER:Ĝα₤αηĸ]=║
-╠═════════════
 ║╔════════════
 ║╠❂➣Id@en
 ║╠❂➣En@id
@@ -225,15 +185,13 @@ helptranslate ="""
 ║╠❂➣Say-jp
 ║╚════════════
 ╚═════════════
-║ōωπÊя cяÊÀ╦ōя βō╦
-║http://line.me/ti/p/1bytI8rFC9
 """
 
 KAC=[kr]
 mid = kr.getProfile().mid
 
 Bots=[mid]
-admin=["u19a6336222efe94acce1b05dd39c0940","u21ebf3d543eed67002406ccb9354c241",mid]
+admin=["u78643d09e42a36836a17cc918963a8b7",mid]
 
 wait = {
     "likeOn":False,
@@ -1091,13 +1049,13 @@ def bot(op):
                 else:md+="╠❂➣Cancel Protect:off [❌]\n╚═════════════"
                 kr.sendText(msg.to,md)
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "u19a6336222efe94acce1b05dd39c0940"}
+                msg.contentMetadata = {'mid': "u78643d09e42a36836a17cc918963a8b7"}
                 kr.sendMessage(msg)
             elif cms(msg.text,["creator","Creator"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "u19a6336222efe94acce1b05dd39c0940"}
+                msg.contentMetadata = {'mid': "u78643d09e42a36836a17cc918963a8b7"}
                 kr.sendMessage(msg)
-                kr.sendText(msg.to,'❂➣ Creator yang manis kalem  􀜁􀄯􏿿')
+                kr.sendText(msg.to,'MyCreator\n╔═════════════\n╠➣✍͡➴͜Ĝα₤αηĸ͜͡✫\n╚═════════════\nCakepkan boss\nNikung aja kak,kepoin aja\nNo baper\nNo desah\nNo Crot\nNo Sange\nNo Bully')
             elif msg.text.lower() == 'autoadd on':
                 if wait["autoAdd"] == True:
                     if wait["lang"] == "JP":
