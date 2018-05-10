@@ -89,6 +89,30 @@ ki19 = LINETCR.LINE()
 ki19.login(token="EspQzPVeiK3H5iYsfdqb.97lTGVmvXjWrorbWSIp6wW.+qbRsB/MD06mZs2Camr17B4GU59muzwwAHC1y1Q9Odc=")
 ki19.loginResult()
 
+ki20 = LINETCR.LINE()
+ki20.login(token="")
+ki20.loginResult()
+
+ki21 = LINETCR.LINE()
+ki21.login(token="")
+ki21.loginResult()
+
+ki22 = LINETCR.LINE()
+ki22.login(token="")
+ki22.loginResult()
+
+ki23 = LINETCR.LINE()
+ki23.login(token="")
+ki23.loginResult()
+
+ki24 = LINETCR.LINE()
+ki24.login(token="")
+ki24.loginResult()
+
+ki25 = LINETCR.LINE()
+ki25.login(token="")
+ki25.loginResult()
+
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -268,16 +292,16 @@ helpself="""╔═════════════
 ║ COMMAND BOTS
 ║╚═════¤═════╝
 ║╔═══════════
-║╠➣Fuck1/20 "@"
-║╠➣Kick1/20 "@"
+║╠➣Fuck1/25 "@"
+║╠➣Kick1/25 "@"
 ║╠➣All mid
 ║╠➣Reinvite
-║╠➣B1-20 mid
-║╠➣B1-20name "text"
-║╠➣B1-20
-║╠➣B1-20 gift
-║╠➣B1-20 in
-║╠➣B1-20 bye
+║╠➣B1-25 mid
+║╠➣B1-25name "text"
+║╠➣B1-25
+║╠➣B1-25 gift
+║╠➣B1-25 in
+║╠➣B1-25 bye
 ║╠➣Bc "text"
 ║╠➣Say "text"
 ║╠➣Bom "text"
@@ -334,8 +358,7 @@ helpset="""╔═════════════
 """
 translateMessage ="""
 ╔══════════
-║(╣✯✰тєαм ѕℓα¢ĸвσт✰✯╣)
-║╔═════════
+║тєαм ѕℓα¢ĸвσᴛ
 ║══════════
 ║✰║ Afrika/
 ║✰║ Albanian/
@@ -387,16 +410,9 @@ translateMessage ="""
 ║✰║ Ukrainian/
 ║✰║ Vietnam/
 ║✰║  Welsh/
-║╩═══NEXT PAGE═╦
-║🃏║ ✰ {  Media  }
-║🇲🇨║ ✰ {Translate}
-║⚙️║ ✰ {    Set   }
-║🏴║ ✰ {Helpbots}
-║🔧║ ✰ {Settings}
-���🔛║ ✰ {Setauto}
-╚══╩══════╝
+╚═════════════
 """
-KAC=[acil,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10,ki11,ki12,ki13,ki14,ki15,ki16,ki17,ki18,ki19]
+KAC=[acil,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10,ki11,ki12,ki13,ki14,ki15,ki16,ki17,ki18,ki19,ki20,ki21,ki22,ki23,ki24,ki25]
 mid = acil.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
@@ -417,7 +433,13 @@ ki16mid = ki16.getProfile().mid
 ki17mid = ki17.getProfile().mid
 ki18mid = ki18.getProfile().mid
 ki19mid = ki19.getProfile().mid
-Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,ki11mid,ki12mid,ki13mid,ki14mid,ki15mid,ki16mid,ki17mid,ki18mid]#,ki19mid]
+ki20mid = ki20.getProfile().mid
+ki21mid = ki21.getProfile().mid
+ki22mid = ki22.getProfile().mid
+ki23mid = ki23.getProfile().mid
+ki24mid = ki24.getProfile().mid
+ki25mid = ki25.getProfile().mid
+Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,ki11mid,ki12mid,ki13mid,ki14mid,ki15mid,ki16mid,ki17mid,ki18mid,ki19mid,ki20mid,ki21mid,ki22mid,ki23mid,ki24mid,ki25mid]
 admsa = "u78643d09e42a36836a17cc918963a8b7"
 wait = {
     'contact':False,
@@ -434,7 +456,7 @@ wait = {
     'message':"""THANKS FOR ADD ME\n\nFOLLOW ME ON INSTAGRAM\n\nhttps://www.instagram.com/galank23_/""",
     "lang":"JP",
     "comment":"Thanks For Add Me",
-    "comment1":"❂•••••••••••••••••••••••••❂\nline.me/ti/p/~azhura07_\n『✯✰тєαм ѕℓα¢ĸвσт✰✯』",
+    "comment1":"╔═════════════\n╠➣✍͡➴͜Ĝα₤αηĸ͜͡✫\n╚═════════════\nline.me/ti/p/~fuck.you__\nтєαм ѕℓα¢ĸвσт",
     "commentOn":False,
     "likeOn":True,
     "wcOn":True,
@@ -814,6 +836,21 @@ def bot(op):
                 ki8.like(url[25:58], url[66:], likeType=1001)
                 ki9.like(url[25:58], url[66:], likeType=1001)
                 ki10.like(url[25:58], url[66:], likeType=1001)
+		ki11.like(url[25:58], url[66:], likeType=1001)
+                ki12.like(url[25:58], url[66:], likeType=1001)
+                ki13.like(url[25:58], url[66:], likeType=1001)
+                ki14.like(url[25:58], url[66:], likeType=1001)
+                ki15.like(url[25:58], url[66:], likeType=1001)
+                ki16.like(url[25:58], url[66:], likeType=1001)
+                ki17.like(url[25:58], url[66:], likeType=1001)
+                ki18.like(url[25:58], url[66:], likeType=1001)
+                ki19.like(url[25:58], url[66:], likeType=1001)
+                ki20.like(url[25:58], url[66:], likeType=1001)
+		ki21.like(url[25:58], url[66:], likeType=1001)
+                ki22.like(url[25:58], url[66:], likeType=1001)
+                ki23.like(url[25:58], url[66:], likeType=1001)
+                ki24.like(url[25:58], url[66:], likeType=1001)
+                ki25.like(url[25:58], url[66:], likeType=1001)
                 acil.comment(url[25:58], url[66:], wait["comment1"])
                 ki.comment(url[25:58], url[66:], wait["comment1"])
                 ki2.comment(url[25:58], url[66:], wait["comment1"])
@@ -825,6 +862,21 @@ def bot(op):
                 ki8.comment(url[25:58], url[66:], wait["comment1"])
                 ki9.comment(url[25:58], url[66:], wait["comment1"])
                 ki10.comment(url[25:58], url[66:], wait["comment1"])
+		ki11.comment(url[25:58], url[66:], wait["comment1"])
+                ki12.comment(url[25:58], url[66:], wait["comment1"])
+                ki13.comment(url[25:58], url[66:], wait["comment1"])
+                ki14.comment(url[25:58], url[66:], wait["comment1"])
+                ki15.comment(url[25:58], url[66:], wait["comment1"])
+                ki16.comment(url[25:58], url[66:], wait["comment1"])
+                ki17.comment(url[25:58], url[66:], wait["comment1"])
+                ki18.comment(url[25:58], url[66:], wait["comment1"])
+                ki19.comment(url[25:58], url[66:], wait["comment1"])
+                ki20.comment(url[25:58], url[66:], wait["comment1"])
+		ki21.comment(url[25:58], url[66:], wait["comment1"])
+                ki22.comment(url[25:58], url[66:], wait["comment1"])
+                ki23.comment(url[25:58], url[66:], wait["comment1"])
+                ki24.comment(url[25:58], url[66:], wait["comment1"])
+                ki25.comment(url[25:58], url[66:], wait["comment1"])
 #-----------------------------------------------
         if op.type == 11:
             if op.param3 == '1':
@@ -1373,7 +1425,24 @@ def bot(op):
                 msg.contentMetadata = {'mid': ki18mid}
                 acil.sendMessage(msg)
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': ki19mid}
+		msg.contentMetadata = {'mid': ki19mid}
+                acil.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki20mid}
+                acil.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki21mid}
+                acil.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki22mid}
+                acil.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki23mid}
+                acil.sendMessage(msg)
+                msg.contentType = 13
+		msg.contentMetadata = {'mid': ki24mid}
+                acil.sendMessage(msg)
+                msg.contentMetadata = {'mid': ki25mid}
                 acil.sendMessage(msg)
             elif "Respon" == msg.text:
                 msg.contentType = 13
@@ -1431,8 +1500,26 @@ def bot(op):
                 msg.contentMetadata = {'mid': ki18mid}
                 ki18.sendMessage(msg)
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': ki19mid}
-                ki18.sendMessage(msg)
+		msg.contentMetadata = {'mid': ki19mid}
+                ki19.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki20mid}
+                ki20.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki21mid}
+                ki21.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki22mid}
+                ki22.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki23mid}
+                ki23.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki24mid}
+                ki24.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki25mid}
+                ki25.sendMessage(msg)
                 ki.sendText(msg.to,"SIAP JALANIN TUGAS BOSS")
             elif "B1" == msg.text:
                 msg.contentType = 13
@@ -1477,7 +1564,7 @@ def bot(op):
             elif "Creator" == msg.text:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': 'u78643d09e42a36836a17cc918963a8b7'}
-                acil.sendMessage(msg)
+                acil.sendMessage(msg.to,"MyCreator Kami\n╔═════════════\n╠➣✍͡➴͜Ĝα₤αηĸ͜͡✫\n╚═════════════\nsᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ\n●тєαм ѕℓα¢ĸвσт●")
             elif msg.text in ["Allgift","B1 gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
@@ -1574,8 +1661,21 @@ def bot(op):
 					ki8.sendMessage(msg)
 					ki9.sendMessage(msg)
 					ki10.sendMessage(msg)
-       #             ki11.sendMessage(msg)
+					ki11.sendMessage(msg)
 					ki12.sendMessage(msg)
+					ki13.sendMessage(msg)
+					ki14.sendMessage(msg)
+					ki15.sendMessage(msg)
+					ki16.sendMessage(msg)
+					ki17.sendMessage(msg)
+					ki18.sendMessage(msg)
+					ki19.sendMessage(msg)
+					ki20.sendMessage(msg)
+					ki21.sendMessage(msg)
+					ki22.sendMessage(msg)
+					ki23.sendMessage(msg)
+					ki24.sendMessage(msg)
+					ki25.sendMessage(msg)
             elif msg.text in ["Clink"]:
                 if msg.toType == 2:
                     group = acil.getGroup(msg.to)
@@ -2174,49 +2274,49 @@ def bot(op):
                         acil.sendText(msg.to,"Off ✖")
             elif msg.text.lower() == 'set':
                 md = "╔══════тєαм ѕℓα¢ĸвσт══════╗\n"
-                if wait["likeOn"] == True: md+="║╠➣Like:ON➡️📱\n"
-                else: md+="║╠➣Like:OFF➡️📴\n"
-                if wait["wcOn"] == True: md+="║╠➣Welcome:ON➡️📱\n"
-                else: md+="║╠➣Welcome:OFF➡️📴\n"
-                if wait["leftOn"] == True: md+="║╠➣Left:ON➡️📱\n"
-                else: md+="║╠➣Left:OFF➡️📴\n"
-                if wait["detectMention"] == True: md+="║╠➣Respon:ON➡️📱\n"
-                else: md +="║╠➣Respon:OFF➡️📴\n"
-                if wait["stickerMention"] == True: md+="║╠➣Stickertag:ON➡️📱\n"
-                else: md +="║╠➣Stickertag:OFF➡️📴\n"
-                if settings["simiSimi"] == True: md+="║╠➣Simisimi:ON➡️📱\n"
-                else: md+="║╠➣Simisimi:OFF➡️📴\n"
-                if wait["alwayRead"] == True: md+="║╠➣Auto read:ON➡️📱\n"
-                else: md+="║╠➣Auto read:OFF➡️📴\n"
-                if wait["Sider"] == True: md+="║╠➣Sider:ON➡️📱\n"
-                else: md+="║╠➣Sider:OFF➡️📴\n"
-                if wait["kickMention"] == True: md+="║╠➣Notag:ON➡️📱\n"
-                else:md+="║╠➣Notag:OFF➡️📴\n"
-                if wait["contact"] == True: md+="║╠➣Contact:ON➡️📱\n"
-                else: md+="║╠➣Contact:OFF➡️📴\n"
-                if wait["autoJoin"] == True: md+="║╠➣Join:ON➡️📱\n"
-                else: md +="║╠➣Join:OFF➡️📴\n"
-                if wait["autoCancel"]["on"] == True:md+="║╠➣Cancel:" + str(wait["autoCancel"]["members"]) + "➡️📱\n"
-                else: md+= "║╠➣Cancel:OFF➡️📴\n"
-                if wait["leaveRoom"] == True: md+="║╠➣Leave:ON➡️📱\n"
-                else: md+="║╠➣Leave:OFF➡️📴\n"
-                if wait["timeline"] == True: md+="║╠➣Share:ON➡️📱\n"
-                else:md+="║╠➣Share:OFF➡️📴\n"
-                if wait["autoAdd"] == True: md+="║╠➣Add:ON➡️📱\n"
-                else:md+="║╠➣Add:OFF➡️??\n"
-                if wait["commentOn"] == True: md+="║╠➣Com:ON➡️📱\n"
-                else:md+="║╠➣Com:OFF➡️📴\n"
-                if wait["protect"] == True: md+="║╠➣Pro:ON➡️📱\n"
-                else:md+="║╠➣Pro:OFF➡️📴\n"
-                if wait["linkprotect"] == True: md+="║╠➣ProtectQr:ON➡️📱\n"
-                else:md+="║╠➣ProtectQr:OFF➡️📴\n"
-                if wait["inviteprotect"] == True: md+="║╠➣Proinvite:ON➡️📱\n"
-                else:md+="║╠➣Proinvite:OFF➡️📴\n"
-                if wait["cancelprotect"] == True: md+"║╠➣Procancel:ON➡️📱\n"
-                else:md+="║╠➣Procancel:OFF➡️📴\n"
-                if wait["pname"] == True: md+="║╠➣Namelock:ON➡️📱\n"
-                else: md+="║╠➣Namelock:OFF➡️📴\n"   
-                acil.sendText(msg.to,md + "╔═════════════\n║╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ\n╚═════════════\nтєαм ѕℓα¢ĸвσт")
+                if wait["likeOn"] == True: md+="║╠➣Like:ON✅\n"
+                else: md+="║╠➣Like:OFF✖️\n"
+                if wait["wcOn"] == True: md+="║╠➣Welcome:ON✅\n"
+                else: md+="║╠➣Welcome:OFF✖️\n"
+                if wait["leftOn"] == True: md+="║╠➣Left:ON✅\n"
+                else: md+="║╠➣Left:OFF✖️\n"
+                if wait["detectMention"] == True: md+="║╠➣Respon:ON✅\n"
+                else: md +="║╠➣Respon:OFF✖️\n"
+                if wait["stickerMention"] == True: md+="║╠➣Stickertag:ON✅\n"
+                else: md +="║╠➣Stickertag:OFF✖️\n"
+                if settings["simiSimi"] == True: md+="║╠➣Simisimi:ON✅\n"
+                else: md+="║╠➣Simisimi:OFF✖️\n"
+                if wait["alwayRead"] == True: md+="║╠➣Auto read:ON✅\n"
+                else: md+="║╠➣Auto read:OFF✖️\n"
+                if wait["Sider"] == True: md+="║╠➣Sider:ON✅\n"
+                else: md+="║╠➣Sider:OFF✖️\n"
+                if wait["kickMention"] == True: md+="║╠➣Notag:ON✅\n"
+                else:md+="║╠➣Notag:OFF✖️\n"
+                if wait["contact"] == True: md+="║╠➣Contact:ON✅\n"
+                else: md+="║╠➣Contact:OFF✖️\n"
+                if wait["autoJoin"] == True: md+="║╠➣Join:ON✅\n"
+                else: md +="║╠➣Join:OFF✖️\n"
+                if wait["autoCancel"]["on"] == True:md+="║╠➣Cancel:" + str(wait["autoCancel"]["members"]) + "✅\n"
+                else: md+= "║╠➣Cancel:OFF✖️\n"
+                if wait["leaveRoom"] == True: md+="║╠➣Leave:ON✅\n"
+                else: md+="║╠➣Leave:OFF✖️\n"
+                if wait["timeline"] == True: md+="║╠➣Share:ON✅\n"
+                else:md+="║╠➣Share:OFF✖️\n"
+                if wait["autoAdd"] == True: md+="║╠➣Add:ON✅\n"
+                else:md+="║╠➣Add:OFF✖️\n"
+                if wait["commentOn"] == True: md+="║╠➣Com:ON✅\n"
+                else:md+="║╠➣Com:OFF✖️\n"
+                if wait["protect"] == True: md+="║╠➣Pro:ON✅\n"
+                else:md+="║╠➣Pro:OFF✖️\n"
+                if wait["linkprotect"] == True: md+="║╠➣ProtectQr:ON✅\n"
+                else:md+="║╠➣ProtectQr:OFF✖️\n"
+                if wait["inviteprotect"] == True: md+="║╠➣Proinvite:ON✅\n"
+                else:md+="║╠➣Proinvite:OFF✖️\n"
+                if wait["cancelprotect"] == True: md+"║╠➣Procancel:ON✅\n"
+                else:md+="║╠➣Procancel:OFF✖️\n"
+                if wait["pname"] == True: md+="║╠➣Namelock:ON✅\n"
+                else: md+="║╠➣Namelock:OFF✖️\n"   
+                acil.sendText(msg.to,md + "╔═════════════\n╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ\n╠➣●тєαм ѕℓα¢ĸвσт●\n╚═════════════")
             elif "Creatorgrup" == msg.text:
                 try:
                     group = acil.getGroup(msg.to)
@@ -2249,9 +2349,9 @@ def bot(op):
             elif msg.text in ["Speed","Sp"]:
               if msg.from_ in admin and owner:
                 start = time.time()
-                cl.sendText(msg.to, "Sabar Kampret...")
+                acil.sendText(msg.to, "Sabar ███████████████████100%")
                 elapsed_time = time.time() - start
-                cl.sendText(msg.to, "%sDetik" % (elapsed_time))
+                acil.sendText(msg.to, "%sDetik" % (elapsed_time))
       #-------------Fungsi Speedbot Finish---------------------#
             elif "Tagme: " in msg.text:
                 c = msg.text.replace("Tagme: ","")
@@ -3547,7 +3647,7 @@ def bot(op):
                     ki.sendText(msg.to,"Blacklisted user")
                     mc = " 🛡️====||B L A C K L I S T||====🛡️\n"
                     for mi_d in wait["blacklist"]:
-                        mc += "🗜️" +acil.getContact(mi_d).displayName + "\n"
+                        mc += "➣" +acil.getContact(mi_d).displayName + "\n"
                     acil.sendText(msg.to,mc)
                     
                     print "[Command]Banlist executed"
@@ -3574,6 +3674,12 @@ def bot(op):
                    ki17.sendText(msg.to,"done ✔")
                    ki18.sendText(msg.to,"done ✔")
                    ki19.sendText(msg.to,"done ✔")
+		ki20.sendText(msg.to,"done ✔")
+                   ki21.sendText(msg.to,"done ✔")
+                   ki22.sendText(msg.to,"done ✔")
+                   ki23.sendText(msg.to,"done ✔")
+                   ki24.sendText(msg.to,"done ✔")
+                   ki25.sendText(msg.to,"done ✔")
                    ki.sendText(msg.to,"blacklist done all removed Boss")
             elif msg.text.lower() == 'kick@mbl':
                 if msg.toType == 2:
@@ -3770,6 +3876,12 @@ def bot(op):
                     gs = ki17.getGroup(msg.to)
                     gs = ki18.getGroup(msg.to)
                     gs = ki19.getGroup(msg.to)
+		gs = ki20.getGroup(msg.to)
+                    gs = ki21.getGroup(msg.to)
+                    gs = ki22.getGroup(msg.to)
+                    gs = ki23.getGroup(msg.to)
+                    gs = ki24.getGroup(msg.to)
+                    gs = ki25.getGroup(msg.to)
                     targets = []
                     for g in gs.members:
                         if _name in g.displayName:
@@ -3786,7 +3898,7 @@ def bot(op):
                                 print (msg.to,[g.mid])
                             except:
                                 pass
-            elif msg.text in ["Tag","Tagall","nHaa"]:
+            elif msg.text in ["Tag","Tagall","jones"]:
                 group = acil.getGroup(msg.to)
                 k = len(group.members)//500
                 for j in xrange(k+1):
@@ -3879,6 +3991,12 @@ def bot(op):
                         ki17.leaveGroup(msg.to)
                         ki18.leaveGroup(msg.to)
                         ki19.leaveGroup(msg.to)
+			ki20.leaveGroup(msg.to)
+                        ki21.leaveGroup(msg.to)
+                        ki22.leaveGroup(msg.to)
+                        ki23.leaveGroup(msg.to)
+                        ki24.leaveGroup(msg.to)
+                        ki25.leaveGroup(msg.to)
                         G.preventJoinByTicket = False
                         acil.updateGroup(G)
                         invsend = 0
@@ -3902,6 +4020,12 @@ def bot(op):
                         ki17.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki18.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki19.acceptGroupInvitationByTicket(msg.to,Ticket)
+			ki20.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki21.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki22.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki23.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki24.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        ki25.acceptGroupInvitationByTicket(msg.to,Ticket)
                         G = acil.getGroup(msg.to)
                         ginfo = acil.getGroup(msg.to)
                         G.preventJoinByTicket = True
@@ -4075,7 +4199,7 @@ def bot(op):
                 if msg.toType == 2:
                     ginfo = acil.getGroup(msg.to)
                     try:
-#                        acil.sendText(msg.to,"􀜁􀇔􏿿Bye Bye😘 "  +  str(ginfo.name)  + "")
+                        acil.sendText(msg.to,"􀜁􀇔􏿿Bye Bye😘 "  +  str(ginfo.name)  + "")
                         ki.leaveGroup(msg.to)
                         ki2.leaveGroup(msg.to)
                         ki3.leaveGroup(msg.to)
@@ -4095,7 +4219,12 @@ def bot(op):
                         ki17.leaveGroup(msg.to)
                         ki18.leaveGroup(msg.to)
                         ki19.leaveGroup(msg.to)
-                        #ki10.leaveGroup(msg.to)
+                        ki20.leaveGroup(msg.to)
+			ki21.leaveGroup(msg.to)
+                        ki22.leaveGroup(msg.to)
+                        ki23.leaveGroup(msg.to)
+                        ki24.leaveGroup(msg.to)
+                        ki25.leaveGroup(msg.to)
                     except:
                         pass
 #-----------------------------------------------
@@ -4113,6 +4242,21 @@ def bot(op):
                         ki8.leaveGroup(msg.to)
                         ki9.leaveGroup(msg.to)
                         ki10.leaveGroup(msg.to)
+			ki11.leaveGroup(msg.to)
+                        ki12.leaveGroup(msg.to)
+                        ki13.leaveGroup(msg.to)
+                        ki14.leaveGroup(msg.to)
+                        ki15.leaveGroup(msg.to)
+                        ki16.leaveGroup(msg.to)
+                        ki17.leaveGroup(msg.to)
+                        ki18.leaveGroup(msg.to)
+                        ki19.leaveGroup(msg.to)
+                        ki20.leaveGroup(msg.to)
+			ki21.leaveGroup(msg.to)
+                        ki22.leaveGroup(msg.to)
+                        ki23.leaveGroup(msg.to)
+                        ki24.leaveGroup(msg.to)
+                        ki25.leaveGroup(msg.to)
                         acil.leaveGroup(msg.to)
                     except:
                         pass
@@ -4339,6 +4483,12 @@ def bot(op):
                 ki17.sendText(msg.to,"Ping 􀜁􀇔􏿿")
                 ki18.sendText(msg.to,"Ping 􀜁􀇔􏿿")
                 ki19.sendText(msg.to,"Ping 􀜁􀇔􏿿")
+		ki20.sendText(msg.to,"Ping 􀜁􀇔􏿿")
+                ki21.sendText(msg.to,"Ping 􀜁􀇔􏿿")
+                ki22.sendText(msg.to,"Ping 􀜁􀇔􏿿")
+                ki23.sendText(msg.to,"Ping 􀜁􀇔􏿿")
+                ki24.sendText(msg.to,"Ping 􀜁􀇔􏿿")
+                ki25.sendText(msg.to,"Ping 􀜁􀇔􏿿")
 
 #-----------------------------------------------
 #-----------------------------------------------
