@@ -21,7 +21,7 @@ from gtts import gTTS
 
 kr = LINETCR.LINE()
 #kr.login(qr=True)
-kr.login(token="EsdXMJxWAjr7mhrnxFi7.Egq9cEqQnOnQf8YrIwoOTW.TmCjAU/B+oUJm9D9zGmfBAWkrD9EyXS1cANL+oGF0MQ=")#r
+kr.login(token="EswBgFQBLityjDP5xI95.d0bMeB8a2tqIUkd43Mf/5q.GGq6A40965VWItrF0Mz6WEKwiHckS2IwREbZD2CO9Vw=")#r
 kr.loginResult()
 
 print "╔════════════════════════════════════════════════════\n╠❂➣[BERHASIL LOGIN]\n╚════════════════════════════════════════════════════"
@@ -191,7 +191,7 @@ KAC=[kr]
 mid = kr.getProfile().mid
 
 Bots=[mid]
-admin=["u78643d09e42a36836a17cc918963a8b7",mid]
+admin=["u0f406611bf00d93422b8a0f8de617ee5",mid]
 
 wait = {
     "likeOn":False,
@@ -210,7 +210,7 @@ wait = {
     'autoAdd':True,
     'message':"""Thx for add""",
     "lang":"JP",
-    "comment":"👉ąµţ๏ℓɨЌ€ By C-A_Bot😊\n\n☆º°˚˚✰ 闩나丁口尺 阝口丁丂 ✰º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by 闩乙廾나尺闩 ⭐👈 »»» http://line.me/ti/p/1bytI8rFC9 «««",
+    "comment":"👉ąµţ๏ℓɨЌ€ By ●тѕв●\n\n●тєαм ѕℓα¢ĸвσт●\nąµţ๏ℓɨЌ€ by ●✍͡➴͜Ĝα₤αηĸ͜͡✫● http://line.me/ti/p/~fuck.you «««",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
