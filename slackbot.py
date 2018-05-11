@@ -13,7 +13,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 nadya = LINETCR.LINE()
 #nadya.login(qr=True)
-nadya.login(token='Escma8MoIoZpo3l3c38e.9LdITZoO4L870JZtkaiy+G.SMNFGYPKu0tZNLc5lWVLr5vJ31LPrbzfrzFFU7CLv20=')
+nadya.login(token='Es6OnzWPF9TGHQvldK67.HKYYeEUQTVoiQ+krF5cMfW.+9w/zOqGMJvL3f8P61XGbOy5LINcB+XcUwm2e5h6y28=')
 nadya.loginResult()
 print "Nadya-Login Success\n\n=====[Sukses Login]====="
 
@@ -240,8 +240,8 @@ line.me/ti/p/~fuck.you__
 KAC=[nadya]
 mid = nadya.getProfile().mid
 Bots=[mid]
-Creator=["uf650e2b733a8e25f3bd23cd3280218fe"]
-admin=["uf650e2b733a8e25f3bd23cd3280218fe"]
+Creator=["u864cb211ebaab6f388abf2917f90a617"]
+admin=["u864cb211ebaab6f388abf2917f90a617"]
 
 contact = nadya.getProfile()
 backup1 = nadya.getProfile()
@@ -858,7 +858,7 @@ def bot(op):
                  if wait["detectMention2"] == True:          
                     contact = nadya.getContact(msg.from_)
                     cName = contact.displayName
-                    balas = ["Lu Sange apa Fans?Tag Gwa trus..Hadeuh Kerjaan jones","Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Woii " + cName + " Lu Sange ya,Tag Gwa trus"]
+                    balas = ["Sabar ya?masih sibuk,harap tenang","Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Woii " + cName + " ada apa panggil²"]
                     ret_ = random.choice(balas)
                     name = re.findall(r'@(\w+)', msg.text)
                     mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -880,7 +880,7 @@ def bot(op):
                     contact = nadya.getContact(msg.from_)
                     cName = contact.displayName
                     balas = ["Woii " + cName + ", Cie..cie,Fans Gwa Tambah 1"]
-                    balas1 = "Mau ngajak nikung ya?boleh aja. . ."
+                    balas1 = "antri ya..buat dapat sembako. . ."
                     ret_ = random.choice(balas)
                     image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
                     name = re.findall(r'@(\w+)', msg.text)
