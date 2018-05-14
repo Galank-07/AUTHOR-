@@ -13,9 +13,9 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 nadya = LINETCR.LINE()
 #nadya.login(qr=True)
-nadya.login(token='Es6OnzWPF9TGHQvldK67.HKYYeEUQTVoiQ+krF5cMfW.+9w/zOqGMJvL3f8P61XGbOy5LINcB+XcUwm2e5h6y28=')
+nadya.login(token='EslaBIZgj46taRK6aUC7.Egq9cEqQnOnQf8YrIwoOTW.h40n5gKKhmgF1bY0+71wUCve7j4hhQIGF9vXu/3I/Dw=')
 nadya.loginResult()
-print "Nadya-Login Success\n\n=====[Sukses Login]====="
+print "╔═════════════\n╠➣Login Success\n╚═════════════"
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -202,7 +202,7 @@ adminMessage ="""
 ║╠➣Autokick on/off
 ║╠➣Autocancel on/off
 ║╠➣Invitepro on/off
-║╠➣Join on/off〙
+║╠➣Join on/off
 ║╠➣Joincancel on/off
 ║╠➣Respon1 on/off
 ║╠➣Respon2 on/off
@@ -240,8 +240,8 @@ line.me/ti/p/~fuck.you__
 KAC=[nadya]
 mid = nadya.getProfile().mid
 Bots=[mid]
-Creator=["u864cb211ebaab6f388abf2917f90a617"]
-admin=["u864cb211ebaab6f388abf2917f90a617"]
+Creator=["u78643d09e42a36836a17cc918963a8b7"]
+admin=["u78643d09e42a36836a17cc918963a8b7"]
 
 contact = nadya.getProfile()
 backup1 = nadya.getProfile()
@@ -518,7 +518,33 @@ def summon(to, nama):
        nadya.sendMessage(msg)
     except Exception as error:
        print error          
-                        
+        
+def mentionMembers(to, mid):
+    try:
+        arrData = ""
+        textx = "╔══[Mention {} User]\n╠ ".format(str(len(mid)))
+        arr = []
+        no = 1
+        for i in mid:
+            mention = "@x\n"
+            slen = str(len(textx))
+            elen = str(len(textx) + len(mention) - 1)
+            arrData = {'S':slen, 'E':elen, 'M':i}
+            arr.append(arrData)
+            textx += mention
+            if no < len(mid):
+                no += 1
+                textx += "╠ "
+            else:
+                try:
+                    textx += "╚══[ {} ]".format(str(line.getGroup(to).name))
+                except:
+                    pass
+        nadya.sendMessage(to, textx, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
+    except Exception as error:
+        logError(error)
+        nadya.sendMessage(to, "[ INFO ] Error :\n" + str(error))
+                            
        
 
 def restart_program():
@@ -562,15 +588,15 @@ def bot(op):
                                 if " " in Name:
                                     nick = Name.split(' ')
                                     if len(nick) == 2:
-                                        nadya.sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nNgintip Aja Niih. . .\nChat Kek Idiih (-__-)   ")
+                                        nadya.sendText(op.param1, "Ketahuan " + "『 " + Name + " 』" + "\nNgintip Aja Niih. . .\nChat Kek Idiih (-__-)   ")
                                         time.sleep(0.2)
                                         summon(op.param1,[op.param2])
                                     else:
-                                        nadya.sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nBetah Banget Jadi Penonton. . .\nChat Napa (-__-)   ")
+                                        nadya.sendText(op.param1, "Haii " + "『 " + Name + " 』" + "\nBetah Banget Jadi Penonton. . .\nChat Napa (-__-)   ")
                                         time.sleep(0.2)
                                         summon(op.param1,[op.param2])
                                 else:
-                                    nadya.sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nNgapain Kak Ngintip Aja???\nSini Gabung Chat...   ")
+                                    nadya.sendText(op.param1, "Naah " + "『 " + Name + " 』" + "\nNgapain Kak Ngintip Aja???\nSini Gabung Chat...   ")
                                     time.sleep(0.2)
                                     summon(op.param1,[op.param2])
                         else:
@@ -773,13 +799,13 @@ def bot(op):
 
 
         if op.type == 17:
-          if wait["Sambutan"] == True:
+          if wait["Welcome"] == True:
             if op.param2 in Creator:
                 return
             ginfo = nadya.getGroup(op.param1)
             contact = nadya.getContact(op.param2)
             image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-            nadya.sendText(op.param1,"Hallo " + nadya.getContact(op.param2).displayName + "\nWelcome To ☞ " + str(ginfo.name) + " ☜" + "\nBudayakan Cek Note\nDan Semoga Betah Disini \nJangan lupa Nikung")
+            nadya.sendText(op.param1,"Hallo " + nadya.getContact(op.param2).displayName + "\nWelcome To 『 " + str(ginfo.name) + " 』" + "\nBudayakan Cek Note ya\nDan Semoga Betah Disini \nJangan lupa cari tikungan")
             c = Message(to=op.param1, from_=None, text=None, contentType=13)
             c.contentMetadata={'mid':op.param2}
             nadya.sendMessage(c)  
@@ -793,7 +819,7 @@ def bot(op):
             print "MEMBER JOIN TO GROUP"
 
         if op.type == 15:
-          if wait["Sambutan"] == True:
+          if wait["Welcome"] == True:
             if op.param2 in Creator:
                 return
             nadya.sendText(op.param1,"Good Bye " + nadya.getContact(op.param2).displayName +  "\nSee You Next Time . . . \nSemoga Dapat jodoh di luar sana")
@@ -1519,35 +1545,35 @@ def bot(op):
                 nadya.sendText(msg.to,"Contact Sudah Di Nonaktifkan")
                 
 
-            elif msg.text in ["Alwaysread on"]:
+            elif msg.text in ["Autoread on"]:
                 wait["alwaysRead"] = True
-                nadya.sendText(msg.to,"Always Read Sudah Aktif")
+                nadya.sendText(msg.to,"Auto Read Sudah Aktif")
 
-            elif msg.text in ["Alwaysread off"]:
+            elif msg.text in ["Autoread off"]:
                 wait["alwaysRead"] = False
-                nadya.sendText(msg.to,"Always Read Sudah Di Nonaktifkan")                
+                nadya.sendText(msg.to,"Auto Read Sudah Di Nonaktifkan")                
 
 
-            elif msg.text in ["Sambutan on"]:
-                if wait["Sambutan"] == True:
+            elif msg.text in ["Welcome on"]:
+                if wait["Welcome"] == True:
                     if wait["lang"] == "JP":
-                        nadya.sendText(msg.to,"Sambutan Di Aktifkanヾ(*´∀｀*)ﾉ")
+                        nadya.sendText(msg.to,"Welcome Di Aktifkan")
                 else:
-                    wait["Sambutan"] = True
+                    wait["Welcome"] = True
                     if wait["lang"] == "JP":
-                        nadya.sendText(msg.to,"Sudah Onヽ(´▽｀)/")
+                        nadya.sendText(msg.to,"Sudah On")
 
-            elif msg.text in ["Sambutan off"]:
-                if wait["Sambutan"] == False:
+            elif msg.text in ["Welcome off"]:
+                if wait["Welcome"] == False:
                     if wait["lang"] == "JP":
-                        nadya.sendText(msg.to,"Sambutan Di Nonaktifkan(　＾∇＾)")
+                        nadya.sendText(msg.to,"Welcome Di Nonaktifkan")
                 else:
-                    wait["Sambutan"] = False
+                    wait["Welcome"] = False
                     if wait["lang"] == "JP":
-                        nadya.sendText(msg.to,"Sudah Off(p′︵‵。)")
+                        nadya.sendText(msg.to,"Sudah Off")
                         
                         
-            elif "Sider on" in msg.text:
+            elif "Cctv on" in msg.text:
                 try:
                     del cctv['point'][msg.to]
                     del cctv['sidermem'][msg.to]
@@ -1558,21 +1584,21 @@ def bot(op):
                 cctv['sidermem'][msg.to] = ""
                 cctv['cyduk'][msg.to]=True
                 wait["Sider"] = True
-                nadya.sendText(msg.to,"Siap On Cek Sider Boss")
+                nadya.sendText(msg.to,"Siap On Cek Cctv Boss")
                 
-            elif "Sider off" in msg.text:
+            elif "Cctv off" in msg.text:
                 if msg.to in cctv['point']:
                     cctv['cyduk'][msg.to]=False
                     wait["Sider"] = False
-                    nadya.sendText(msg.to, "Cek Sider Off")
+                    nadya.sendText(msg.to, "Cek Cctv Off")
                 else:
                     nadya.sendText(msg.to, "Heh Belom Di Set")                         
 
 
             elif msg.text in ["Settings"]:
                 md = ""
-		if wait["Sambutan"] == True: md+="║╠➣✔️ Sambutan : On\n"
-		else:md+="║╠➣❌ Sambutan : Off\n"
+		if wait["Sambutan"] == True: md+="║╠➣✔️ Welcome : On\n"
+		else:md+="║╠➣❌ Welcome : Off\n"
 		if wait["AutoJoin"] == True: md+="║╠➣✔️ Auto Join : On\n"
                 else: md +="║╠➣❌ Auto Join : Off\n"
 		if wait["AutoJoinCancel"] == True: md+="║╠➣✔️ Auto Join Cancel : On\n"
@@ -1587,8 +1613,8 @@ def bot(op):
 		else:md+="║╠➣❌ Qr Protect : Off\n"
 		if wait["AutoKick"] == True: md+="║╠➣✔️ Auto Kick : On\n"
 		else:md+="║╠➣❌ Auto Kick : Off\n"
-		if wait["alwaysRead"] == True: md+="║╠➣✔️ Always Read : On\n"
-		else:md+="║╠➣❌ Always Read: Off\n"
+		if wait["alwaysRead"] == True: md+="║╠➣✔️ Auto Read : On\n"
+		else:md+="║╠➣❌ Auto Read: Off\n"
 		if wait["detectMention"] == True: md+="║╠➣✔️ Auto Respon1 : On\n"
 		else:md+="║╠➣❌ Auto Respon1 : Off\n"		
 		if wait["detectMention2"] == True: md+="║╠➣✔️ Auto Respon2 : On\n"
@@ -1597,8 +1623,8 @@ def bot(op):
 		else:md+="║╠➣❌ Auto Respon3 : Off\n"			
 		if wait["kickMention"] == True: md+="║╠➣✔️ Auto Respon Kick : On\n"
 		else:md+="║╠➣❌ Auto Respon Kick : Off\n"				
-		if wait["Sider"] == True: md+="║╠➣✔️ Auto Sider : On\n"
-		else:md+="║╠➣❌ Auto Sider: Off\n"	
+		if wait["Sider"] == True: md+="║╠➣✔️ Auto Cctv : On\n"
+		else:md+="║╠➣❌ Auto Cctv: Off\n"	
 		if wait["Simi"] == True: md+="║╠➣✔️ Simisimi : On\n"
 		else:md+="║╠➣❌ Simisimi: Off\n"		
                 nadya.sendText(msg.to,"╔═════════════\n""╠➣тєαм ѕℓα¢ĸвσт\n""╚═════════════\n"+md+"╚═════════════")
@@ -2192,6 +2218,63 @@ def bot(op):
                  cnt.text = "Jumlah:\n" + str(jml) +  " Members"
                  cnt.to = msg.to
                  nadya.sendMessage(cnt)                 
+#==============================================================================#          
+            elif text.lower() == 'mention':
+                            if msg.toType == 0:
+                                sendMention(to, to, "", "")
+                            elif msg.toType == 2:
+                                group = line.getGroup(to)
+                                contact = [mem.mid for mem in group.members]
+                                ct1, ct2, ct3, ct4, ct5, jml = [], [], [], [], [], len(contact)
+                                if jml <= 100:
+                                    mentionMembers(to, contact)
+                                elif jml > 100 and jml <= 200: 
+                                    for a in range(0, 99):
+                                        ct1 += [contact[a]]
+                                    for b in range(100, jml):
+                                        ct2 += [contact[b]]
+                                    mentionMembers(to, ct1)
+                                    mentionMembers(to, ct2)
+                                elif jml > 200 and jml <= 300:
+                                    for a in range(0, 99):
+                                        ct1 += [contact[a]]
+                                    for b in range(100, 199):
+                                        ct2 += [contact[b]]
+                                    for c in range(200, jml):
+                                        ct3 += [contact[c]]
+                                    mentionMembers(to, ct1)
+                                    mentionMembers(to, ct2)
+                                    mentionMembers(to, ct3)
+                                elif jml > 300 and jml <= 400:
+                                    for a in range(0, 99):
+                                        ct1 += [contact[a]]
+                                    for b in range(100, 199):
+                                        ct2 += [contact[b]]
+                                    for c in range(200, 299):
+                                        ct3 += [contact[c]]
+                                    for d in range(300, jml):
+                                        ct4 += [contact[d]]
+                                    mentionMembers(to, ct1)
+                                    mentionMembers(to, ct2)
+                                    mentionMembers(to, ct3)
+                                    mentionMembers(to, ct4)
+                                elif jml > 400 and jml <= 500:
+                                    for a in range(0, 99):
+                                        ct1 += [contact[a]]
+                                    for b in range(100, 199):
+                                        ct2 += [contact[b]]
+                                    for c in range(200, 299):
+                                        ct3 += [contact[c]]
+                                    for d in range(300, 399):
+                                        ct4 += [contact[d]]
+                                    for e in range(400, jml):
+                                        ct4 += [contact[e]]
+                                    mentionMembers(to, ct1)
+                                    mentionMembers(to, ct2)
+                                    mentionMembers(to, ct3)
+                                    mentionMembers(to, ct4)
+                                    mentionMembers(to, ct5)
+#=======================#
 
 
             elif msg.text in ["Setview","Setpoint","Cctv"]:
