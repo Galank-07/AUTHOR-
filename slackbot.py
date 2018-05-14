@@ -13,7 +13,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 nadya = LINETCR.LINE()
 #nadya.login(qr=True)
-nadya.login(token='EslaBIZgj46taRK6aUC7.Egq9cEqQnOnQf8YrIwoOTW.h40n5gKKhmgF1bY0+71wUCve7j4hhQIGF9vXu/3I/Dw=')
+nadya.login(token='EsS9W5vP22vcuy9sNlpe.hTjpXXV4wq7cW80XRlTt7G.5eikWWmvlZUdc7cJpS7Y+W8NLoCo58odZuYRIDzREjE=')
 nadya.loginResult()
 print "╔═════════════\n╠➣Login Success\n╚═════════════"
 
@@ -240,8 +240,8 @@ line.me/ti/p/~fuck.you__
 KAC=[nadya]
 mid = nadya.getProfile().mid
 Bots=[mid]
-Creator=["u78643d09e42a36836a17cc918963a8b7"]
-admin=["u78643d09e42a36836a17cc918963a8b7"]
+Creator=["u1ed24fc71bf8590ec2c3cd31acbb53ee"]
+admin=["u1ed24fc71bf8590ec2c3cd31acbb53ee"]
 
 contact = nadya.getProfile()
 backup1 = nadya.getProfile()
@@ -799,7 +799,7 @@ def bot(op):
 
 
         if op.type == 17:
-          if wait["Welcome"] == True:
+          if wait["Sambutan"] == True:
             if op.param2 in Creator:
                 return
             ginfo = nadya.getGroup(op.param1)
@@ -819,7 +819,7 @@ def bot(op):
             print "MEMBER JOIN TO GROUP"
 
         if op.type == 15:
-          if wait["Welcome"] == True:
+          if wait["Sambutan"] == True:
             if op.param2 in Creator:
                 return
             nadya.sendText(op.param1,"Good Bye " + nadya.getContact(op.param2).displayName +  "\nSee You Next Time . . . \nSemoga Dapat jodoh di luar sana")
@@ -1555,20 +1555,20 @@ def bot(op):
 
 
             elif msg.text in ["Welcome on"]:
-                if wait["Welcome"] == True:
+                if wait["Sambutan"] == True:
                     if wait["lang"] == "JP":
                         nadya.sendText(msg.to,"Welcome Di Aktifkan")
                 else:
-                    wait["Welcome"] = True
+                    wait["Sambutan"] = True
                     if wait["lang"] == "JP":
                         nadya.sendText(msg.to,"Sudah On")
 
             elif msg.text in ["Welcome off"]:
-                if wait["Welcome"] == False:
+                if wait["Sambutan"] == False:
                     if wait["lang"] == "JP":
                         nadya.sendText(msg.to,"Welcome Di Nonaktifkan")
                 else:
-                    wait["Welcome"] = False
+                    wait["Sambutan"] = False
                     if wait["lang"] == "JP":
                         nadya.sendText(msg.to,"Sudah Off")
                         
