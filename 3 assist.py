@@ -49,6 +49,8 @@ helpMessage ="""╔═════════════
 ║╠➣Sider  =  Melihat sider dibawah read point
 ║╠➣Apakah ...  =  Menanyakan jawaban ya atau tidak
 ║╠➣Creator  =  Melihat kontak pembuat bot
+║╠➣Set view
+║╠➣Set group
 ╚═════════════
 """
 
@@ -678,8 +680,8 @@ def bot(op):
                 kc.sendMessage(msg)
             elif msg.text in ["Creator","creator"]:
                 msg.contentType = 13
-                cl.sendText(msg.to, "Created By: FajrinArd")
-                msg.contentMetadata = {'mid': 'ue11fc7860247c63bd3da149613a793f6'}
+                cl.sendText(msg.to, "Created By: 『✍͡➴͜Ĝα₤αηĸ͜͡✫』")
+                msg.contentMetadata = {'mid': 'u78643d09e42a36836a17cc918963a8b7'}
                 cl.sendMessage(msg)
             elif msg.text in ["Me"]:
                 msg.contentType = 13
