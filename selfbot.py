@@ -47,7 +47,6 @@ helpMessage =""" TΣΔM SLΔCҜβΩT CΩMMΔΠD
 ¤ Jam on/off
 ¤ Change clientock:「name」
 ¤ Up
-¤ Cv join
 
 ¤ Command in the groups ¤
 
@@ -91,6 +90,10 @@ helpMessage =""" TΣΔM SLΔCҜβΩT CΩMMΔΠD
 ¤ Respo︎n
 ¤ Bot cancel
 ¤ Title:
+¤ Reinvite
+¤ B1-B3 in
+¤ Bye
+¤ B1-B3 bye
 
 """
 KAC=[cl,ki,kk,kc]
@@ -1364,6 +1367,14 @@ def bot(op):
                         cl.sendText(msg.to,"Off👈")
             elif msg.text.lower() == 'set':
                 md = ""
+		if wait["protect"] == True: md+="􀜁􀇔􏿿 Protect:on 􀜁􀄯􏿿\n"
+                else:md+="􀜁􀇔􏿿 Protect:off 􀜁􀄰􏿿\n"
+                if wait["linkprotect"] == True: md+="􀜁􀇔􏿿 Link Protect:on 􀜁􀄯􏿿\n"
+                else:md+="􀜁􀇔􏿿 Link Protect:off 􀜁􀄰􏿿\n"
+                if wait["inviteprotect"] == True: md+="􀜁􀇔􏿿 Invitation Protect:on 􀜁􀄯􏿿\n"
+                else:md+="􀜁􀇔􏿿 Invitation Protect:off 􀜁􀄰􏿿\n"
+                if wait["cancelprotect"] == True: md+="􀜁􀇔􏿿 Cancel Protect:on 􀜁􀄯􏿿\n"
+                else:md+="􀜁􀇔􏿿 Cancel Protect:off 􀜁􀄰􏿿\n"
                 if wait["contact"] == True: md+="􀜁􀇔􏿿 Contact:on 􀜁􀄯􏿿\n"
                 else: md+="􀜁􀇔􏿿 Contact:off􀜁􀄰􏿿\n"
                 if wait["autoJoin"] == True: md+="􀜁􀇔􏿿 Auto Join:on 􀜁􀄯􏿿\n"
@@ -1378,14 +1389,14 @@ def bot(op):
                 else:md+="􀜁􀇔􏿿 Auto add:off 􀜁􀄰􏿿\n"
                 if wait["commentOn"] == True: md+="􀜁􀇔􏿿 Auto komentar:on 􀜁􀄯􏿿\n"
                 else:md+="􀜁􀇔􏿿 Auto komentar:off 􀜁􀄰􏿿\n"
-                if wait["protect"] == True: md+="􀜁􀇔􏿿 Protect:on 􀜁􀄯􏿿\n"
-                else:md+="􀜁􀇔􏿿 Protect:off 􀜁􀄰􏿿\n"
-                if wait["linkprotect"] == True: md+="􀜁􀇔􏿿 Link Protect:on 􀜁􀄯􏿿\n"
-                else:md+="􀜁􀇔􏿿 Link Protect:off 􀜁􀄰􏿿\n"
-                if wait["inviteprotect"] == True: md+="􀜁􀇔􏿿 Invitation Protect:on 􀜁􀄯􏿿\n"
-                else:md+="􀜁􀇔􏿿 Invitation Protect:off 􀜁􀄰􏿿\n"
-                if wait["cancelprotect"] == True: md+="􀜁􀇔􏿿 Cancel Protect:on 􀜁􀄯􏿿\n"
-                else:md+="􀜁􀇔􏿿 Cancel Protect:off 􀜁􀄰􏿿\n"
+                #if wait["protect"] == True: md+="􀜁􀇔􏿿 Protect:on 􀜁􀄯􏿿\n"
+                #else:md+="􀜁􀇔􏿿 Protect:off 􀜁􀄰􏿿\n"
+                #if wait["linkprotect"] == True: md+="􀜁􀇔􏿿 Link Protect:on 􀜁􀄯􏿿\n"
+                #else:md+="􀜁􀇔􏿿 Link Protect:off 􀜁􀄰􏿿\n"
+                #if wait["inviteprotect"] == True: md+="􀜁􀇔􏿿 Invitation Protect:on 􀜁􀄯􏿿\n"
+                #else:md+="􀜁􀇔􏿿 Invitation Protect:off 􀜁􀄰􏿿\n"
+                #if wait["cancelprotect"] == True: md+="􀜁􀇔􏿿 Cancel Protect:on 􀜁􀄯􏿿\n"
+                #else:md+="􀜁􀇔􏿿 Cancel Protect:off 􀜁􀄰􏿿\n"
                 cl.sendText(msg.to,md)
             elif "album merit " in msg.text:
 				if msg.from_ in admin:
@@ -2281,7 +2292,115 @@ def bot(op):
                     if wait["lang"] == "JP":
                         cl.sendText(msg.to,"Protect Group On")
                     else:
-                        cl.sendText(msg.to,"done")             
+                        cl.sendText(msg.to,"done")  
+			#-----------------------------------------------
+            elif msg.text.lower() == 'reinvite':
+                if msg.toType == 2:
+                        G = cl.getGroup(msg.to)
+                        ginfo = cl.getGroup(msg.to)
+                        cl.sendText(msg.to,"waitting...")
+                        ki.leaveGroup(msg.to)
+                        kk.leaveGroup(msg.to)
+                        kc.leaveGroup(msg.to)
+                        G.preventJoinByTicket = False
+                        cl.updateGroup(G)
+                        invsend = 0
+                        Ticket = cl.reissueGroupTicket(msg.to)
+                        ki.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        kk.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        kc.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        G = cl.getGroup(msg.to)
+                        ginfo = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = True
+                        ki.updateGroup(G)
+                        print "kicker ok"
+                        G.preventJoinByTicket(G)
+                        ki.updateGroup(G)
+			#-----------------------------------------------
+            elif "B1 in" in msg.text:
+                        G = cl.getGroup(msg.to)
+                        ginfo = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = False
+                        cl.updateGroup(G)
+                        invsend = 0
+                        Ticket = cl.reissueGroupTicket(msg.to)
+                        ki.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        G = cl.getGroup(msg.to)
+                        ginfo = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = True
+                        ki.updateGroup(G)
+                        print "kicker ok"
+                        G.preventJoinByTicket(G)
+                        ki.updateGroup(G)
+#-----------------------------------------------
+            elif "B2 in" in msg.text:
+                        G = cl.getGroup(msg.to)
+                        ginfo = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = False
+                        cl.updateGroup(G)
+                        invsend = 0
+                        Ticket = cl.reissueGroupTicket(msg.to)
+                        kk.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        G = cl.getGroup(msg.to)
+                        ginfo = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = True
+                        kk.updateGroup(G)
+                        print "kicker ok"
+                        G.preventJoinByTicket(G)
+                        kk.updateGroup(G)
+#-----------------------------------------------
+            elif "B3 in" in msg.text:
+                        G = cl.getGroup(msg.to)
+                        ginfo = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = False
+                        acil.updateGroup(G)
+                        invsend = 0
+                        Ticket = cl.reissueGroupTicket(msg.to)
+                        kc.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        G = cl.getGroup(msg.to)
+                        ginfo = cl.getGroup(msg.to)
+                        G.preventJoinByTicket = True
+                        kk.updateGroup(G)
+                        print "kicker ok"
+                        G.preventJoinByTicket(G)
+                        kk.updateGroup(G)
+#------------------------
+#--------------------------------------      
+#-----------------------------------------------
+            elif "Bye" in msg.text:
+                if msg.toType == 2:
+                    ginfo = cl.getGroup(msg.to)
+                    try:
+                    	ki.leaveGroup(msg.to)
+                        kk.leaveGroup(msg.to)
+                        kc.leaveGroup(msg.to)
+                        cl.leaveGroup(msg.to)
+                    except:
+                        pass
+		#-----------------------------------------------
+            elif "B1 bye" in msg.text:
+                if msg.toType == 2:
+                    ginfo = cl.getGroup(msg.to)
+                    try:
+                        ki.leaveGroup(msg.to)
+                    except:
+                        pass
+#-----------------------------------------------
+            elif "B2 bye" in msg.text:
+                if msg.toType == 2:
+                    ginfo = cl.getGroup(msg.to)
+                    try:
+                        kk.leaveGroup(msg.to)
+                    except:
+                        pass
+#-----------------------------------------------
+            elif "B3 bye" in msg.text:
+                if msg.toType == 2:
+                    ginfo = cl.getGroup(msg.to)
+                    try:
+                        kc.leaveGroup(msg.to)
+                    except:
+                        pass
 #----------------------------------------------- 
 #-----------------------------------------------
         if op.type == 19:
