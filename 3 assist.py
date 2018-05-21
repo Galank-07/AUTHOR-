@@ -9,19 +9,19 @@ from urllib import urlopen
 import requests,tempfile
 
 cl = SLACKBOT.LINE()
-cl.login(token=True)
+cl.login(token="Etjgq8AOqyxAZZY1N28d.XW1ag/pXB26XaCevtkgfxq.hvDJTjm3G0uV15QVn5bknQUkaEqtDGu5Ba0W2TJj33g=")
 cl.loginResult()
 
 ki = SLACKBOT.LINE()
-ki.login(token=True)
+ki.login(token="EtoiLoPz7NezTSFjWUg7.Gi64doT0hX/+Y+cVnJa0vW.Hdb99pb0mhvHquFdkadOLF5+eR3vRO3lbFSE0QfshfI=")
 ki.loginResult()
 
 kk = SLACKBOT.LINE()
-kk.login(token=True)
+kk.login(token="EtsjiwWquYI9RTUQnyU4.errDEqEMBWawsUuA14c5na.zcxDI4VTTq0ptZ4JH7a642PAsg5J0ClsTCOM+YasORo=")
 kk.loginResult()
 
 kc = SLACKBOT.LINE()
-kc.login(token=True)
+kc.login(token="EtSxfj1aTNuDuGI4cYe3.hOW4GNavKUyhsMr7/glOSW.xHZODk35AzIhASUT8C2Nc0Tfz2Ng8NGb7xHpbDLy6Y8=")
 kc.loginResult()
 
 cl
@@ -105,9 +105,9 @@ Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 
-Bots=[mid,Amid,Bmid,Cmid,"u19a6336222efe94acce1b05dd39c0940"]
-admin=["u19a6336222efe94acce1b05dd39c0940"]
-admin=["u19a6336222efe94acce1b05dd39c0940"]
+Bots=[mid,Amid,Bmid,Cmid,"u808eb80ceb741f1fbfcbf0af36303457"]
+admin=["uc70d401be3f16f6eb101c1154ca1855d"]
+admin=["uc70d401be3f16f6eb101c1154ca1855d"]
 wait = {
     'contact':False,
     'autoJoin':True,
