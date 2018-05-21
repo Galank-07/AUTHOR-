@@ -1,26 +1,26 @@
 # -*- coding: utf-8 -*-
 
-import AUTHOR-BOT
-from AUTHOR-BOT.lib.curve.ttypes import *
+import SLACKBOT
+from SLACKBOT.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 import re,string,os,shutil,urllib2,urllib3,subprocess
 from urllib import urlopen
 import requests,tempfile
 
-cl = AUTHOR-BOT.LINE()
+cl = SLACKBOT.LINE()
 cl.login(token=True)
 cl.loginResult()
 
-ki = AUTHOR-BOT.LINE()
+ki = SLACKBOT.LINE()
 ki.login(token=True)
 ki.loginResult()
 
-kk = AUTHOR-BOT.LINE()
+kk = SLACKBOT.LINE()
 kk.login(token=True)
 kk.loginResult()
 
-kc = AUTHOR-BOT.LINE()
+kc = SLACKBOT.LINE()
 kc.login(token=True)
 kc.loginResult()
 
@@ -30,63 +30,74 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" -  ║ƬΣΔΜ ΔƱƬΘΓ ƁΘƬ║ -
-General command :
-Me  =  Cek akun sendiri
-My mid  =  Cek akun Mid
-Mid @ = Cek mid via tag
-Bot?  =  Cek akun Bot
-Ginfo  =  Group info
-Id Group = Melihat id grup
-Group pict  =  Melihat pict grup
-Speedbot  =  Cek kecepatan bot
-Up  =  Fungsi spam chat
-Tagall  =  Mention semua user
-Cek  =  Membuat set point
-Sider  =  Melihat sider dibawah read point
-Apakah ...  =  Menanyakan jawaban ya atau tidak
-Creator  =  Melihat kontak pembuat bot
-private command :
-Set group = Melihat private menu"""
+helpMessage ="""╔═════════════
+║╔═════¤═════╗
+║ HELP MESSAGE
+║╚═════¤═════╝
+║╔═══════════
+║╠➣Me  =  Cek akun sendiri
+║╠➣My mid  =  Cek akun Mid
+║╠➣Mid @ = Cek mid via tag
+║╠➣Bot?  =  Cek akun Bot
+║╠➣Ginfo  =  Group info
+║╠➣Id Group = Melihat id grup
+║╠➣Group pict  =  Melihat pict grup
+║╠➣Speedbot  =  Cek kecepatan bot
+║╠➣Up  =  Fungsi spam chat
+║╠➣Tagall  =  Mention semua user
+║╠➣Cek  =  Membuat set point
+║╠➣Sider  =  Melihat sider dibawah read point
+║╠➣Apakah ...  =  Menanyakan jawaban ya atau tidak
+║╠➣Creator  =  Melihat kontak pembuat bot
+╚═════════════
+"""
 
-Setgroup =""" Private Menu 􀔃􀄆red check mark􏿿
-[Protect Group]
--- Gr on/off
-[Mid Via Contact]
- -- Contact on/off
-[Cancel All Invited]
--- Cancl on/off
-[No Joinned]
--- Joinn on/off
-􀔃􀅕red arrow right􏿿 Command Private
-[Set View] = Melihat proteksi bot
-[Get ready] = Cek respon bot
-[Gn namagroup] = Ganti nama grup
-[Open url] = Membuka url grup
-[Gurl] = Membuka dan mengirim url grup
-[Close url] = Menutup url grup
-[Cancel] = Cancel user masuk grup
-[Staff add @] = Menambah user admin
-[Staff remove @] = Menghapus user dari admin
-[Stafflist] = Melihat daftar admin
-[Ban @] = Ban target with mention
-[Ban] = Ban target with send contact 
-[Unban @] = Unban target with mention
-[Unban] = Unban target with send contact
-[Banlist] = Melihat daftar akun ter-banned
-[Kill @] = Kick target banned
-[Nk @] = Kick target user
-[List group] = Melihat daftar grup pada bot
-[Group id] = Melihat daftar id grup pada bot
-[Invite mid] = Invite via mid
-[inv: (gid)] = Invite admin ke group id yang dituju
-[Kick mid] = Kick via mid
-[Ard Squad join] = Invite semua bot
-[Bye bots] = Mengeluarkan semua bots assist
-[Bye Ard] = Mengeluarkan bot utama
-[Ard out] = Mengeluarkan bot utama dari semua grup
-[Bc ...] = Untuk broadcast ke semua grup
-[Kernel] = Melihat kernel bot"""
+Setgroup =""" ╔═════════════
+║╔═════¤═════╗
+║   HELP BOT
+║╚═════¤═════╝
+║╔════════════
+║╠➣Gr on/off
+║╠➣Mid Via Contact
+║╠➣Contact on/off
+║╠➣Cancel All Invited
+║╠➣Cancl on/off
+║╠➣No Joinned
+║╠➣Joinn on/off
+║╠➣Bot1-Bot3 join
+║╔═════¤═════╗
+║  HELP GROUP
+║╚═════¤═════╝
+║╔═══════════
+║╠➣[Set View] = Melihat proteksi bot
+║╠➣[Get ready] = Cek respon bot
+║╠➣[Gn namagroup] = Ganti nama grup
+║╠➣[Open url] = Membuka url grup
+║╠➣[Gurl] = Membuka dan mengirim url grup
+║╠➣[Close url] = Menutup url grup
+║╠➣[Cancel] = Cancel user masuk grup
+║╠➣[Staff add @] = Menambah user admin
+║╠➣[Staff remove @] = Menghapus user dari admin
+║╠➣[Stafflist] = Melihat daftar admin
+║╠➣[Ban @] = Ban target with mention
+║╠➣[Ban] = Ban target with send contact 
+║╠➣[Unban @] = Unban target with mention
+║╠➣[Unban] = Unban target with send contact
+║╠➣[Banlist] = Melihat daftar akun ter-banned
+║╠➣[Kill @] = Kick target banned
+║╠➣[Nk @] = Kick target user
+║╠➣[List group] = Melihat daftar grup pada bot
+║╠➣[Group id] = Melihat daftar id grup pada bot
+║╠➣[Invite mid] = Invite via mid
+║╠➣[inv: (gid)] = Invite admin ke group id yang dituju
+║╠➣[Kick mid] = Kick via mid
+║╠➣[All join] = Invite semua bot
+║╠➣[Bye bots] = Mengeluarkan semua bots assist
+║╠➣[@bye] = Mengeluarkan bot utama
+║╠➣[Out] = Mengeluarkan bot utama dari semua grup
+║╠➣[Bc ...] = Untuk broadcast ke semua grup
+║╠➣[Kernel] = Melihat kernel bot
+╚═════════════"""
 KAC=[cl,ki,kk,kc]
 DEF=[ki,kk,kc]
 mid = cl.getProfile().mid
@@ -1100,7 +1111,7 @@ def bot(op):
 
 #-----------------------------------------------
          #----------------Fungsi Join Group Start-----------------------#
-            elif msg.text in ["Ard Squad join"]:
+            elif msg.text in ["All join"]:
               if msg.from_ in admin:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
@@ -1121,7 +1132,7 @@ def bot(op):
                         G.preventJoinByTicket(G)
                         cl.updateGroup(G)
 
-            elif msg.text in ["Ard join"]:
+            elif msg.text in ["All join"]:
               if msg.form_ in admin:
                   x = ki.getGroup(msg.to)
                   x.preventJoinByTicket = False
@@ -1134,7 +1145,7 @@ def bot(op):
                   ki.updateGroup(G)
                   Ticket = ki.reissueGroupTicket(msg.to)
 
-            elif msg.text in ["Ard1 join"]:
+            elif msg.text in ["Bot1 join"]:
               if msg.from_ in admin:
                   x = cl.getGroup(msg.to)
                   x.preventJoinByTicket = False
@@ -1147,7 +1158,7 @@ def bot(op):
                   cl.updateGroup(G)
                   Ticket = cl.reissueGroupTicket(msg.to)
 
-            elif msg.text in ["Ard2 join"]:
+            elif msg.text in ["Bot2 join"]:
               if msg.from_ in admin:
                   x = cl.getGroup(msg.to)
                   x.preventJoinByTicket = False
@@ -1160,7 +1171,7 @@ def bot(op):
                   cl.updateGroup(G)
                   Ticket = cl.reissueGroupTicket(msg.to)
                   
-            elif msg.text in ["Ard3 join"]:
+            elif msg.text in ["Bot3 join"]:
               if msg.from_ in admin:
                   X = cl.getGroup(msg.to)
                   X.preventJoinByTicket = False
@@ -1185,7 +1196,7 @@ def bot(op):
                         kc.leaveGroup(msg.to)
                     except:
                         pass
-            elif msg.text in ["Bye Ard"]:
+            elif msg.text in ["@bye"]:
               if msg.from_ in admin:
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
@@ -1416,7 +1427,7 @@ def bot(op):
 
 #-----------------------------------------------
 
-            elif msg.text in ["Ard","ard"]:
+            elif msg.text in ["Bot","bot"]:
                 cl.sendText(msg.to,"Ya? Type 'help' for help message.")
 #-----------------------------------------------
 
@@ -1509,7 +1520,7 @@ def bot(op):
                     except:
                         pass
 
-            elif msg.text.lower() == 'ard out all':
+            elif msg.text.lower() == 'bye bots':
 			  if msg.from_ in admin:
 				gid = cl.getGroupIdsJoined()
 				gid = ki.getGroupIdsJoined()
@@ -1521,10 +1532,10 @@ def bot(op):
 					kk.leaveGroup(i)
 					kc.leaveGroup(i)
 				if wait["lang"] == "JP":
-					cl.sendText(msg.to,"Ard Squad bot leaving all groups.")
+					cl.sendText(msg.to,"All bot leaving all groups.")
 				else:
 					cl.sendText(msg.to,"He declined all invitations")
-            elif msg.text.lower() == 'ard out':
+            elif msg.text.lower() == 'out':
 			  if msg.from_ in admin:
 				gid = cl.getGroupIdsJoined()
 				for i in gid:
@@ -1726,7 +1737,7 @@ def autolike():
         if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
           try:    
 			cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1003)
-			cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by\nline.me/ti/p/~ardfajrin")
+			cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by TΣΔM SLΔCҜβΩT\nline.me/ti/p/~fuck.you__")
 			ki.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1003)
 			kk.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1003)
 			kc.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1003)
