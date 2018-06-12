@@ -12,32 +12,32 @@ from bs4 import BeautifulSoup
 import youtube_dl
 #import pyimgflip
 
-cl = LineClient(authToken='EsCOLVzAiW2MtljZzYn7.2Q4IPbUIIc0avnRrko76rW.G+jZo1SM4PGu8c0UvmbnjUezeWwfMz71GzzTx71UnJ4=')
+cl = LineClient(authToken='EtkD8gSvDttaJf2H6pW7.Egq9cEqQnOnQf8YrIwoOTW.8TdTyH4K93D4jbd3MHLhtOGFE8N6kyMugNKOpNuP2gE=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient(authToken='EsjlNp9vlWmkaLc7z6Kf.3n3RWAdsgLZjt/+nOQiXNW.KVm0ddXNhC8jSNgG31sCyr3ZLlYlyXg3PfBab9fNvIk=')
+ki = LineClient(authToken='Et4yHonssLXdBtX9dgwe.wvhydD8HlswGsvWpinOaVG.sxLcC0OjnILlgwdsX1av83hylr1PDanKgfRpxylNWVk=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
-kk = LineClient(authToken='EsDICM1uFCPNtg7fK254.xABX72IbuY/KMjjOxHNaXa.DVFEXf4T3MJooikuwRnNVLAG5xwTQ7OJ+HUI7sj4YXw=')
+kk = LineClient(authToken='EtVRBENLsz4rXRFH2Qu3.eYIoClpI2sl2hRSJw7q6SW.9ySVhaToEpLzr3OmDF/ZdMq8IZ2xt/EgC55mT/BBDPg=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
-kc = LineClient(authToken='EsoDagsHgHRSnIX6a2V7.d/ilHm7FtIoI0I9dGqdOfW.XAbV0Af3N2sG28wDm5KxTi0Vb2S6A8WN0YPUS5QSBz8=')
+kc = LineClient(authToken='Etx4ApjxqPGdfnAESTza.3svWLda5Jb1maVIdRVif6G.sS1hTmpMeXVW0ueubIIQe03oJ6HJusRGREQqqpKIvWQ=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
-km = LineClient(authToken='EsqWMzZpr8GFYqIamJAc.P4bZ/fBf0hIumuuVXCVtJa.PPu7/I3DfSxLIvbggJJDtfsVSbviyFp7+oGYFMbXH7w=')
+km = LineClient(authToken='EtMLSwsDJXHa8XZsRvaa.WQ7xJwYTy17gLrjSzVBpMG.H3Vsk6tTbCa1Q1nl7DcWJzOZ7WkEvVrWT43mE1Inovw=')
 km.log("Auth Token : " + str(km.authToken))
 channel4 = LineChannel(km)
 km.log("Channel Access Token : " + str(channel4.channelAccessToken))
 
-kb = LineClient(authToken='EsChZxinKBcI7QnlHdQ7.GMDtix1gwlaKwlMfbYzIXW.DVFJLMF+xJMtFXj/yU+4pmnq7vBjmWqXm4TmCse/FTg=')
+kb = LineClient(authToken='EtC8mAmR1Fu4lojhdNJ8.LetmZ3b3S8xsvXte6ExxAa.R6icHX7WqrlukHgRXXdQSo9a9xy1ic5PfQMZ2pzmz/M=')
 kb.log("Auth Token : " + str(kb.authToken))
 channel5 = LineChannel(kb)
 kb.log("Channel Access Token : " + str(channel5.channelAccessToken))
@@ -49,10 +49,10 @@ kb.log("Channel Access Token : " + str(channel5.channelAccessToken))
 
 poll = LinePoll(cl)
 call = LineCall(cl)
-creator = ["udaae22a41ba2882d0054dad128eefa47"]
-owner = ["udaae22a41ba2882d0054dad128eefa47"]
-admin = ["udaae22a41ba2882d0054dad128eefa47"]
-staff = ["udaae22a41ba2882d0054dad128eefa47"]
+creator = ["u78643d09e42a36836a17cc918963a8b7"]
+owner = ["u78643d09e42a36836a17cc918963a8b7"]
+admin = ["u78643d09e42a36836a17cc918963a8b7"]
+staff = ["u78643d09e42a36836a17cc918963a8b7"]
 lineProfile = cl.getProfile()
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
@@ -172,10 +172,10 @@ wait = {
     "unsend":False,
     "mention":"Jangan ngintip terus kak 😒",
     "Respontag":"GIFT NIH BUAT LU",
-    "welcome":"Welcome kk .......",
-    "leave":"See you next againt later",
-    "comment":"Super Like by : Apk Team Bots",
-    "message":"Ready Radiibots Protection \nProteCT your Groups",
+    "welcome":"Welcome kak .......",
+    "leave":"See you next time kak",
+    "comment":"Auto Like by : ●TΣΔM SLΔCҜβΩT●",
+    "message":"MY CREATOR: ✍͡➴͜Ĝα₤αηĸ͜͡✫ \nCONTACT OWNER: line.me/ti/p/~fuck.you__",
     }
 
 read = {
@@ -255,7 +255,7 @@ def mentionMembers(to, mid):
             textx += mention
             if no < len(mid):
                 no += 1
-                textx += "「✭」{}. ".format(str(no))
+                textx += "「⊙」{}. ".format(str(no))
             else:
                 textx += "\n「 Total {} Member 」".format(str(len(mid)))
         cl.sendMessage(to, textx, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
@@ -320,7 +320,7 @@ def welcomeMembers(to, mid):
 def leaveMembers(to, mid):
     try:
         arrData = ""
-        textx = "「 Respon Leave 」\nBaper Ya Kak ".format(str(len(mid)))
+        textx = "「 Respon Leave 」\nBaper Ya Kak Kurang belai itu mah ".format(str(len(mid)))
         arr = []
         no = 1
         num = 2
@@ -515,13 +515,13 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "• Gunakan「 " + key + " 」di depannya\n\n" + \
-                  "「✭」 " + key + "Me\n" + \
-                  "「✭」 " + key + "Mid「@」\n" + \
-                  "「✭」 " + key + "Steal「@」\n" + \
-                  "「✭」 " + key + "Cover「@」\n" + \
-                  "「✭」 " + key + "Nk「@」\n" + \
-                  "「✭」 " + key + "Kick1「@」\n" + \
-                  "「✭」 " + key + "Clone「@」\n" + \
+                  "╠➣ " + key + "Me\n" + \
+                  "╠➣ " + key + "Mid「@」\n" + \
+                  "╠➣ " + key + "Steal「@」\n" + \
+                  "╠➣ " + key + "Cover「@」\n" + \
+                  "╠➣ " + key + "Nk「@」\n" + \
+                  "╠➣ " + key + "Kick1「@」\n" + \
+                  "╠➣ " + key + "Clone「@」\n" + \
                   "「✭」 " + key + "Restore\n" + \
                   "「✭」 " + key + "Reject\n" + \
                   "「✭」 " + key + "Mybot\n" + \
@@ -1938,7 +1938,7 @@ def bot(op):
                                 
                         elif cmd == "creator" or text.lower() == 'creator':
                             if msg._from in admin:
-                                cl.sendText(msg.to,"「Created by : Alvian Putra」") 
+                                cl.sendText(msg.to,"「Created by : ●TΣΔM SLΔCҜβΩT●」") 
                                 ma = ""
                                 for i in creator:
                                     ma = cl.getContact(i)
@@ -1965,7 +1965,7 @@ def bot(op):
                                 eltime = time.time() - mulai
                                 bot = runtime(eltime)
                                 start = time.time()
-                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                sw.sendText("u78643d09e42a36836a17cc918963a8b7", '.')
                                 elapsed_time = time.time() - start
                                 ryan = cl.getContact(mid)
                                 zx = ""
@@ -1976,7 +1976,7 @@ def bot(op):
                                 ret_ += "\n• Friend : {} Friend".format(str(len(contactlist)))
                                 ret_ += "\n• Blocked : {} Blocked".format(str(len(blockedlist)))
                                 ret_ += "\n• Favorite : {} Favorite".format(str(len(favoritelist)))
-                                ret_ += "\n• Version : 「 Beta Apk Bots 」"
+                                ret_ += "\n• Version : 「 ●SLΔCҜβΩT● 」"
                                 ret_ += "\n• Expired : {} - {} - {}".format(str(hr), str(bln), str(thn))
                                 ret_ += "\n• In days : {} again".format(days)
                                 ret_ += "\n「 Speed Respon 」\n• {} detik".format(str(elapsed_time))
@@ -1991,7 +1991,7 @@ def bot(op):
                                 zxc += pesan2
                                 text = xpesan + zxc + ret_ + ""
                                 cl.sendMessage(to, text, contentMetadata={'MENTION':str('{"MENTIONEES":'+json.dumps(zx2).replace(' ','')+'}')}, contentType=0)
-                                cl.sendContact(to, "u923fca3dc907e047572ad25c24f1d29b")
+                                cl.sendContact(to, "u78643d09e42a36836a17cc918963a8b7")
                             except Exception as e:
                                 cl.sendMessage(msg.to, str(e))
 
