@@ -48,6 +48,12 @@ selfMessage ="""
 ║╠➣Getvid @
 ║╠➣Friendlist
 ╚═════════════
+╔═════════════
+╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ :
+╠➣TΣΔM SLΔCҜβΩT
+╠➣OWNER:
+╠➣line.me/ti/p/~@ryp6149l
+╚═════════════
 """
 
 botMessage ="""
@@ -64,6 +70,12 @@ botMessage ="""
 ║╠➣!bio Text 
 ║╠➣@bye (Usir Bot) 
 ║╠➣!bye (mengeluarkan bot) 
+╚═════════════
+╔═════════════
+╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ :
+╠➣TΣΔM SLΔCҜβΩT
+╠➣OWNER:
+╠➣line.me/ti/p/~@ryp6149l
 ╚═════════════
 """
 
@@ -129,6 +141,12 @@ mediaMessage ="""
 ║╠➣.wiki-en 
 ║╠➣.apakah 
 ╚═════════════
+╔═════════════
+╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ :
+╠➣TΣΔM SLΔCҜβΩT
+╠➣OWNER:
+╠➣line.me/ti/p/~@ryp6149l
+╚═════════════
 """
 
 groupMessage ="""
@@ -164,6 +182,12 @@ groupMessage ="""
 ║╠➣Getgroup image 
 ║╠➣Urlgroup image 
 ╚═════════════
+╔═════════════
+╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ :
+╠➣TΣΔM SLΔCҜβΩT
+╠➣OWNER:
+╠➣line.me/ti/p/~@ryp6149l
+╚═════════════
 """
 
 setMessage ="""
@@ -179,6 +203,12 @@ setMessage ="""
 ║╠➣Contact on/off 
 ║╠➣Simisimi on/off 
 ║╠➣Like on/off 
+╚═════════════
+╔═════════════
+╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ :
+╠➣TΣΔM SLΔCҜβΩT
+╠➣OWNER:
+╠➣line.me/ti/p/~@ryp6149l
 ╚═════════════
 """
 
@@ -209,6 +239,12 @@ creatorMessage ="""
 ║╠➣System 
 ║╠➣Self like 
 ║╠➣Like temen 
+╚═════════════
+╔═════════════
+╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ :
+╠➣TΣΔM SLΔCҜβΩT
+╠➣OWNER:
+╠➣line.me/ti/p/~@ryp6149l
 ╚═════════════
 """
 
@@ -245,6 +281,12 @@ adminMessage ="""
 ║╠➣Responkick on/off 
 ║╠➣Leave on/off  
 ╚═════════════
+╔═════════════
+╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ :
+╠➣TΣΔM SLΔCҜβΩT
+╠➣OWNER:
+╠➣line.me/ti/p/~@ryp6149l
+╚═════════════
 """
 
 helpMessage ="""
@@ -267,6 +309,12 @@ helpMessage ="""
 ║╠➣Speed/Spd 
 ║╠➣Speedt/Spt
 ╚═════════════
+╔═════════════
+╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ :
+╠➣TΣΔM SLΔCҜβΩT
+╠➣OWNER:
+╠➣line.me/ti/p/~@ryp6149l
+╚═════════════
 """
 keyMessage ="""
 ╔═════════════
@@ -280,6 +328,12 @@ keyMessage ="""
 ║╠➣Help admin 
 ║╠➣Help set 
 ║╠➣Status 
+╚═════════════
+╔═════════════
+╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ :
+╠➣TΣΔM SLΔCҜβΩT
+╠➣OWNER:
+╠➣line.me/ti/p/~@ryp6149l
 ╚═════════════
 """
 alevan="u78643d09e42a36836a17cc918963a8b7"
@@ -328,6 +382,12 @@ transMessage ="""
 ║╠➣Id@ar Text (Translate ID Ke Arab 
 ║╠➣Ar@id Text (Translate Ar Ke ID 
 ╚═════════════
+╔═════════════
+╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ :
+╠➣TΣΔM SLΔCҜβΩT
+╠➣OWNER:
+╠➣line.me/ti/p/~@ryp6149l
+╚═════════════
 """
 
 protectMessage ="""
@@ -342,6 +402,12 @@ protectMessage ="""
 ║╠➣Autokick on/off 
 ║╠➣Ghost on/off 
 ║╠➣Invitepro on/off 
+╚═════════════
+╔═════════════
+╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ :
+╠➣TΣΔM SLΔCҜβΩT
+╠➣OWNER:
+╠➣line.me/ti/p/~@ryp6149l
 ╚═════════════
 """
 
