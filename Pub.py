@@ -15,7 +15,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 ale = LINETCR.LINE()
 #ale.login(qr=True)
-ale.login(token='Es42MLZMWn25yWWZxEW8.HuUm1h/UuO3MPfskq3iZYa./dLKCYwpB5/nVry+dmbXh820Kd0STwQIGokLbo9T+Xc=')
+ale.login(token='EvXJ0QOVHhhbo0jcnhqa.PSbpL+Sx0oQ4Cca229UosG.jJ7EyJsiY2bS2QcgREM+4T1OLLS7Y4VGxmXBK8btX5o=')
 ale.loginResult()
 print "Ale-Login Success\n"
 
