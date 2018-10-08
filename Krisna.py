@@ -333,7 +333,7 @@ def helpmessage():
     else:
         key = ''
     helpMessage =   "╔══════════════" + "\n" + \
-                    "║              􂘁􀄋K􏿿􂘁􀄒R􏿿􂘁􀄉I􏿿􂘁􀄓S􏿿􂘁􀄓S􏿿" + "\n" + \
+                    "║Janda dibawah umur" + "\n" + \
                     "╠══════════════" + "\n" + \
                     "╚═╗" + "\n" + \
                     "║✪╠➤▸› [ Help Message ]" + "\n" + \
@@ -426,8 +426,8 @@ def helpmessage():
                     "╠ " + key + "SearchLyric 「Search」" + "\n" + \
                     "╠ " + key + "SearchImage 「Search」" + "\n" + \
                     "╠══════════════" + "\n" + \
-                    "║               By : Krisnabiru 􀄃􀆖cony kiss􏿿" + "\n" + \
-                    "║          line.me/ti/p/~iamfake" + "\n" + \
+                    "║               By : Janda dibawah umur􏿿" + "\n" + \
+                    "║          line.me/ti/p/~fuck.you__" + "\n" + \
                     "╚══════════════"
     return helpMessage
 
