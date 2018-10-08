@@ -1,18 +1,14 @@
 # -*- coding: utf-8 -*-
-# Thanks to Krisnabiru
-# Line id : iamfake
-# Support by HelloWorld
 
-from Kriss.linepy import *
-from Kriss.akad.ttypes import Message
-from Kriss.akad.ttypes import ContentType as Type
-from gtts import gTTS
+from linepy import *
+from akad.ttypes import Message
+from datetime import datetime
 from time import sleep
-from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
-from googletrans import Translator
 from humanfriendly import format_timespan, format_size, format_number, format_length
-import time, random, sys, json, codecs, threading, glob, re, string, os, requests, six, ast, pytz, urllib, urllib3, urllib.parse, traceback, atexit
+import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, pytz, urllib, urllib.parse
+from gtts import gTTS
+from googletrans import Translator
 
 client = LINE()
 #client = LINE("")
